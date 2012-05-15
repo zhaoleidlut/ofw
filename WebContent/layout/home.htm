@@ -1,0 +1,84 @@
+<div style="padding: 10px;">
+v0.9<br/>
+* 数据库结构改变，重新部署前请删除以sy打头的表，初始化数据库请访问init.html页面<br/>
+* 目录结构变动较大，想看在datagrid上直接编辑的请看0.8以下版本源码<br/>
+* datagrid里面的功能使用弹窗形式体现<br/>
+* 修正了内存溢出和DOM节点泄漏问题<br/>
+* 更改dialog弹窗为window弹窗，解决href加载两次BUG<br/>
+* 其他页面效果细微修正<br/>
+* 更改了初始化权限的方式为XML<br/>
++ 增加了开启弹窗前的权限验证<br/>
++ 一个用户可以属于多个组，一个组可以拥有多个权限，目前权限控制分为（用户-》*组-》*权限）<br/>
++ 用户密码进行加密<br/>
++ js增加一些新的自定义方法<br/>
++ 大多数窗口增加弹出后获焦功能，并且回车键切换空白文本框焦点<br/>
+- 精简JS文件和样式文件<br/>
+<hr/>
+v0.8<br/>
+* 修正sessionDestroyed方法报错的BUG<br/>
+* 修正不能添加权限的BUG<br/>
+<hr/>
+v0.7<br/>
+* 升级至zTree3.0正式版<br/>
+* 升级至My97DatePicker4.8Beta2<br/>
+* 修改在线列表监听器相关方法，使其计算更加准确<br/>
++ 为登录时，用户名部分增加autocomplete功能，默认返回10条最相似的记录，模糊查询延迟时间为1秒<br/>
++ 首页面添加my97平面显示示例<br/>
++ 用户注册增加了多重验证功能<br/>
+<hr/>
+v0.6<br/>
+* 修正了在集群配置中，如果遇到权限和锁定问题，总会报500内部错误<br/>
+* 修改了错误提示信息为easyui的alert弹出<br/>
+<hr/>
+v0.5<br/>
++ center标题提示用户登录信息<br/>
++ 增加了在线用户列表功能<br/>
++ 增加了锁定用户功能<br/>
++ 增加了不能重复登录功能<br/>
++ 增加IP显示功能<br/>
+* 更改添加tab时的遮罩提示顺序<br/>
+* 修正了不能连续添加多个空的用户数据<br/>
+* 修正了不能连续添加多个空的权限数据<br/>
+* 修正了不能连续添加多个空的组数据<br/>
+<hr/>
+v0.4<br/>
++ 添加用户的时候默认为Guest组<br/>
++ 添加权限时默认上级权限为根权限<br/>
+* 修正了编辑用户时出现的内部错误的BUG<br/>
+* 修正admin修改自己的所属组后，出现没有权限的BUG<br/>
+* 修正admin修改自己的名称，出现没有权限的BUG<br/>
+* 修改了包名称<br/>
+# 更改了用户表的密码长度，部署项目时请删除Syuser或手动更改长度为40<br/>
+<hr/>
+v0.3<br/>
++ 添加了mysql驱动包<br/>
++ 首页添加portal示例<br/>
++ 左侧树添加easyui所有示例<br/>
++ north面板添加menubutton示例<br/>
++ 添加换主题示例<br/>
+* 修改了syConfig.properties文件，用什么数据库就开启哪块注释，目前已通过测试的数据库有mysql,sqlserver,oracle<br/>
+* 修正了用户管理更新时出现的异常信息<br/>
+* 修正了使用mysql的时候，不会自动创建Syauth表的BUG<br/>
+- 删除了没用的jar包<br/>
+<hr/>
+v0.2<br/>
+* spring版本3.1.0<br/>
+* 更新了部署说明，sypro可以在myeclipse中导入<br/>
+<hr/>
+v0.1<br/>
++ sypro系统初步架构搭建完成<br/>
++ 所有页面使用HTML编写<br/>
++ spring版本3.0.6<br/>
++ hibernate版本Hibernate 3.6.8.Final<br/>
++ EasyUI版本1.2.5<br/>
++ JDK版本1.6<br/>
++ 使用spring mvc<br/>
++ 使用spring Annotation<br/>
++ 使用hibernate Annotation<br/>
++ 已添加oracle10g驱动包<br/>
++ 已添加sqlserver2005驱动包<br/>
++ 使用了EasyUI的datagrid/combotree/window等控件<br/>
++ 使用了my97日期控件<br/>
++ 使用了zTree<br/>
++ 权限使用拦截器控制<br/>
+</div>

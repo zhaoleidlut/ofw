@@ -1,0 +1,32 @@
+[{  
+    "id":1,  
+    "text":"一矿",  
+    "iconCls":"icon-save",  
+    "children":[{  
+        "text":"9队",
+        "children":[{
+        	"text":"C98-P8",
+        	"attributes":{
+        		"iswell":true
+        	}
+        }, {
+        	"text":"C98-098",
+        	"attributes":{
+        		"iswell":true
+        	}
+        }]
+    },{  
+        "text":"二矿",  
+        "state":"open",   
+        "children":[{  
+            "text":"Q34-15",  
+            "checked":true,
+            "attributes":{
+        		"iswell":false
+        	}
+        },{  
+            "id": 8,  
+            "text":"P98-76" 
+        }]  
+    }]  
+}] 

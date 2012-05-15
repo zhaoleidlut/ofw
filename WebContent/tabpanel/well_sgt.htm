@@ -1,0 +1,59 @@
+
+<script type="text/javascript"
+	src="jqplot/syntaxhighlighter/scripts/shCore.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+<script type="text/javascript" src="jqplot/plugins/jqplot.json2.min.js"></script>
+<script type="text/javascript" src="jqplot/plugins/jqplot.cursor.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+
+<script class="code" type="text/javascript">
+	$(function() {
+		var tab = $('#index_tabs div[name=realtime_sgt].easyui-tabs').tabs(
+				'getSelected');
+		var id = tab.panel('options').title;
+
+		$('<div style="height:300px;width:500px" id='+id+'></div>').appendTo(
+				tab);
+
+		var ajaxDataRenderer = function(url, plot, options) {
+			var ret = null;
+			$.ajax({
+				async : false,
+				url : url,
+				dataType : "json",
+				success : function(data) {
+					ret = data;
+				}
+			});
+			return ret;
+		};
+
+		var jsonurl = "plot/sgt.json";
+
+		var plot = $.jqplot(id, jsonurl, {
+			title : id,
+			dataRenderer : ajaxDataRenderer,
+			//series:[{showMarker:false}],
+			axes : {
+				xaxis : {
+					label : "位移（米）",
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+				},
+				yaxis : {
+					label : "载荷（千牛）",
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+				}
+			},
+			cursor : {
+				show : true,
+				zoom : true
+			}
+		});
+	});
+</script>
