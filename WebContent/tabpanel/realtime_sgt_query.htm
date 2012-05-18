@@ -18,8 +18,21 @@
 		
 		var myTabs = $('#index_tabs').find(
 				'.easyui-layout>div[region=center]>.easyui-tabs');
+		
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [data];
+			}
+		});
+		
 		myTree.tree({
-			url : 'json/well.json',
+			data : treeData,
 			animate : true,
 			onClick : function(node) {
 				if (typeof (node.attributes) != 'undefined'

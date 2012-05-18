@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.htong.domain.User;
@@ -22,29 +23,18 @@ public class UserController {
 	private UserService userService;
 
 	@RequestMapping("/login.html")
-	public ModelAndView login(User user) {
+	@ResponseBody
+	public Map<String, Object> login(User user) {
 		boolean success = userService.isRightUserByName(user);
-		System.out.println(user.getUsername());
+		log.debug(user.getUsername());
+		Map<String, Object> map = new HashMap<String, Object>();
 		if (success) {
-			Map<String, Object> map = new HashMap<String, Object>();
-			ModelAndView mav = new ModelAndView();
-			mav.setViewName("data");
-
 			map.put("success", true);
 			map.put("username", user.getUsername());
-
-			JSONObject jsonObject = JSONObject.fromObject(map);
-			String jsonString = jsonObject.toString();
-
-			mav.addObject("data", jsonString);
-
-			return mav;
+			return map;
 		} else {
-			ModelAndView mav = new ModelAndView();
-			mav.setViewName("data");
-			mav.addObject("data", "{\"success\":false}");
-
-			return mav;
+			map.put("success", false);
+			return map;
 		}
 
 	}

@@ -21,13 +21,23 @@ public class WellDataDao {
 	public WellData getLatedWellDataByWellNum(String wellNum) {
 		Query myQuery = new Query(Criteria.where("well_num").is(wellNum));
 		Calendar currentCalendar = Calendar.getInstance();
+		
+		boolean exist = mongoTemplate.collectionExists(CollectionConstants.getWellDataCollection(wellNum,currentCalendar));
+		
+		//查找表
+		int count = 10;
+		while(count > 0 && !exist) {			
+			exist = mongoTemplate.collectionExists(CollectionConstants.getWellDataCollection(wellNum,currentCalendar));
+			currentCalendar.add(Calendar.MONTH, -1);
+			//System.out.println(count);
+			count --;
+		}
+		
 		log.debug(CollectionConstants.getWellDataCollection(wellNum, currentCalendar));		
 		WellData wellData = mongoTemplate.findOne(CollectionConstants.getWellDataCollection(wellNum,currentCalendar), myQuery, WellData.class);
-		
-		log.debug(wellData.getChong_cheng_time());
-		
-		return wellData;
-		
-	}
 
+		return wellData;
+	}
+	
+	
 }

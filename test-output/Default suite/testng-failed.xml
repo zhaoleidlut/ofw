@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="com.htong.dao.UserDaoTest">
+      <class name="com.htong.dao.WellDataDaoTest">
         <methods>
-          <include name="getUserByName"/>
           <include name="beforeTest"/>
+          <include name="getLatedWellDataByWellNum"/>
         </methods>
-      </class> <!-- com.htong.dao.UserDaoTest -->
+      </class> <!-- com.htong.dao.WellDataDaoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

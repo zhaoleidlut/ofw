@@ -29,72 +29,15 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">com.htong.dao.UserDaoTest<td><a href="#m1"><b>beforeTest</b>  </a></td><td class="numi">1</td><td>1337052649953</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Default test &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="1">com.htong.dao.UserDaoTest<td><a href="#m2"><b>getUserByName</b>  </a></td><td class="numi">1</td><td>1337052650375</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.htong.service.WellServiceTest<td><a href="#m1"><b>getWellTreeInfo</b>  </a></td><td class="numi">1</td><td>1337316813015</td><td class="numi">63</td></tr>
 </table>
 <h1>Default test</h1>
-<a id="m1"></a><h2>com.htong.dao.UserDaoTest:beforeTest</h2>
-<div style="padding-left:3em">
-<p>Error creating bean with name &apos;mongo&apos;: Initialization of bean failed; nested exception is java.lang.reflect.MalformedParameterizedTypeException</p>
-org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:480)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
-<br/>at java.security.AccessController.doPrivileged(Native Method)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
-<br/>at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
-<br/>at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:423)
-<br/>at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
-<br/>at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
-<br/>at org.springframework.context.support.ClassPathXmlApplicationContext.&lt;init&gt;(ClassPathXmlApplicationContext.java:139)
-<br/>at org.springframework.context.support.ClassPathXmlApplicationContext.&lt;init&gt;(ClassPathXmlApplicationContext.java:83)
-<br/>at com.htong.dao.UserDaoTest.beforeTest(UserDaoTest.java:15)
-<br/>23 lines not shown
-<p>Caused by null</p>
-sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments(Unknown Source)
-<br/>at sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.&lt;init&gt;(Unknown Source)
-<br/>at sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.make(Unknown Source)
-<br/>at sun.reflect.generics.factory.CoreReflectionFactory.makeParameterizedType(Unknown Source)
-<br/>at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source)
-<br/>at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source)
-<br/>at sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(Unknown Source)
-<br/>at java.lang.Class.getGenericInterfaces(Unknown Source)
-<br/>at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:151)
-<br/>at org.springframework.core.GenericTypeResolver.resolveParameterType(GenericTypeResolver.java:81)
-<br/>at org.springframework.beans.GenericTypeAwarePropertyDescriptor.getWriteMethodParameter(GenericTypeAwarePropertyDescriptor.java:109)
-<br/>at org.springframework.beans.GenericTypeAwarePropertyDescriptor.getPropertyType(GenericTypeAwarePropertyDescriptor.java:91)
-<br/>at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:138)
-<br/>at org.springframework.beans.BeanWrapperImpl.convertForProperty(BeanWrapperImpl.java:386)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.convertForProperty(AbstractAutowireCapableBeanFactory.java:1289)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1250)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1010)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:472)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
-<br/>at java.security.AccessController.doPrivileged(Native Method)
-<br/>at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
-<br/>at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
-<br/>at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
-<br/>at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:423)
-<br/>at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
-<br/>at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
-<br/>at org.springframework.context.support.ClassPathXmlApplicationContext.&lt;init&gt;(ClassPathXmlApplicationContext.java:139)
-<br/>at org.springframework.context.support.ClassPathXmlApplicationContext.&lt;init&gt;(ClassPathXmlApplicationContext.java:83)
-<br/>at com.htong.dao.UserDaoTest.beforeTest(UserDaoTest.java:15)
-<br/>23 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>com.htong.dao.UserDaoTest:getUserByName</h2>
+<a id="m1"></a><h2>com.htong.service.WellServiceTest:getWellTreeInfo</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

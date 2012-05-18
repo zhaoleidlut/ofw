@@ -1,17 +1,3 @@
-
-<script type="text/javascript"
-	src="jqplot/syntaxhighlighter/scripts/shCore.min.js"></script>
-<script type="text/javascript"
-	src="jqplot/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
-<script type="text/javascript"
-	src="jqplot/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
-<script type="text/javascript" src="jqplot/plugins/jqplot.json2.min.js"></script>
-<script type="text/javascript" src="jqplot/plugins/jqplot.cursor.min.js"></script>
-<script type="text/javascript"
-	src="jqplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
-<script type="text/javascript"
-	src="jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
-
 <script class="code" type="text/javascript">
 	$(function() {
 		var tab = $('#index_tabs div[name=realtime_sgt].easyui-tabs').tabs(
@@ -21,34 +7,58 @@
 		$('<div style="height:300px;width:500px" id='+id+'></div>').appendTo(
 				tab);
 
+		var wellNum = id.substring(0, id.length - 3);
+
 		var ajaxDataRenderer = function(url, plot, options) {
 			var ret = null;
 			$.ajax({
 				async : false,
 				url : url,
-				dataType : "json",
+				type : 'post',
+				cache : true,
+				dataType : 'json',
+				data : 'wellNum=' + wellNum,
 				success : function(data) {
-					ret = data;
+					ret = data.data;
+					//ret = [[[1,1],[3,4],[2,1],[5,6],[2,0],[2,6]]];
 				}
 			});
 			return ret;
 		};
 
-		var jsonurl = "plot/sgt.json";
+		//var jsonurl = 'plot/jsondata.txt';
+		var jsonurl = 'getSGTPlotData.html';
 
 		var plot = $.jqplot(id, jsonurl, {
 			title : id,
 			dataRenderer : ajaxDataRenderer,
+			dataRendererOptions : {
+				unusedOptionalUrl : jsonurl
+			},
 			//series:[{showMarker:false}],
+			seriesDefaults: {
+				showLine: true,
+				rendererOptions: {
+                    smooth: true
+                }
+			},
+
+			//renderer: $.jqplot.CategoryAxisRenderer,
+			sortData:false,
 			axes : {
 				xaxis : {
 					label : "位移（米）",
-					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					//pad : 0
 				},
 				yaxis : {
 					label : "载荷（千牛）",
 					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
 				}
+			},
+
+			highlighter : {
+				show : true
 			},
 			cursor : {
 				show : true,

@@ -9,7 +9,8 @@
           http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<context:annotation-config />
+	<!-- <context:annotation-config />-->
+	
 	
 	<!-- 扫描类包，将标注Spring注解的类自动转化Bean，同时完成Bean的注入 -->
 	<context:component-scan base-package="com.htong.dao" />
@@ -21,6 +22,4 @@
 		<constructor-arg name="databaseName" value="idata" />
 		<constructor-arg name="defaultCollectionName" value="employees" />
 	</bean>
-
-
 </beans>

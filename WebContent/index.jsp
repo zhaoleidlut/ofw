@@ -18,8 +18,17 @@
 	src="jquery-easyui-1.2.6/jquery.easyui.min.js"></script>
 <script type="text/javascript" charset="UTF-8"
 	src="jquery-easyui-1.2.6/locale/easyui-lang-zh_CN.js"></script>
+	
 <script type="text/javascript" src="jqplot/jquery.jqplot.min.js"></script>
 <link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.min.css" />
+<script type="text/javascript" src="jqplot/plugins/jqplot.json2.min.js"></script>
+<script type="text/javascript" src="jqplot/plugins/jqplot.cursor.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+<script type="text/javascript"
+	src="jqplot/plugins/jqplot.highlighter.min.js"></script>
 <!-- 	
 <script type="text/javascript" charset="UTF-8"
 	src="js/util.js"></script>   -->
@@ -35,7 +44,7 @@ $(function(){
 	$('#login-form').form({
 		success:function(data){
 			var jsonData = eval('(' + data + ')');//转换成json对象
-			
+
 			if(jsonData.success) {
 				$.messager.alert('信息', '登录成功！欢迎您'+jsonData.username+'!', 'info');
 				$('#login').dialog('close');
