@@ -1,0 +1,103 @@
+<script type="text/javascript">
+	$(function() {
+
+		var date = new Date();
+		y = date.getFullYear();
+		m = date.getMonth() + 1;
+		d = date.getDate();
+		var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+				+ (d < 10 ? ("0" + d) : d);
+		
+		var tab = $('#custom_day_product').tabs('getSelected');
+		
+		var title = tab.panel('options').title;
+		var wellNum = title.substring(0, title.length - 5);
+		//alert(tab.find('#123'));
+		tab.find('table label').replaceWith(wellNum);
+
+		tab.find('input[name=starttime]').datebox({
+			required : true,
+			value : currentTime,
+			formatter : function(date) {
+				y = date.getFullYear();
+				m = date.getMonth() + 1;
+				d = date.getDate();
+				return y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+						+ (d < 10 ? ("0" + d) : d);
+			}
+		});
+		tab.find('input[name=endtime]').datebox(
+				{
+					required : true,
+					value : currentTime,
+					formatter : function(date) {
+						y = date.getFullYear();
+						m = date.getMonth() + 1;
+						d = date.getDate();
+						return y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+								+ (d < 10 ? ("0" + d) : d);
+					}
+				//parser: function(date){
+				//	return new Date(Date.parse(date)); 
+				//}  	
+				});
+	});
+
+	function submitCustomForm() {
+		var tab = $('#custom_day_product').tabs('getSelected');
+
+		var title = tab.panel('options').title;
+		var wellNum = title.substring(0, title.length - 5);
+
+		
+		
+		var starttime = tab.find('input[name=starttime]').val();
+		var endtime = tab.find('input[name=endtime]').val();
+		var startDate = Date.parse(starttime);
+		var endDate = Date.parse(endtime);
+
+		if (startDate > endDate) {
+			$.messager.alert("错误", "结束时间不可大于起始时间！", "error");
+			return;
+		}
+
+		$.ajax({
+			url : 'getDayProduct.html',
+			type : 'post',
+			//cache : true,
+			dataType : 'json',
+			data : 'wellNum=' + wellNum + "&starttime=" + starttime
+					+ "&endtime=" + endtime,
+			success : function(data) {
+				tab.find('input[name=result]').val(data.result);
+			}
+		});
+	}
+</script>
+<div style="padding: 10px; width: 300px; height: 300px;">
+	<table>
+		<tr>
+			<td>井号：</td>
+			<td><label>井号</label></td>
+		</tr>
+		<tr>
+			<td>起始时间：</td>
+			<td><input name="starttime" style="width: 150px"></td>
+		</tr>
+		<tr>
+			<td>结束时间：</td>
+			<td><input name="endtime" style="width: 150px"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="right"><input name="b" type="button"
+				onclick="submitCustomForm()" value="产液量计算"></input></td>
+		</tr>
+		<tr height="15px"></tr>
+		<tr>
+			<td>产液量（m³）：</td>
+			<td><input name="result" type="text"></input></td>
+		</tr>
+	</table>
+</div>
+

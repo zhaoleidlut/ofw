@@ -23,6 +23,10 @@ public class WellService {
 	@Autowired
 	private WellModelDao wellModelDao;
 	
+	/**
+	 * 获得油井树
+	 * @return
+	 */
 	public Map<String, Object> getWellTreeInfo() {
 		IndexNodeModel indexNodeModel = indexNodeModelDao.getIndexNodeModel();
 		if(indexNodeModel != null) {
@@ -71,8 +75,16 @@ public class WellService {
 				
 				childrenList.add(map);
 			}
-
 		}
 	}
 
+	/**
+	 * 通过井号获得井
+	 * @param wellNum
+	 * @return
+	 */
+	public WellModel getWellByNum(String wellNum) {
+		return wellModelDao.getWellByNum(wellNum);
+		
+	}
 }

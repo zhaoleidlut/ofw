@@ -11,27 +11,35 @@
 				onclick="addTab('实时示功图查询')">实时示功图查询</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-search">全天示功图查询</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('历史示功图查询')">历史示功图查询</a>
 		</p>
 		<p>
 			<a href="#" class="easyui-linkbutton" iconCls="icon-search">示功图对比查询</a>
 		</p>
 
 	</div>
+	<div title="电功图查询" iconCls="icon-sum"
+		style="overflow: auto; padding: 10px;"></div>
+		
+	<div title="示功图电功图对比" iconCls="icon-sum"
+		style="overflow: auto; padding: 10px;"></div>
+		
 	<div title="产液量查询" iconCls="icon-reload"
 		style="overflow: auto; padding: 10px;">
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-search">日产量查询</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('日产量查询')">日产量查询</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-search">自定义查询</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('时间段产量查询')">时间段产量</a>
 		</p>
 	</div>
-	<div title="电功图查询" iconCls="icon-sum"
+	
+	<div title="产液量统计" iconCls="icon-sum"
 		style="overflow: auto; padding: 10px;"></div>
+
 	<div title="故障诊断" iconCls="icon-tip"
 		style="overflow: auto; padding: 10px;"></div>
-	<div title="系统状态" iconCls="icon-undo"
+	<div title="系统运行状态" iconCls="icon-undo"
 		style="overflow: auto; padding: 10px;">
 		<p>
 			<a href="#" class="easyui-linkbutton" iconCls="icon-search">DTU状态</a>

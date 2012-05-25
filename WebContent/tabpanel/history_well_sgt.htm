@@ -1,12 +1,12 @@
 <script class="code" type="text/javascript">
 	$(function() {
-		var tab = $('#realtime_sgt').tabs('getSelected');
-		var id = tab.panel('options').title;
+		var tab = $('#history_sgt').tabs('getSelected');
+		var id = tab.panel('options').title + 'history';
 
 		$('<div style="height:300px;width:400px;position: relative;left: 20px;" id='+id+'></div>').appendTo(
 				tab);
 
-		var wellNum = id.substring(0, id.length - 3);
+		var wellNum = id.substring(0, id.length - 10);
 
 		var chongcheng = '4';
 		var chongci = '2';
@@ -40,7 +40,7 @@
 		var jsonurl = 'getSGTPlotData.html';
 
 		var plot = $.jqplot(id, jsonurl, {
-			title : id,
+			title : wellNum + '历史示功图',
 			dataRenderer : ajaxDataRenderer,
 			dataRendererOptions : {
 				unusedOptionalUrl : jsonurl
