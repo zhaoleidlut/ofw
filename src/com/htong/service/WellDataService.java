@@ -1,5 +1,7 @@
 package com.htong.service;
 
+import java.util.Calendar;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +16,10 @@ public class WellDataService {
 	
 	public WellData getLatestWellDataByWellNum(String wellNum) {
 		return wellDataDao.getLatedWellDataByWellNum(wellNum);
+	}
+	
+	public WellData getHistoryWellData(String wellNum, Calendar calendar) {
+		return wellDataDao.getHistoryWellData(wellNum, calendar);
 	}
 
 }

@@ -41,6 +41,7 @@
 
 		var plot = $.jqplot(id, jsonurl, {
 			title : id,
+			title : wellNum + '历史示功图',
 			dataRenderer : ajaxDataRenderer,
 			dataRendererOptions : {
 				unusedOptionalUrl : jsonurl
@@ -50,8 +51,13 @@
 				showLine : true,
 				rendererOptions : {
 					smooth : true
-				}
+				},
+				lineWidth : 2,
+				showMarker : false
 			},
+			series : [ {
+				color : '#A020F0'
+			} ],
 
 			//renderer: $.jqplot.CategoryAxisRenderer,
 			sortData : false,

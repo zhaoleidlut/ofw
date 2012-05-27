@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="891" started-at="2012-05-18T12:53:32Z" finished-at="2012-05-18T12:53:33Z">
+  <suite name="Default suite" duration-ms="3031" started-at="2012-05-25T16:58:33Z" finished-at="2012-05-25T16:58:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="891" started-at="2012-05-18T12:53:32Z" finished-at="2012-05-18T12:53:33Z">
-      <class name="com.htong.service.WellServiceTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.htong.service.WellServiceTest@16b13c7]" name="beforeTest" is-config="true" duration-ms="828" started-at="2012-05-18T12:53:32Z" finished-at="2012-05-18T12:53:33Z">
+    <test name="Default test" duration-ms="3031" started-at="2012-05-25T16:58:33Z" finished-at="2012-05-25T16:58:36Z">
+      <class name="com.htong.dao.WellDataDaoTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.htong.dao.WellDataDaoTest@1bca5f1]" name="beforeTest" is-config="true" duration-ms="875" started-at="2012-05-25T16:58:33Z" finished-at="2012-05-25T16:58:34Z">
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getWellTreeInfo()[pri:0, instance:com.htong.service.WellServiceTest@16b13c7]" name="getWellTreeInfo" duration-ms="63" started-at="2012-05-18T12:53:33Z" finished-at="2012-05-18T12:53:33Z">
-        </test-method> <!-- getWellTreeInfo -->
-      </class> <!-- com.htong.service.WellServiceTest -->
+        <test-method status="PASS" signature="getHistoryWellData()[pri:0, instance:com.htong.dao.WellDataDaoTest@1bca5f1]" name="getHistoryWellData" duration-ms="2156" started-at="2012-05-25T16:58:34Z" finished-at="2012-05-25T16:58:36Z">
+        </test-method> <!-- getHistoryWellData -->
+      </class> <!-- com.htong.dao.WellDataDaoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
