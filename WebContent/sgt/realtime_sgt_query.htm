@@ -1,0 +1,61 @@
+<div id="realtime_sgt_query" class="easyui-layout" fit="true">
+	<!--  <div region="north"
+		style="overflow:hidden;height: 60px; padding: 10px">
+		<h2>Layout in Panel</h2>
+	</div> -->
+	<div region="center" icon="icon-reload" title="实时示功图" split="true">
+		<div id='realtime_sgt' class="easyui-tabs"></div>
+	</div>
+	<div region="west" title="油井选择" split="true" style="width: 200px;">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var westRegion = $('#realtime_sgt_query>div[region=west]');
+		
+		var myTree = $('<div></div>').appendTo(westRegion);
+		
+		var myTabs = $('#realtime_sgt');
+		
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [data];
+			}
+		});
+		
+		myTree.tree({
+			data : treeData,
+			animate : true,
+			onClick : function(node) {
+				if (typeof (node.attributes) != 'undefined'
+						&& typeof (node.attributes.iswell) != 'undefined'
+						&& node.attributes.iswell) {
+					if (myTabs.tabs('getTab', node.text + '示功图') == null) {
+						myTabs.tabs('add', {
+							title : node.text + "示功图",
+							//id : node.text + "示功图",
+							closable : true,
+							tools:[{
+								iconCls:'icon-mini-refresh',
+								handler:function(){
+									//$('#'+node.text + '示功图').resetZoom();
+								}
+							}],
+							href : 'sgt/realtime_well_sgt.htm'
+						});
+					} else {
+						myTabs.tabs('select', node.text + '示功图');
+					}
+				}
+			}
+
+		});
+	});
+
+</script>

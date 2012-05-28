@@ -62,3 +62,30 @@
 .icon-mini-refresh{
 	background:url('icons/mini_refresh.png') no-repeat 3px 2px;
 }
+
+
+.icon-i_bar{
+	background:url('icons/i_bar.gif') no-repeat;
+}
+.icon-i_oil_product{
+	background:url('icons/i_oil_product.png') no-repeat;
+}
+.icon-i_gzzd{
+	background:url('icons/i_gzzd.png') no-repeat;
+}
+.icon-i_sys_status{
+	background:url('icons/i_sys_status.gif') no-repeat;
+}
+.icon-i_sgt_query{
+	background:url('icons/i_sgt_query.gif') no-repeat;
+}
+.icon-i_dgt_query{
+	background:url('icons/i_dgt_query.gif') no-repeat;
+}
+.icon-i_sgt_dgt_comparison{
+	background:url('icons/i_sgt_dgt_comparison.gif') no-repeat;
+}
+
+
+
+

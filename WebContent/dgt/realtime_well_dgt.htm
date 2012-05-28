@@ -1,0 +1,111 @@
+<script class="code" type="text/javascript">
+	$(function() {
+		var tab = $('#realtime_dgt').tabs('getSelected');
+		var id = tab.panel('options').title;
+
+		$('<div style="height:300px;width:400px;position: relative;left: 20px;" id='+id+'></div>').appendTo(
+				tab);
+
+		var wellNum = id.substring(0, id.length - 3);
+
+		var chongcheng = '4';
+		var chongci = '2';
+		var minZaihe = '12.3';
+		var maxZaihe = '34';
+		var time = '2012-05-23 13:30:31';
+
+		var ajaxDataRenderer = function(url, plot, options) {
+			var ret = null;
+			$.ajax({
+				async : false,
+				url : url,
+				type : 'post',
+				cache : true,
+				dataType : 'json',
+				data : 'wellNum=' + wellNum,
+				success : function(data) {
+					ret = data.data;
+					//ret = [[[1,1],[3,4],[2,1],[5,6],[2,0],[2,6]]];
+					chongcheng = data.chongcheng;
+					chongci = data.chongci;
+					minZaihe = data.minzaihe;
+					maxZaihe = data.maxzaihe;
+					time = data.time;
+				}
+			});
+			return ret;
+		};
+
+		//var jsonurl = 'plot/jsondata.txt';
+		var jsonurl = 'getSGTPlotData.html';
+
+		var plot = $.jqplot(id, jsonurl, {
+			title : id,
+			title : wellNum + '实时电功图',
+			dataRenderer : ajaxDataRenderer,
+			dataRendererOptions : {
+				unusedOptionalUrl : jsonurl
+			},
+			//series:[{showMarker:false}],
+			seriesDefaults : {
+				showLine : true,
+				rendererOptions : {
+					smooth : true
+				},
+				lineWidth : 2,
+				showMarker : false,
+				pointLabels: { show: false }
+			},
+			series : [ {
+				color : '#A020F0'
+				
+			} ],
+
+			//renderer: $.jqplot.CategoryAxisRenderer,
+			sortData : false,
+			axes : {
+				xaxis : {
+					label : "位移（米）",
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+				//pad : 0
+				},
+				yaxis : {
+					label : "载荷（千牛）",
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+				}
+			},
+
+			highlighter : {
+				show : true
+			},
+			cursor : {
+				show : true,
+				zoom : true
+			}
+		});
+
+		var myDiv = $('<div style="height:200px;width:800px"></div>').appendTo(
+				tab);
+		var str = '<table style="font-size:15px;color:blue;position: relative;left: 55px;">'
+				+ '<tr>'
+				+ '<td align="right">冲程（米）：</td>'
+				+ '<td>' + chongcheng + '</td>'
+				+ '<td align="right">冲次    ：</td>'
+				+ '<td>' + chongci + '</td>'
+				+ '</tr>'
+				+ '<tr>'
+				+ '<td align="right">最小载荷（KN）：</td>'
+				+ '<td width="70px">' + minZaihe + '</td>'
+				+ '<td align="right">最大载荷（KN）：</td>'
+				+ '<td>' + maxZaihe + '</td>'
+				+ '</tr>'
+				+ '<tr>'
+				+ '<td align="right">数据时间    ：</td>'
+				+ '<td colspan="2">' + time + '</td>'
+				+ '</tr>'
+				+ '</table>';
+				
+				
+		$(str).appendTo(myDiv);
+	});
+</script>

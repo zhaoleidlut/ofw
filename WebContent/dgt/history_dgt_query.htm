@@ -1,21 +1,21 @@
-<div id="custom_day_product_query" class="easyui-layout" fit="true">
+<div id="history_dgt_query" class="easyui-layout" fit="true">
 	<!--  <div region="north"
 		style="overflow:hidden;height: 60px; padding: 10px">
 		<h2>Layout in Panel</h2>
 	</div> -->
-	<div region="center" icon="icon-reload" title="时间段产量查询" split="true">
-		<div id='custom_day_product' class="easyui-tabs"></div>
+	<div region="center" icon="icon-reload" title="历史电功图" split="true">
+		<div id='history_dgt' class="easyui-tabs"></div>
 	</div>
 	<div region="west" title="油井选择" split="true" style="width: 200px;">
 	</div>
 </div>
 <script type="text/javascript">
 	$(function() {
-		var westRegion = $('#custom_day_product_query>div[region=west]');
+		var westRegion = $('#history_dgt_query>div[region=west]');
 		
 		var myTree = $('<div></div>').appendTo(westRegion);
 		
-		var myTabs = $('#custom_day_product');
+		var myTabs = $('#history_dgt');
 		
 		var treeData;
 		$.ajax({
@@ -36,15 +36,15 @@
 				if (typeof (node.attributes) != 'undefined'
 						&& typeof (node.attributes.iswell) != 'undefined'
 						&& node.attributes.iswell) {
-					if (myTabs.tabs('getTab', node.text + '时间段产量') == null) {
+					if (myTabs.tabs('getTab', node.text + '电功图') == null) {
 						myTabs.tabs('add', {
-							title : node.text + "时间段产量",
+							title : node.text + "电功图",
 							//id : node.text + "示功图",
-							closable : true,							
-							href : 'tabpanel/custom_day_product.htm'
+							closable : true,
+							href : 'dgt/history_well_dgt.htm'
 						});
 					} else {
-						myTabs.tabs('select', node.text + '时间段产量');
+						myTabs.tabs('select', node.text + '电功图');
 					}
 				}
 			}

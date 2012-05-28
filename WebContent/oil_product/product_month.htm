@@ -1,0 +1,149 @@
+<div id="product_month" class="easyui-layout" fit="true">
+	<!--  <div region="north"
+		style="overflow:hidden;height: 60px; padding: 10px">
+		<h2>Layout in Panel</h2>
+	</div> -->
+	<div region="center" icon="icon-reload">
+		<div id='product_month_pannel' class="easyui-panel" fit="true">
+
+		</div>
+	</div>
+	<div region="west" title="油井选择" split="true" style="width: 200px;">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var westRegion = $('#product_month>div[region=west]');
+
+		var myTree = $('<div></div>').appendTo(westRegion);
+
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [ data ];
+			}
+		});
+		
+		var iportal = $('#product_month_pannel');
+		iportal.portal({
+			border : false,
+			fit : true
+		});	
+
+		myTree.tree({
+			data : treeData,
+			animate : true,
+			//checkbox : true,
+			onClick : function(node) {
+				if (typeof (node.attributes) != 'undefined'
+						&& typeof (node.attributes.iswell) != 'undefined'
+						&& node.attributes.iswell) {
+
+							createSGTContent(node);
+				}
+			}
+		});
+		
+	
+
+		function createSGTContent(node) {
+
+			var wellNum = node.text;
+
+			var chongcheng = '4';
+			var chongci = '2';
+			var minZaihe = '12.3';
+			var maxZaihe = '34';
+			var time = '2012-05-23 13:30:31';
+
+			var ajaxDataRenderer = function(url) {
+				var ret = null;
+				$.ajax({
+					async : false,
+					url : url,
+					type : 'post',
+					cache : true,
+					dataType : 'json',
+					data : 'wellNum=' + wellNum,
+					success : function(data) {
+						ret = data.data;
+						chongcheng = data.chongcheng;
+						chongci = data.chongci;
+						minZaihe = data.minzaihe;
+						maxZaihe = data.maxzaihe;
+						time = data.time;
+					}
+				});
+				return ret;
+			};
+
+			var options = {
+				title : wellNum + '产液量月统计',
+				seriesDefaults : {
+					showLine : true,
+					rendererOptions : {
+						smooth : true
+					},
+					lineWidth : 2,
+					showMarker : false
+				},
+				series : [ {
+					color : '#A020F0'
+				} ],
+				sortData : false,
+				axes : {
+					xaxis : {
+						label : "位移（米）",
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					},
+					yaxis : {
+						label : "载荷（千牛）",
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+					}
+				},
+				highlighter : {
+					show : true
+				},
+				cursor : {
+					show : true,
+					zoom : true
+				}
+			};
+
+			var jsonurl = 'getSGTPlotData.html';
+			
+			//var plot = $.jqplot('product_month_pannel', ajaxDataRenderer(jsonurl), options);
+			
+			$.jqplot.config.enablePlugins = true;
+	        var s1 = [35, 37, 39.5, 42, 38, 39, 38, 40, 37, 39, 38, 42, 36];
+	        var ticks = ['1号', '2号', '3号', '4号', '5号', '6号', '7号', '8号', '9号', '10号', '11号', '12号', '13号'];
+	         
+	        plot1 = $.jqplot('product_month_pannel', [s1], {
+	            // Only animate if we're not using excanvas (not in IE 7 or IE 8)..
+	           // animate: !$.jqplot.use_excanvas,
+	           animate: true,
+	            seriesDefaults:{
+	                renderer:$.jqplot.BarRenderer,
+	                pointLabels: { show: true }
+	            },
+	            title : wellNum + ' 产液量月统计',
+	            axes: {
+	                xaxis: {
+	                    renderer: $.jqplot.CategoryAxisRenderer,
+	                    ticks: ticks
+	                }
+	            },
+	            highlighter: { show: false }
+	        });
+
+		}
+		
+		
+
+	});
+</script>
