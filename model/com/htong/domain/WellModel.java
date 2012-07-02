@@ -1,6 +1,5 @@
 package com.htong.domain;
 
-
 /**
  * 油井
  * @author 赵磊
@@ -19,19 +18,14 @@ public class WellModel {
 	private String hanshui;		//含水
 	private String lilunchongcheng;	//理论冲程
 	
-//	private String dtuId;	//DTU id
-//	private String port;	//端口
-//	private String slaveId;	//表地址
-//	private String heartBeat;	//心跳信号
+	private String dtuId;	//DTU id
+	private String port;	//端口
+	private String slaveId;	//表地址
+	private String heartBeat;	//心跳信号
 	
 	private String loss;	//补偿量
 	
 	private String deviceOid;	//设备id
-	
-	private String dtuId;
-	private String heartBeat;
-	private String slaveId;
-	private String port;
 
 	public String getOilDensity() {
 		return oilDensity;

@@ -24,20 +24,54 @@
 				dataType : 'json',
 				data : 'wellNum=' + wellNum,
 				success : function(data) {
-					ret = data.data;
-					//ret = [[[1,1],[3,4],[2,1],[5,6],[2,0],[2,6]]];
-					chongcheng = data.chongcheng;
-					chongci = data.chongci;
-					minZaihe = data.minzaihe;
-					maxZaihe = data.maxzaihe;
-					time = data.time;
+					if(data.hasData == 'no') {
+						$.messager.alert("错误", Message_NO_Data, "warning");
+						ret = [[[]]];
+						
+						chongcheng = "";
+						chongci = "";
+						minZaihe = '';
+						maxZaihe = '';
+						time = '';
+					} else if(data.hasData == 'yes') {
+						if(data.zero == 'yes') {
+							$.messager.alert("错误", Message_Zero_Data, "warning");
+							ret = [[[]]];
+		
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if(data.zero == 'no') {
+							if(data.hasDGTData == 'no') {
+								$.messager.alert("错误", Message_NO_DGT_Data, "warning");
+								
+								ret = [[[]]];
+								
+								chongcheng = "";
+								chongci = "";
+								minZaihe = '';
+								maxZaihe = '';
+								time = '';
+							} else if(data.hasDGTData == 'yes') {
+								ret = data.data;
+
+								chongcheng = data.chongcheng;
+								chongci = data.chongci;
+								minZaihe = data.minzaihe;
+								maxZaihe = data.maxzaihe;
+								time = data.time;
+							}
+						}
+					} 
 				}
 			});
 			return ret;
 		};
 
 		//var jsonurl = 'plot/jsondata.txt';
-		var jsonurl = 'getSGTPlotData.html';
+		var jsonurl = 'getDGTPlotData.html';
 
 		var plot = $.jqplot(id, jsonurl, {
 			title : id,
@@ -67,11 +101,17 @@
 				xaxis : {
 					label : "位移（米）",
 					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					tickOptions : {
+						formatString : '%0.2f'
+					}
 				//pad : 0
 				},
 				yaxis : {
 					label : "载荷（千牛）",
-					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					tickOptions : {
+						formatString : '%0.1f'
+					}
 				}
 			},
 

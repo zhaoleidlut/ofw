@@ -29,12 +29,12 @@
 				treeData = [ data ];
 			}
 		});
-		
+
 		var iportal = $('#sgt_dgt_comparision');
 		iportal.portal({
 			border : false,
 			fit : true
-		});	
+		});
 
 		myTree.tree({
 			data : treeData,
@@ -44,11 +44,17 @@
 				if (typeof (node.attributes) != 'undefined'
 						&& typeof (node.attributes.iswell) != 'undefined'
 						&& node.attributes.iswell) {
-					
+
+					//先清除之前对比面板
+					var panels = iportal.portal('getPanels');
+					for ( var j = 0; j < panels.length; j++) {
+						iportal.portal('remove', panels[j]);
+					}
+
 					var p_sgt = $('<div></div>').appendTo(iportal);
 					p_sgt.panel({
 						title : node.text + '示功图',
-						id : node.text +'sgt_panel',
+						id : node.text + 'sgt_panel',
 						height : 450,
 						closable : true,
 						//	fit:true,
@@ -57,16 +63,16 @@
 							createSGTContent(node);
 						}
 					});
-					
+
 					iportal.portal('add', {
 						panel : p_sgt,
 						columnIndex : 0
-					});	
-					
+					});
+
 					var p_dgt = $('<div></div>').appendTo(iportal);
 					p_dgt.panel({
 						title : node.text + '电功图',
-						id : node.text +'dgt_panel',
+						id : node.text + 'dgt_panel',
 						height : 450,
 						closable : true,
 						//	fit:true,
@@ -75,18 +81,15 @@
 							createDGTContent(node);
 						}
 					});
-					
+
 					iportal.portal('add', {
 						panel : p_dgt,
 						columnIndex : 1
-					});	
-					
+					});
 
 				}
 			}
 		});
-		
-	
 
 		function createSGTContent(node) {
 			var panel = $('#' + node.text + 'sgt_panel');
@@ -114,12 +117,38 @@
 					dataType : 'json',
 					data : 'wellNum=' + wellNum,
 					success : function(data) {
-						ret = data.data;
-						chongcheng = data.chongcheng;
-						chongci = data.chongci;
-						minZaihe = data.minzaihe;
-						maxZaihe = data.maxzaihe;
-						time = data.time;
+						if (data.hasData == 'no') {
+							$.messager.alert("错误", Message_NO_Data, "warning");
+							ret = [ [ [] ] ];
+
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if (data.hasData == 'yes') {
+
+							if (data.zero == 'yes') {
+								$.messager.alert("错误", Message_Zero_Data,
+										"warning");
+								ret = [ [ [] ] ];
+
+								chongcheng = "";
+								chongci = "";
+								minZaihe = '';
+								maxZaihe = '';
+								time = '';
+							} else {
+								ret = data.data;
+
+								chongcheng = data.chongcheng;
+								chongci = data.chongci;
+								minZaihe = data.minzaihe;
+								maxZaihe = data.maxzaihe;
+								time = data.time;
+							}
+
+						}
 					}
 				});
 				return ret;
@@ -143,10 +172,16 @@
 					xaxis : {
 						label : "位移（米）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.2f'
+						}
 					},
 					yaxis : {
 						label : "载荷（千牛）",
-						labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.1f'
+						}
 					}
 				},
 				highlighter : {
@@ -159,7 +194,7 @@
 			};
 
 			var jsonurl = 'getSGTPlotData.html';
-			
+
 			var plot = $.jqplot(id, ajaxDataRenderer(jsonurl), options);
 
 			var myDiv = $(
@@ -208,15 +243,15 @@
 					+ '<tr height="4px"></tr>'
 					+ '<tr>'
 					+ '<td><input name="date_" style="width:100px"></input></td>'
-					+ '<td><input class="easyui-numberspinner" name="time_" style="width:35px;" required="true"  min="0" max="23" value='+h+'></input>点</td>'
+					+ '<td><input name="time_spinner" style="width:35px;" required="true"  value='+h+'></input>点</td>'
 					+ '<td><input name="button_" value="查询" type="button"></td>'
 					+ '</tr>' + '</table>';
 
 			$(timeSelected).appendTo(myDiv);
-			
-			myDiv.find('input[name=time_]').numberspinner({  
-			    min:'0',
-			    max:'23'
+
+			myDiv.find('input[name=time_spinner]').numberspinner({
+				min : 0,
+				max : 23
 			});
 
 			myDiv.find('input[name=date_]').datebox(
@@ -232,49 +267,81 @@
 						}
 					});
 
-			myDiv.find('input[name=button_]').click(
-					function() {
-						var date = myDiv.find('input[name=date_]').val();
-						var time = myDiv.find('input[name=time_]').val();
+			myDiv
+					.find('input[name=button_]')
+					.click(
+							function() {
+								var date_sgt = myDiv.find('input[name=date_]')
+										.val();
+								var time_sgt = myDiv.find('input[name=time_spinner]')
+										.val();
 
-						$.ajax({
-							async : false,
-							url : 'getHistorySGTPlotData.html',
-							type : 'post',
-							cache : true,
-							dataType : 'json',
-							data : 'wellNum=' + wellNum + '&date=' + date
-									+ '&time=' + time,
-							success : function(data) {
-								if (data.hasData == 'no') {
-									$.messager.alert("错误", "该时间点无数据！",
-											"warning");
-								} else if (data.hasData == 'yes') {
-									idata = data.data;
-									chongcheng = data.chongcheng;
-									chongci = data.chongci;
-									minZaihe = data.minzaihe;
-									maxZaihe = data.maxzaihe;
-									time = data.time;
+								$
+										.ajax({
+											async : false,
+											url : 'getHistorySGTPlotData.html',
+											type : 'post',
+											cache : true,
+											dataType : 'json',
+											data : 'wellNum=' + wellNum
+													+ '&date=' + date_sgt
+													+ '&time=' + time_sgt,
+											success : function(data) {
+												if (data.hasData == 'no') {
+													$.messager
+															.alert(
+																	"错误",
+																	Message_NO_Data_Hour,
+																	"warning");
+												} else if (data.hasData == 'yes') {
+													if (data.zero == 'yes') {
+														$.messager
+																.alert(
+																		"错误",
+																		Message_Zero_Data_Hour,
+																		"warning");
+													} else {
+														idata = data.data;
+														chongcheng = data.chongcheng;
+														chongci = data.chongci;
+														minZaihe = data.minzaihe;
+														maxZaihe = data.maxzaihe;
+														time = data.time;
 
-									myDiv.find('td[name=_time]').text(time);
-									myDiv.find('td[name=_chongcheng]').text(
-											chongcheng);
-									myDiv.find('td[name=_chongci]').text(
-											chongci);
-									myDiv.find('td[name=_minZaihe]').text(
-											minZaihe);
-									myDiv.find('td[name=_maxZaihe]').text(
-											maxZaihe);
+														myDiv
+																.find(
+																		'td[name=_time]')
+																.text(time);
+														myDiv
+																.find(
+																		'td[name=_chongcheng]')
+																.text(
+																		chongcheng);
+														myDiv
+																.find(
+																		'td[name=_chongci]')
+																.text(chongci);
+														myDiv
+																.find(
+																		'td[name=_minZaihe]')
+																.text(minZaihe);
+														myDiv
+																.find(
+																		'td[name=_maxZaihe]')
+																.text(maxZaihe);
 
-									$.jqplot(id, idata, options).replot();
-								}
-							}
-						});
-					});
+														$.jqplot(id, idata,
+																options)
+																.replot();
+													}
+
+												}
+											}
+										});
+							});
 
 		}
-		
+
 		function createDGTContent(node) {
 			var panel = $('#' + node.text + 'dgt_panel');
 
@@ -301,12 +368,44 @@
 					dataType : 'json',
 					data : 'wellNum=' + wellNum,
 					success : function(data) {
-						ret = data.data;
-						chongcheng = data.chongcheng;
-						chongci = data.chongci;
-						minZaihe = data.minzaihe;
-						maxZaihe = data.maxzaihe;
-						time = data.time;
+						if (data.hasData == 'no') {
+							$.messager.alert("错误", Message_NO_Data, "warning");
+							ret = [ [ [] ] ];
+
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if (data.zero == 'yes') {
+							$.messager
+									.alert("错误", Message_Zero_Data, "warning");
+							ret = [ [ [] ] ];
+
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if (data.hasDGTData == 'no') {
+							$.messager.alert("错误", Message_NO_DGT_Data,
+									"warning");
+							ret = [ [ [] ] ];
+
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if (data.hasDGTData == 'yes') {
+							ret = data.data;
+
+							chongcheng = data.chongcheng;
+							chongci = data.chongci;
+							minZaihe = data.minzaihe;
+							maxZaihe = data.maxzaihe;
+							time = data.time;
+						}
 					}
 				});
 				return ret;
@@ -330,10 +429,16 @@
 					xaxis : {
 						label : "位移（米）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.2f'
+						}
 					},
 					yaxis : {
 						label : "载荷（千牛）",
-						labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.1f'
+						}
 					}
 				},
 				highlighter : {
@@ -345,8 +450,8 @@
 				}
 			};
 
-			var jsonurl = 'getSGTPlotData.html';
-			
+			var jsonurl = 'getDGTPlotData.html';
+
 			var plot = $.jqplot(id, ajaxDataRenderer(jsonurl), options);
 
 			var myDiv = $(
@@ -400,10 +505,10 @@
 					+ '</tr>' + '</table>';
 
 			$(timeSelected).appendTo(myDiv);
-			
-			myDiv.find('input[name=time_]').numberspinner({  
-			    min:'0',
-			    max:'23'
+
+			myDiv.find('input[name=time_]').numberspinner({
+				min : 0,
+				max : 23
 			});
 
 			myDiv.find('input[name=date_]').datebox(
@@ -419,46 +524,62 @@
 						}
 					});
 
-			myDiv.find('input[name=button_]').click(
-					function() {
-						var date = myDiv.find('input[name=date_]').val();
-						var time = myDiv.find('input[name=time_]').val();
+			myDiv.find('input[name=button_]')
+					.click(
+							function() {
+								var date_canshu = myDiv.find(
+										'input[name=date_]').val();
+								var time_canshu = myDiv.find(
+										'input[name=time_]').val();
 
-						$.ajax({
-							async : false,
-							url : 'getHistorySGTPlotData.html',
-							type : 'post',
-							cache : true,
-							dataType : 'json',
-							data : 'wellNum=' + wellNum + '&date=' + date
-									+ '&time=' + time,
-							success : function(data) {
-								if (data.hasData == 'no') {
-									$.messager.alert("错误", "该时间点无数据！",
-											"warning");
-								} else if (data.hasData == 'yes') {
-									idata = data.data;
-									chongcheng = data.chongcheng;
-									chongci = data.chongci;
-									minZaihe = data.minzaihe;
-									maxZaihe = data.maxzaihe;
-									time = data.time;
+								$.ajax({
+									async : false,
+									url : 'getHistoryDGTPlotData.html',
+									type : 'post',
+									cache : true,
+									dataType : 'json',
+									data : 'wellNum=' + wellNum + '&date='
+											+ date_canshu + '&time='
+											+ time_canshu,
+									success : function(data) {
+										if (data.hasData == 'no') {
+											$.messager.alert("错误",
+													Message_NO_Data_Hour,
+													"warning");
+										} else if (data.zero == 'yes') {
+											$.messager.alert("错误",
+													Message_Zero_Data_Hour,
+													"warning");
+										} else if (data.hasDGTData == 'no') {
+											$.messager.alert("错误",
+													Message_NO_DGT_Data_Hour,
+													"warning");
+										} else if (data.hasDGTData == 'yes') {
+											idata = data.data;
+											chongcheng = data.chongcheng;
+											chongci = data.chongci;
+											minZaihe = data.minzaihe;
+											maxZaihe = data.maxzaihe;
+											time = data.time;
 
-									myDiv.find('td[name=_time]').text(time);
-									myDiv.find('td[name=_chongcheng]').text(
-											chongcheng);
-									myDiv.find('td[name=_chongci]').text(
-											chongci);
-									myDiv.find('td[name=_minZaihe]').text(
-											minZaihe);
-									myDiv.find('td[name=_maxZaihe]').text(
-											maxZaihe);
+											myDiv.find('td[name=_time]').text(
+													time);
+											myDiv.find('td[name=_chongcheng]')
+													.text(chongcheng);
+											myDiv.find('td[name=_chongci]')
+													.text(chongci);
+											myDiv.find('td[name=_minZaihe]')
+													.text(minZaihe);
+											myDiv.find('td[name=_maxZaihe]')
+													.text(maxZaihe);
 
-									$.jqplot(id, idata, options).replot();
-								}
-							}
-						});
-					});
+											$.jqplot(id, idata, options)
+													.replot();
+
+										}
+									}
+								});
+							});
 
 		}
 

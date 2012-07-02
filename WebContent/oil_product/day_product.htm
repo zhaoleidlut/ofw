@@ -41,11 +41,11 @@
 
 
 		$.ajax({
-			url : 'getDayProduct.html',
+			url : 'getProduct.html',
 			type : 'post',
 			//cache : true,
 			dataType : 'json',
-			data : 'wellNum=' + wellNum + "&starttime=" + starttime,
+			data : 'wellNum=' + wellNum + "&starttime=" + starttime + "&endtime=" + starttime,
 			success : function(data) {
 				tab.find('input[name=result]').val(data.result);
 			}

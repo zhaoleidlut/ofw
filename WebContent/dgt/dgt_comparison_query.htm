@@ -4,7 +4,7 @@
 		<h2>Layout in Panel</h2>
 	</div> -->
 	<div region="center" icon="icon-reload">
-		<div id='slected_time_dgt' style="height: 35px; background: #fafafa;"></div>
+		<div id='slected_time' style="height: 35px; background: #fafafa;"></div>
 		<div id='dgt_comparision' class="easyui-panel" fit="true">
 			<div style="width: 33%"></div>
 			<div style="width: 33%"></div>
@@ -48,6 +48,7 @@
 		var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
 				+ (d < 10 ? ("0" + d) : d);
 
+		//对比时间选择
 		var myTimeSelected = '<table style="font-size:14px;color:blue;position: relative;left: 10px;">'
 				+ '<tr>'
 				+ '<td>对比时间选择：</td>'
@@ -56,8 +57,13 @@
 				+ '<td><input name="button" value="查询" type="button"></td>'
 				+ '</tr>' + '</table>';
 
-		var myPanel = $('#dgt_comparison_query').find('#slected_time_dgt');
-		$(myTimeSelected).appendTo(myPanel);
+		var myPanel = $('#dgt_comparison_query').find('#slected_time');
+		var jq_myTimeSelected = $(myTimeSelected).appendTo(myPanel);
+		
+		//总date
+		var comparison_date;
+		//总time
+		var comparison_time;
 
 		$('#dgt_comparison_query').find('input[name=date]').datebox(
 				{
@@ -77,6 +83,11 @@
 			if (nodes.length < 1) {
 				return;
 			} else {
+				//初始化日期与时间
+				comparison_date = jq_myTimeSelected.find('input[name=date]').val();
+				comparison_time = jq_myTimeSelected.find('input[name=time]').val();
+				
+				
 				var iportal = $('#dgt_comparision');
 				iportal.portal({
 					border : false,
@@ -89,11 +100,18 @@
 				}
 
 				for ( var i = 0; i < nodes.length; i++) {
+					//滤除非井
+					if(typeof (nodes[i].attributes) == 'undefined'
+						|| typeof (nodes[i].attributes.iswell) == 'undefined'
+						|| !nodes[i].attributes.iswell) {
+						continue;
+					}
+					
 					var p = $('<div></div>').appendTo(iportal);
 					p.panel({
 						title : nodes[i].text,
-						id : nodes[i].text + 'sgt_comparison',
-						height : 310,
+						id : nodes[i].text + 'dgt_comparison',
+						height : 330,
 						closable : true,
 						//	fit:true,
 						collapsible : true,
@@ -111,11 +129,12 @@
 
 		function createContent(node) {
 
-			var panel = $('#' + node.text + 'sgt_comparison');
+			var panel = $('#' + node.text + 'dgt_comparison');
 
-			var id = node.text + 'sgt_comparison_portal';
+			var id = node.text + 'dgt_comparison_portal';
+			//曲线图形
 			var div = $(
-					'<div style="height:180px;width:295px;position: relative;left: 2px;" id='+id+'></div>')
+					'<div style="height:190px;width:280px;position: relative;left: 2px;" id='+id+'></div>')
 					.appendTo(panel);
 
 			var wellNum = node.text;
@@ -134,14 +153,88 @@
 					type : 'post',
 					cache : true,
 					dataType : 'json',
-					data : 'wellNum=' + wellNum,
+					data : 'wellNum=' + wellNum + '&date=' + comparison_date
+					+ '&time=' + comparison_time,
 					success : function(data) {
-						ret = data.data;
-						chongcheng = data.chongcheng;
-						chongci = data.chongci;
-						minZaihe = data.minzaihe;
-						maxZaihe = data.maxzaihe;
-						time = data.time;
+						//指定日期无数据选择最后采集的数据
+						if (data.hasData == 'no') {
+							$.ajax({
+								async : false,
+								url : 'getDGTPlotData.html',
+								type : 'post',
+								cache : true,
+								dataType : 'json',
+								data : 'wellNum=' + wellNum,
+								success : function(data) {
+									//无数据
+									if (data.hasData == 'no') {
+										//$.messager.alert("错误", "该井无示功图数据！",
+										//		"warning");
+										ret = [[[]]];
+										chongcheng = '';
+										chongci = '';
+										minZaihe = '';
+										maxZaihe = '';
+										time = '';
+									} else if(data.zero == 'yes') {
+										//$.messager.alert("错误", "该井数据均为0！", "warning");
+										ret = [[[]]];
+					
+										chongcheng = "";
+										chongci = "";
+										minZaihe = '';
+										maxZaihe = '';
+										time = '';
+									} else if(data.hasDGTData == 'no') {//无电功图数据
+										ret = [[[]]];
+										chongcheng = '';
+										chongci = '';
+										minZaihe = '';
+										maxZaihe = '';
+										time = '';
+									} else if(data.hasDGTData == 'yes'){
+										ret = data.data;
+
+										chongcheng = data.chongcheng;
+										chongci = data.chongci;
+										minZaihe = data.minzaihe;
+										maxZaihe = data.maxzaihe;
+										time = data.time;
+									}
+									
+								
+									
+								}
+							});
+						} else {
+							
+							if(data.zero == 'yes') {
+								//$.messager.alert("错误", "该井数据均为0！", "warning");
+								ret = [[[]]];
+			
+								chongcheng = "";
+								chongci = "";
+								minZaihe = '';
+								maxZaihe = '';
+								time = '';
+							} else if(data.hasDGTData == 'no') {//无电功图数据
+								ret = [[[]]];
+								chongcheng = '';
+								chongci = '';
+								minZaihe = '';
+								maxZaihe = '';
+								time = '';
+							} else if(data.hasDGTData == 'yes'){
+								ret = data.data;
+
+								chongcheng = data.chongcheng;
+								chongci = data.chongci;
+								minZaihe = data.minzaihe;
+								maxZaihe = data.maxzaihe;
+								time = data.time;
+							}
+
+						}												
 					}
 				});
 				return ret;
@@ -165,12 +258,20 @@
 					xaxis : {
 						label : "位移（米）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.2f'
+						}
 					},
 					yaxis : {
 						label : "载荷（千牛）",
-						labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.1f'
+						}
 					}
 				},
+				
+				//tickRenderer : $.jqplot.AxisTickRenderer,
 				highlighter : {
 					show : true
 				},
@@ -180,13 +281,13 @@
 				}
 			};
 
-			var jsonurl = 'getSGTPlotData.html';
+			var jsonurl = 'getHistoryDGTPlotData.html';
 			var plot = $.jqplot(id, ajaxDataRenderer(jsonurl), options);
 
 			var myDiv = $(
-					'<div style="height:100px;width:80%;position: relative;left: 28px;"></div>')
+					'<div style="height:100px;width:225px;position: relative;left: 55px;"></div>')
 					.appendTo(panel);
-			var str = '<table style="color:blue;position: relative;left: 2px;">'
+			var str = '<table style="color:blue;">'
 					+ '<tr>'
 					+ '<td align="right">冲程：</td>'
 					+ '<td name="_chongcheng">'
@@ -225,19 +326,19 @@
 			var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
 					+ (d < 10 ? ("0" + d) : d);
 
-			var timeSelected = '<table style="color:blue;position: relative;left: 15px;">'
+			var timeSelected = '<table style="color:blue;position: relative;left: 20px;">'
 					+ '<tr height="4px"></tr>'
 					+ '<tr>'
 					+ '<td><input name="date_" style="width:85px"></input></td>'
-					+ '<td><input class="easyui-numberspinner" name="time_" style="width:35px;" required="true"  min="0" max="23" value='+h+'></input>点</td>'
+					+ '<td><input class="easyui-numberspinner" name="time_" style="width:35px;" required="true" value='+h+'></input>点</td>'
 					+ '<td><input name="button_" value="查询" type="button"></td>'
 					+ '</tr>' + '</table>';
 
 			$(timeSelected).appendTo(myDiv);
 			
 			myDiv.find('input[name=time_]').numberspinner({  
-			    min:'0',
-			    max:'23'
+			    min:0,
+			    max:23
 			});
 
 			myDiv.find('input[name=date_]').datebox(
@@ -260,7 +361,7 @@
 
 						$.ajax({
 							async : false,
-							url : 'getHistorySGTPlotData.html',
+							url : 'getHistoryDGTPlotData.html',
 							type : 'post',
 							cache : true,
 							dataType : 'json',
@@ -268,27 +369,34 @@
 									+ '&time=' + time,
 							success : function(data) {
 								if (data.hasData == 'no') {
-									$.messager.alert("错误", "该时间点无数据！",
+									$.messager.alert("错误", Message_NO_Data_Hour,
 											"warning");
+								} else if(data.zero == 'yes') {
+									$.messager.alert("错误", Message_Zero_Data_Hour, "warning");
+								} else if(data.hasDGTData == 'no') {
+									$.messager.alert("错误", Message_NO_DGT_Data_Hour,"warning");
 								} else if (data.hasData == 'yes') {
-									idata = data.data;
-									chongcheng = data.chongcheng;
-									chongci = data.chongci;
-									minZaihe = data.minzaihe;
-									maxZaihe = data.maxzaihe;
-									time = data.time;
 
-									myDiv.find('td[name=_time]').text(time);
-									myDiv.find('td[name=_chongcheng]').text(
-											chongcheng);
-									myDiv.find('td[name=_chongci]').text(
-											chongci);
-									myDiv.find('td[name=_minZaihe]').text(
-											minZaihe);
-									myDiv.find('td[name=_maxZaihe]').text(
-											maxZaihe);
+										idata = data.data;
+										chongcheng = data.chongcheng;
+										chongci = data.chongci;
+										minZaihe = data.minzaihe;
+										maxZaihe = data.maxzaihe;
+										time = data.time;
 
-									$.jqplot(id, idata, options).replot();
+										myDiv.find('td[name=_time]').text(time);
+										myDiv.find('td[name=_chongcheng]').text(
+												chongcheng);
+										myDiv.find('td[name=_chongci]').text(
+												chongci);
+										myDiv.find('td[name=_minZaihe]').text(
+												minZaihe);
+										myDiv.find('td[name=_maxZaihe]').text(
+												maxZaihe);
+
+										$.jqplot(id, idata, options).replot();
+									
+									
 								}
 							}
 						});

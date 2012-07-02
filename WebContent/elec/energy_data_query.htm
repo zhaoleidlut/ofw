@@ -1,0 +1,174 @@
+<div id="energy_data_query" class="easyui-layout" fit="true">
+	<div region="center" icon="icon-reload">
+		<div id="energy_data_grid"></div>
+	</div>
+	<div region="west" title="油井选择" split="true" style="width: 200px;">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var westRegion = $('#energy_data_query>div[region=west]');
+
+		var myTree = $('<div></div>').appendTo(westRegion);
+
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [ data ];
+			}
+		});
+
+		myTree.tree({
+			data : treeData,
+			animate : true,
+			//checkbox : true
+			onClick : function(node) {
+				if (typeof (node.attributes) != 'undefined'
+						&& typeof (node.attributes.iswell) != 'undefined'
+						&& node.attributes.iswell) {
+					var wellNum = node.text;
+					showData(wellNum);
+				}
+			}
+		});
+
+		function showData(wellNum) {
+			$('#energy_data_grid').datagrid({
+				//title : '电能数据',
+				//iconCls : 'icon-save',
+				autoRowHeight : true,
+				nowrap : true,
+				//striped: true,
+				collapsible : true,
+				url : 'getEnergyData.html',
+				//sortName : 'time',
+				remoteSort : false,
+				//sortName : '123',
+				//sortOrder : '456',
+				queryParams : {wellNum:wellNum},
+
+				columns : [ [ {
+					field : 'time',
+					title : '采集时间',
+					width : 65
+				}, {
+					field : 'zxygZ',
+					title : '正向有功总',
+					width : 65
+				}, {
+					field : 'zxygJ',
+					title : '正向有功尖',
+					width : 65
+				}, {
+					field : 'zxygF',
+					title : '正向有功峰',
+					width : 65
+				}, {
+					field : 'zxygP',
+					title : '正向有功平',
+					width : 65
+				}, {
+					field : 'zxygG',
+					title : '正向有功谷',
+					width : 65
+				}, {
+					field : 'fxygZ',
+					title : '反向有功总',
+					width : 65
+				}, {
+					field : 'fxygJ',
+					title : '反向有功尖',
+					width : 65
+				}, {
+					field : 'fxygF',
+					title : '反向有功峰',
+					width : 65
+				}, {
+					field : 'fxygP',
+					title : '反向有功平',
+					width : 65
+				}, {
+					field : 'fxygG',
+					title : '反向有功谷',
+					width : 65
+				},
+
+				{
+					field : 'zxwgZ',
+					title : '正向无功总',
+					width : 65
+				}, {
+					field : 'zxwgJ',
+					title : '正向无功尖',
+					width : 65
+				}, {
+					field : 'zxwgF',
+					title : '正向无功峰',
+					width : 65
+				}, {
+					field : 'zxwgP',
+					title : '正向无功平',
+					width : 65
+				}, {
+					field : 'zxwgG',
+					title : '正向无功谷',
+					width : 65
+				}, {
+					field : 'fxwgZ',
+					title : '反向无功总',
+					width : 65
+				}, {
+					field : 'fxwgJ',
+					title : '反向无功尖',
+					width : 65
+				}, {
+					field : 'fxwgF',
+					title : '反向无功峰',
+					width : 65
+				}, {
+					field : 'fxwgP',
+					title : '反向无功平',
+					width : 65
+				}, {
+					field : 'fxwgG',
+					title : '反向无功谷',
+					width : 65
+				}, ] ],
+				pageSize : 10,
+				pageList : [ 10, 20, 30, 40, 50 ],
+				pagination : true,
+				rownumbers : true,
+				toolbar : [ {
+					id : 'btnadd',
+					text : '最近一周数据',
+					iconCls : 'icon-save',
+					handler : function() {
+						$('#btnsave').linkbutton('enable');
+						alert('add')
+					}
+				}, '-', {
+					id : 'btncut',
+					text : '最近一个月数据',
+					iconCls : 'icon-save',
+					handler : function() {
+						$('#btnsave').linkbutton('enable');
+						alert('cut')
+					}
+				}, '-', {
+					id : 'btnsave',
+					text : '最近三个月数据',
+					iconCls : 'icon-save',
+					handler : function() {
+						$('#btnsave').linkbutton('enable');
+						alert('save')
+					}
+				} ]
+			});
+		}
+	});
+</script>

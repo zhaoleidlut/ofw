@@ -35,6 +35,10 @@ public class CollectionConstants {
 	
 	public static final String USER_LEVEL = "userlevel";
 	
+	public static final String ENERGY_DATA = "EnergyData";
+	
+	public static final String ELEC_DATA = "ElecData";
+	
 	public static String getWellDataCollection(String wellNum, Calendar c) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyMM");
 		String time = sdf.format(c.getTime());

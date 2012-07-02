@@ -5,36 +5,29 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>登录</title>
+<title>油井监测管理系统</title>
+<jsp:include page="jsp/include.jsp" flush="true"/>
 
-<script type="text/javascript" charset="UTF-8"
-	src="../jquery-easyui-1.2.6/jquery-1.7.1.js"></script>
-
-<link id="index_easyuiTheme" rel="stylesheet" type="text/css"
-	href="../jquery-easyui-1.2.6/themes/default/easyui.css">
-<link rel="stylesheet" type="text/css"
-	href="../jquery-easyui-1.2.6/themes/icon.css">
-<script type="text/javascript" charset="UTF-8"
-	src="../jquery-easyui-1.2.6/jquery.easyui.min.js"></script>
-<script type="text/javascript" charset="UTF-8"
-	src="../jquery-easyui-1.2.6/locale/easyui-lang-zh_CN.js"></script>
-
-<script type="text/javascript">
-$(function(){
-	$('#login-form').form({
-		success:function(data){
-			$.messager.alert('消息', data.success, 'info');
-			$('#login').dialog('close');
-		}
-	});
-});
-	</script>
-
+<script type="text/javascript" charset="UTF-8" src="js/index.js"></script>
+<script type="text/javascript" charset="UTF-8" src="js/util.js"></script>
 </head>
+
 <body>
+	<div region="north" id="north_region" href="layout/north.htm"
+		style="height: 50px; overflow: hidden; background-color: lightcyan;"></div>
+	<div region="west" id="west_region" href="layout/west.htm"
+		iconCls="icon-tip" split="true" title="导航菜单" style="width: 190px;"></div>
+	<div region="center" id="center_region" title="欢迎使用本系统！">
+		<div id="index_tabs" class="easyui-tabs" fit="true">
+			<div id="home" title="首页" href="layout/home.htm"></div>
+		</div>
+	</div>
+	<div region="south" id="south_region"
+		style="height: 18px; text-align: center;">版权所有&nbsp;丹东华通测控有限公司</div>
+
 	<div id="login" class="easyui-dialog" title="登录" buttons="#dlg-buttons"
 		closable="false">
-		<form id="login-form" method="post" action="login.html">
+		<form id="login-form" method="post">
 			<table style="margin: 10px;">
 				<tr>
 					<td align="right">用户名：</td>
@@ -55,6 +48,8 @@ $(function(){
 		<a href="#" class="easyui-linkbutton" iconCls="icon-ok"
 			onclick="javascript:$('#login-form').submit()">确定</a>
 	</div>
+	
+	<input type="hidden" name="user" id="user" value="${user}">
 
 </body>
 </html>

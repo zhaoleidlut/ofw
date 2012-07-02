@@ -1,0 +1,196 @@
+<div id="elec_data_query" class="easyui-layout" fit="true">
+	<div region="center" icon="icon-reload">
+		<div id="elec_data_grid"></div>
+	</div>
+	<div region="west" title="油井选择" split="true" style="width: 200px;">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var westRegion = $('#elec_data_query>div[region=west]');
+
+		var myTree = $('<div></div>').appendTo(westRegion);
+
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [ data ];
+			}
+		});
+
+		myTree.tree({
+			data : treeData,
+			animate : true,
+			//checkbox : true
+			onClick : function(node) {
+				if (typeof (node.attributes) != 'undefined'
+						&& typeof (node.attributes.iswell) != 'undefined'
+						&& node.attributes.iswell) {
+					var wellNum = node.text;
+					showData(wellNum);
+				}
+			}
+		});
+
+		function showData(wellNum) {
+			$('#elec_data_grid').datagrid({
+				//title : '电力数据',
+				//iconCls : 'icon-save',
+				autoRowHeight : true,
+				nowrap : true,
+				//striped: true,
+				collapsible : true,
+				url : 'getElecData.html',
+				//sortName : 'time',
+				remoteSort : false,
+				//sortName : '123',
+				//sortOrder : '456',
+				queryParams : {wellNum:wellNum},
+
+				columns : [ [ {
+					field : 'time',
+					title : '采集时间',
+					width : 65
+				}, {
+					field : 'ua',
+					title : 'A相电压',
+					width : 50
+				}, {
+					field : 'ub',
+					title : 'B相电压',
+					width : 50
+				}, {
+					field : 'uc',
+					title : 'C相电压',
+					width : 50
+				}, {
+					field : 'ia',
+					title : 'A相电流',
+					width : 50
+				}, {
+					field : 'ib',
+					title : 'B相电流',
+					width : 50
+				}, {
+					field : 'ic',
+					title : 'C相电流',
+					width : 50
+				}, {
+					field : 'shygglZ',
+					title : '总有功功率',
+					width : 70
+				}, {
+					field : 'shygglA',
+					title : 'A相有功功率',
+					width : 70
+				}, {
+					field : 'shygglB',
+					title : 'B相有功功率',
+					width : 70
+				}, {
+					field : 'shygglC',
+					title : 'C相有功功率',
+					width : 70
+				}, {
+					field : 'shwgglZ',
+					title : '总无功功率',
+					width : 70
+				}, {
+					field : 'shwgglA',
+					title : 'A相无功功率',
+					width : 70
+				}, {
+					field : 'shwgglB',
+					title : 'B相无功功率',
+					width : 70
+				}, {
+					field : 'shwgglC',
+					title : 'C相无功功率',
+					width : 70
+				}, {
+					field : 'glysZ',
+					title : '总功率因数',
+					width : 70
+				}, {
+					field : 'glysA',
+					title : 'A相功率因数',
+					width : 70
+				}, {
+					field : 'glysB',
+					title : 'B相功率因数',
+					width : 70
+				}, {
+					field : 'glysC',
+					title : 'C相功率因数',
+					width : 70
+				}, {
+					field : 'pinlv',
+					title : '频率',
+					width : 35
+				}, {
+					field : 'lxdl',
+					title : '零序电流',
+					width : 55
+				}, {
+					field : 'lxdy',
+					title : '零序电压',
+					width : 55
+				}, {
+					field : 'dlbphd',
+					title : '电流不平衡度',
+					width : 75
+				}, {
+					field : 'dybphd',
+					title : '电压不平衡度',
+					width : 75
+				}, {
+					field : 'uab',
+					title : 'AB线电压',
+					width : 55
+				}, {
+					field : 'ubc',
+					title : 'BC线电压',
+					width : 55
+				}, {
+					field : 'uca',
+					title : 'CA线电压',
+					width : 55
+				}] ],
+				pageSize : 10,
+				pageList : [ 10, 20, 30, 40, 50 ],
+				pagination : true,
+				rownumbers : true,
+				toolbar : [ {
+					id : 'btnadd',
+					text : '最近一周数据',
+					iconCls : 'icon-save',
+					handler : function() {
+						$('#btnsave').linkbutton('enable');
+						//alert('add')
+					}
+				}, '-', {
+					id : 'btncut',
+					text : '最近一个月数据',
+					iconCls : 'icon-save',
+					handler : function() {
+						$('#btnsave').linkbutton('enable');
+						//alert('cut')
+					}
+				}, '-', {
+					id : 'btnsave',
+					text : '最近三个月数据',
+					iconCls : 'icon-save',
+					handler : function() {
+						$('#btnsave').linkbutton('enable');
+						//alert('save')
+					}
+				} ]
+			});
+		}
+	});
+</script>

@@ -1,15 +1,27 @@
 <script type="text/javascript" charset="UTF-8">
-	$(function() {
-
-	});
+	function logout() {
+		$.ajax({
+			async : false,
+			url : 'logout.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				window.location.href="index.htm";
+			}
+		});
+	}
+	function exitsys() {
+		window.close();
+	}
 </script>
 <div
-	style="font-size: 36px; color: blue; font-weight: bold; text-indent: 1cm">胜利油田自动化管理系统</div>
+	style="font-size: 36px; color: blue; font-weight: bold; text-indent: 1cm">胜利油田油井监测管理系统</div>
 
 <div style="position: absolute; right: 300px; bottom: 0px;">
 	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
 		codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
-		width="100" height="100">
+		width="50" height="50">
 		<param name="movie"
 			value="http://www.respectsoft.com/onlineclock/analog.swf">
 		<param name=quality value=high>
@@ -50,6 +62,6 @@
 </div>
 
 <div id="mm2" style="width: 100px;">
-	<div onclick="">重新登录</div>
-	<div onclick="">退出系统</div>
+	<div onclick="logout()">重新登录</div>
+	<div onclick="logout()">退出系统</div>
 </div>

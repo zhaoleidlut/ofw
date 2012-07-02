@@ -19,10 +19,8 @@ public class WellController {
 	@RequestMapping("/getWellTreeInfo.html")
 	@ResponseBody
 	public Map<String, Object> getWellTreeInfo() {
-		System.out.println("getWellTreeInfo");
+		log.debug("getWellTreeInfo");
 		Map<String, Object> map = wellService.getWellTreeInfo();
-		log.debug(map.toString());
-		
 		
 		return map;
 	}

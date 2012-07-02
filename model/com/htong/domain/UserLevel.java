@@ -1,6 +1,5 @@
 package com.htong.domain;
 
-
 /**
  * 用户权限
  * @author 赵磊

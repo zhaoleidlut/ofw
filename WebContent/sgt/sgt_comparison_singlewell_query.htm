@@ -54,7 +54,7 @@
 					p.panel({
 						title : node.text,
 						id : node.text + total+'panel',
-						height : 310,
+						height : 330,
 						closable : true,
 						//	fit:true,
 						collapsible : true,
@@ -80,7 +80,7 @@
 
 			var id = node.text + 'sgt_comparison_singlewell' + total;
 			var div = $(
-					'<div style="height:180px;width:295px;position: relative;left: 2px;" id='+id+'></div>')
+					'<div style="height:190px;width:295px;position: relative;left: 2px;" id='+id+'></div>')
 					.appendTo(panel);
 
 			var wellNum = node.text;
@@ -101,12 +101,37 @@
 					dataType : 'json',
 					data : 'wellNum=' + wellNum,
 					success : function(data) {
-						ret = data.data;
-						chongcheng = data.chongcheng;
-						chongci = data.chongci;
-						minZaihe = data.minzaihe;
-						maxZaihe = data.maxzaihe;
-						time = data.time;
+
+						if(data.hasData == 'no') {
+							$.messager.alert("错误", "该井无数据！", "warning");
+							ret = [[[]]];
+		
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if(data.hasData == 'yes') {
+							if(data.zero == 'yes') {
+								$.messager.alert("错误", "该井数据均为0！", "warning");
+								ret = [[[]]];
+			
+								chongcheng = "";
+								chongci = "";
+								minZaihe = '';
+								maxZaihe = '';
+								time = '';
+							} else {
+								ret = data.data;
+
+								chongcheng = data.chongcheng;
+								chongci = data.chongci;
+								minZaihe = data.minzaihe;
+								maxZaihe = data.maxzaihe;
+								time = data.time;
+							}
+
+						}
 					}
 				});
 				return ret;
@@ -130,10 +155,16 @@
 					xaxis : {
 						label : "位移（米）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.2f'
+						}
 					},
 					yaxis : {
 						label : "载荷（千牛）",
-						labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.1f'
+						}
 					}
 				},
 				highlighter : {
@@ -150,7 +181,7 @@
 			var plot = $.jqplot(id, ajaxDataRenderer(jsonurl), options);
 
 			var myDiv = $(
-					'<div style="height:100px;width:80%;position: relative;left: 28px;"></div>')
+					'<div style="height:100px;width:225px;position: relative;left: 55px;"></div>')
 					.appendTo(panel);
 			var str = '<table style="color:blue;position: relative;left: 2px;">'
 					+ '<tr>'
@@ -191,19 +222,19 @@
 			var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
 					+ (d < 10 ? ("0" + d) : d);
 
-			var timeSelected = '<table style="color:blue;position: relative;left: 15px;">'
+			var timeSelected = '<table style="color:blue;position: relative;left: 20px;">'
 					+ '<tr height="4px"></tr>'
 					+ '<tr>'
 					+ '<td><input name="date_" style="width:85px"></input></td>'
-					+ '<td><input class="easyui-numberspinner" name="time_" style="width:35px;" required="true"  min="0" max="23" value='+h+'></input>点</td>'
+					+ '<td><input class="easyui-numberspinner" name="time_" style="width:35px;" required="true" value='+h+'></input>点</td>'
 					+ '<td><input name="button_" value="查询" type="button"></td>'
 					+ '</tr>' + '</table>';
 
 			$(timeSelected).appendTo(myDiv);
 			
 			myDiv.find('input[name=time_]').numberspinner({  
-			    min:'0',
-			    max:'23'
+			    min:0,
+			    max:23
 			});
 
 			myDiv.find('input[name=date_]').datebox(
@@ -237,24 +268,29 @@
 									$.messager.alert("错误", "该时间点无数据！",
 											"warning");
 								} else if (data.hasData == 'yes') {
-									idata = data.data;
-									chongcheng = data.chongcheng;
-									chongci = data.chongci;
-									minZaihe = data.minzaihe;
-									maxZaihe = data.maxzaihe;
-									time = data.time;
+									if(data.zero == 'yes') {
+										$.messager.alert("错误", "该时间点数据均为0！", "warning");
+									} else {
+										idata = data.data;
+										chongcheng = data.chongcheng;
+										chongci = data.chongci;
+										minZaihe = data.minzaihe;
+										maxZaihe = data.maxzaihe;
+										time = data.time;
 
-									myDiv.find('td[name=_time]').text(time);
-									myDiv.find('td[name=_chongcheng]').text(
-											chongcheng);
-									myDiv.find('td[name=_chongci]').text(
-											chongci);
-									myDiv.find('td[name=_minZaihe]').text(
-											minZaihe);
-									myDiv.find('td[name=_maxZaihe]').text(
-											maxZaihe);
+										myDiv.find('td[name=_time]').text(time);
+										myDiv.find('td[name=_chongcheng]').text(
+												chongcheng);
+										myDiv.find('td[name=_chongci]').text(
+												chongci);
+										myDiv.find('td[name=_minZaihe]').text(
+												minZaihe);
+										myDiv.find('td[name=_maxZaihe]').text(
+												maxZaihe);
 
-									$.jqplot(id, idata, options).replot();
+										$.jqplot(id, idata, options).replot();
+									}
+									
 								}
 							}
 						});

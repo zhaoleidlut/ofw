@@ -13,7 +13,10 @@ import org.apache.log4j.Logger;
  */
 public class WellData {
 	
+	private static final Logger log = Logger.getLogger(WellData.class);
+	
 	private String well_num; // 井号
+	private String name;	//井名字
 	private float[] zaihe; // 载荷
 	private float[] weiyi; // 位移
 	private float chong_cheng_time; // 冲程时间
@@ -21,6 +24,7 @@ public class WellData {
 	private float[] ib; // 电流
 	private float[] power; // 功率
 	private float[] power_factor; // 功率因数
+	private float[] dgt;	//电功图
 	private float yjmk; // 油井模块电压
 	private float gtmk; // 功图模块电压
 	private Date stop_time; // 上次停井时间
@@ -49,6 +53,14 @@ public class WellData {
 
 	public float[] getWeiyi() {
 		return weiyi;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public void setWeiyi(float[] weiyi) {
@@ -151,17 +163,12 @@ public class WellData {
 		this.save_time = save_time;
 	}
 
-//	/**
-//	 * 数据写库
-//	 */
-//	public void writeToDatabase() {
-//		SimpleDateFormat sdf = new SimpleDateFormat("yyMM");
-//		String time = sdf.format(Calendar.getInstance().getTime());
-//		PersistManager.INSTANCE.getMongoTemplate().insert(
-//				CollectionConstants.WELL_DATA + "_" + getWell_num() + "_"
-//						+ time, this);
-//		log.debug("写入数据成功" + CollectionConstants.WELL_DATA + "_" + getWell_num() + "_"
-//						+ time);
-//	}
+	public float[] getDgt() {
+		return dgt;
+	}
+
+	public void setDgt(float[] dgt) {
+		this.dgt = dgt;
+	}
 
 }

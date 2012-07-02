@@ -24,7 +24,7 @@ public class WellDataDaoTest {
 
 	@Test
 	public void getLatedWellDataByWellNum() {
-		System.out.println(wellDataDao.getLatedWellDataByWellNum("草13-115").getChong_cheng_time());
+		System.out.println(wellDataDao.getLatedWellDataByWellNum("草13-斜502").getDgt());
 	}
 	
 	@Test

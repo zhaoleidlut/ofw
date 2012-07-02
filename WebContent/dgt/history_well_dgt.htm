@@ -24,12 +24,52 @@
 				dataType : 'json',
 				data : 'wellNum=' + wellNum,
 				success : function(data) {
-					ret = data.data;
-					chongcheng = data.chongcheng;
-					chongci = data.chongci;
-					minZaihe = data.minzaihe;
-					maxZaihe = data.maxzaihe;
-					time = data.time;
+					if(data.hasData == 'no') {
+						$.messager.alert("错误", Message_NO_Data, "warning");
+						
+						ret = [[[]]];
+						
+						chongcheng = "";
+						chongci = "";
+						minZaihe = '';
+						maxZaihe = '';
+						time = '';
+						
+					} else if(data.hasData == 'yes') {
+						if(data.zero == 'yes') {
+							$.messager.alert("错误", Message_Zero_Data, "warning");
+							ret = [[[]]];
+		
+							chongcheng = "";
+							chongci = "";
+							minZaihe = '';
+							maxZaihe = '';
+							time = '';
+						} else if(data.zero == 'no') {
+							if(data.hasDGTData == 'no') {
+								$.messager.alert("错误", Message_NO_DGT_Data, "warning");
+								
+								ret = [[[]]];
+								
+								chongcheng = "";
+								chongci = "";
+								minZaihe = '';
+								maxZaihe = '';
+								time = '';
+							} else if(data.hasDGTData == 'yes') {
+								ret = data.data;
+
+								chongcheng = data.chongcheng;
+								chongci = data.chongci;
+								minZaihe = data.minzaihe;
+								maxZaihe = data.maxzaihe;
+								time = data.time;
+							}
+								
+							
+						}
+					}
+					
 				}
 			});
 			return ret;
@@ -53,10 +93,16 @@
 				xaxis : {
 					label : "位移（米）",
 					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					tickOptions : {
+						formatString : '%0.2f'
+					}
 				},
 				yaxis : {
 					label : "载荷（千牛）",
-					labelRenderer : $.jqplot.CanvasAxisLabelRenderer
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					tickOptions : {
+						formatString : '%0.1f'
+					}
 				}
 			},
 			highlighter : {
@@ -68,7 +114,7 @@
 			}
 		};
 		
-		var jsonurl = 'getSGTPlotData.html';
+		var jsonurl = 'getDGTPlotData.html';
 		var plot = $.jqplot(id, ajaxDataRenderer(jsonurl), options);
 
 		var myDiv = $('<div style="height:200px;width:800px"></div>').appendTo(
@@ -145,7 +191,7 @@
 
 					$.ajax({
 						async : false,
-						url : 'getHistorySGTPlotData.html',
+						url : 'getHistoryDGTPlotData.html',
 						type : 'post',
 						cache : true,
 						dataType : 'json',
@@ -153,23 +199,27 @@
 								+ '&time=' + time,
 						success : function(data) {
 							if (data.hasData == 'no') {
-								$.messager.alert("错误", "该时间点无数据！", "warning");
-							} else if (data.hasData == 'yes') {
-								idata = data.data;
-								chongcheng = data.chongcheng;
-								chongci = data.chongci;
-								minZaihe = data.minzaihe;
-								maxZaihe = data.maxzaihe;
-								time = data.time;
+								$.messager.alert("错误", Message_NO_Data_Hour, "warning");
+							} else if(data.zero == 'yes') {
+								$.messager.alert("错误", Message_Zero_Data_Hour, "warning");
+							} else if(data.hasDGTData == 'no') {
+								$.messager.alert("错误", Message_NO_DGT_Data_Hour, "warning");
+							} else if (data.hasDGTData == 'yes') {
+									idata = data.data;
+									chongcheng = data.chongcheng;
+									chongci = data.chongci;
+									minZaihe = data.minzaihe;
+									maxZaihe = data.maxzaihe;
+									time = data.time;
 
-								tab.find('td[name=_time]').text(time);
-								tab.find('td[name=_chongcheng]').text(
-										chongcheng);
-								tab.find('td[name=_chongci]').text(chongci);
-								tab.find('td[name=_minZaihe]').text(minZaihe);
-								tab.find('td[name=_maxZaihe]').text(maxZaihe);
+									tab.find('td[name=_time]').text(time);
+									tab.find('td[name=_chongcheng]').text(
+											chongcheng);
+									tab.find('td[name=_chongci]').text(chongci);
+									tab.find('td[name=_minZaihe]').text(minZaihe);
+									tab.find('td[name=_maxZaihe]').text(maxZaihe);
 
-								$.jqplot(id, idata, options).replot();
+									$.jqplot(id, idata, options).replot();								
 							}
 						}
 					});

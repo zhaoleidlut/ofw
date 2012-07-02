@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3031" started-at="2012-05-25T16:58:33Z" finished-at="2012-05-25T16:58:36Z">
+  <suite name="Default suite" duration-ms="890" started-at="2012-06-12T11:36:59Z" finished-at="2012-06-12T11:37:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3031" started-at="2012-05-25T16:58:33Z" finished-at="2012-05-25T16:58:36Z">
+    <test name="Default test" duration-ms="890" started-at="2012-06-12T11:36:59Z" finished-at="2012-06-12T11:37:00Z">
       <class name="com.htong.dao.WellDataDaoTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.htong.dao.WellDataDaoTest@1bca5f1]" name="beforeTest" is-config="true" duration-ms="875" started-at="2012-05-25T16:58:33Z" finished-at="2012-05-25T16:58:34Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.htong.dao.WellDataDaoTest@329f3d]" name="beforeTest" is-config="true" duration-ms="813" started-at="2012-06-12T11:36:59Z" finished-at="2012-06-12T11:37:00Z">
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="getHistoryWellData()[pri:0, instance:com.htong.dao.WellDataDaoTest@1bca5f1]" name="getHistoryWellData" duration-ms="2156" started-at="2012-05-25T16:58:34Z" finished-at="2012-05-25T16:58:36Z">
-        </test-method> <!-- getHistoryWellData -->
+        <test-method status="PASS" signature="getLatedWellDataByWellNum()[pri:0, instance:com.htong.dao.WellDataDaoTest@329f3d]" name="getLatedWellDataByWellNum" duration-ms="47" started-at="2012-06-12T11:37:00Z" finished-at="2012-06-12T11:37:00Z">
+        </test-method> <!-- getLatedWellDataByWellNum -->
       </class> <!-- com.htong.dao.WellDataDaoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

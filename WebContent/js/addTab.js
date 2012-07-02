@@ -165,5 +165,29 @@ function addTab(title) {
 			$('#index_tabs').tabs('select','年产量统计');
 		}
 		
+	} else if(title == '电能数据查询') {
+		var tab = $('#index_tabs').tabs('getTab','电能数据查询');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '电能数据查询',
+			href : 'elec/energy_data_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','电能数据查询');
+		}
+		
+	} else if(title == '电力数据查询') {
+		var tab = $('#index_tabs').tabs('getTab','电力数据查询');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '电力数据查询',
+			href : 'elec/elec_data_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','电力数据查询');
+		}
+		
 	}
 }

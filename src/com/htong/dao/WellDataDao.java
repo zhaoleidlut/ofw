@@ -8,6 +8,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.document.mongodb.MongoTemplate;
 import org.springframework.data.document.mongodb.query.Criteria;
+import org.springframework.data.document.mongodb.query.Order;
 import org.springframework.data.document.mongodb.query.Query;
 import org.springframework.stereotype.Repository;
 import org.testng.log4testng.Logger;
@@ -24,6 +25,7 @@ public class WellDataDao {
 
 	public WellData getLatedWellDataByWellNum(String wellNum) {
 		Query myQuery = new Query(Criteria.where("well_num").is(wellNum));
+		myQuery.sort().on("device_time", Order.DESCENDING);
 		Calendar currentCalendar = Calendar.getInstance();
 
 		boolean exist = mongoTemplate.collectionExists(CollectionConstants
@@ -32,32 +34,38 @@ public class WellDataDao {
 		// 查找表
 		int count = 10;
 		while (count > 0 && !exist) {
+			//log.warn(CollectionConstants.getWellDataCollection(wellNum, currentCalendar));
+			currentCalendar.add(Calendar.MONTH, -1);
 			exist = mongoTemplate.collectionExists(CollectionConstants
 					.getWellDataCollection(wellNum, currentCalendar));
-			currentCalendar.add(Calendar.MONTH, -1);
-			// System.out.println(count);
+			
+			
 			count--;
 		}
 
-		log.debug(CollectionConstants.getWellDataCollection(wellNum,
+		log.warn("最新数据的表名：" + CollectionConstants.getWellDataCollection(wellNum,
 				currentCalendar));
-		WellData wellData = mongoTemplate.findOne(CollectionConstants
+		List<WellData> wellDataList = mongoTemplate.find(CollectionConstants
 				.getWellDataCollection(wellNum, currentCalendar), myQuery,
 				WellData.class);
+		if(wellDataList != null) {
+			return wellDataList.get(0);
+		}
+		
 
-		return wellData;
+		return null;
 	}
 
 	public List<WellData> getHistoryWellData(String wellNum,
-			Calendar startDate, Calendar endDate) {
+			Calendar startCalendar, Calendar endCalendar) {
 		List<WellData> wellDataList = new ArrayList<WellData>();
 
-		while (endDate.after(startDate)) {
+		while (endCalendar.after(startCalendar)) {
 			BasicDBObject query = new BasicDBObject();
 
 			BasicDBObject index = new BasicDBObject();// 时间条件
-			index.put("$gte", startDate.getTime());
-			index.put("$lt", endDate.getTime());
+			index.put("$gte", startCalendar.getTime());
+			index.put("$lt", endCalendar.getTime());
 
 			query.put("datetime", index);
 
@@ -66,28 +74,28 @@ public class WellDataDao {
 
 			List<WellData> myWellDataList = mongoTemplate.find(
 					CollectionConstants.getWellDataCollection(wellNum,
-							startDate), myQuery, WellData.class);
+							startCalendar), myQuery, WellData.class);
 			wellDataList.addAll(myWellDataList);
 
-			startDate.add(Calendar.MONTH, 1);
+			startCalendar.add(Calendar.MONTH, 1);
 
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			log.debug(sdf.format(startDate.getTime()));
-			System.out.println(sdf.format(startDate.getTime()));
+			log.warn(sdf.format(startCalendar.getTime()));
+			System.out.println(sdf.format(startCalendar.getTime()));
 		}
 		return wellDataList;
 	}
 
-	public WellData getHistoryWellData(String wellNum, Calendar startDate) {
+	public WellData getHistoryWellData(String wellNum, Calendar startCalendar) {
 
 		BasicDBObject query = new BasicDBObject();
 
 		BasicDBObject index = new BasicDBObject();// 时间条件
-		index.put("$gte", startDate.getTime());
+		index.put("$gte", startCalendar.getTime());
 
-		startDate.add(Calendar.HOUR, 1);
+		startCalendar.add(Calendar.HOUR, 1);
 
-		index.put("$lt", startDate.getTime());
+		index.put("$lt", startCalendar.getTime());
 
 		query.put("datetime", index);
 
@@ -95,10 +103,26 @@ public class WellDataDao {
 				.and("device_time").is(index));
 
 		WellData wellData = mongoTemplate.findOne(
-				CollectionConstants.getWellDataCollection(wellNum, startDate),
+				CollectionConstants.getWellDataCollection(wellNum, startCalendar),
 				myQuery, WellData.class);
 
 		return wellData;
 	}
+	
+//	public List<WellData> getWellDataList(String wellNum, Calendar startCalendar, Calendar endCalendar) {
+//		BasicDBObject query = new BasicDBObject();
+//
+//		BasicDBObject index = new BasicDBObject();// 时间条件
+//		index.put("$gte", startCalendar.getTime());
+//		index.put("$lt", endCalendar.getTime());
+//		query.put("datetime", index);
+//		
+//		Query myQuery = new Query(Criteria.where("well_num").is(wellNum)
+//				.and("device_time").is(index));
+//
+//		WellData wellData = mongoTemplate.findOne(
+//				CollectionConstants.getWellDataCollection(wellNum, startCalendar),
+//				myQuery, WellData.class);
+//	}
 
 }
