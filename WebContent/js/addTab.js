@@ -70,7 +70,19 @@ function addTab(title) {
 			$('#index_tabs').tabs('select','时间段产量查询');
 		}
 		
-	}else if(title == '示功图电功图对比') {
+	} else if(title == '分离器对比') {
+		var tab = $('#index_tabs').tabs('getTab','分离器对比');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '分离器对比',
+			href : 'oil_product/flq_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','分离器对比');
+		}
+		
+	} else if(title == '示功图电功图对比') {
 		var tab = $('#index_tabs').tabs('getTab','示功图电功图对比');
 		if(typeof(tab) == 'undefined' || tab == null) {
 			$('#index_tabs').tabs('add', {
@@ -134,7 +146,7 @@ function addTab(title) {
 		if(typeof(tab) == 'undefined' || tab == null) {
 			$('#index_tabs').tabs('add', {
 			title : '井矿诊断',
-			href : 'sys/gzzd.htm',
+			href : 'sys/gzzd_query.htm',
 			closable : true
 			});
 		} else {
@@ -187,6 +199,18 @@ function addTab(title) {
 			});
 		} else {
 			$('#index_tabs').tabs('select','电力数据查询');
+		}
+		
+	} else if(title == 'DTU状态') {
+		var tab = $('#index_tabs').tabs('getTab','DTU状态');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : 'DTU状态',
+			href : 'dtu/elec_data_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','DTU状态');
 		}
 		
 	}

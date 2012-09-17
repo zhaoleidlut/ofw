@@ -1,0 +1,65 @@
+<div id="dtu_status_query" class="easyui-layout" fit="true">
+	<div region="center" icon="icon-reload">
+		<div id="dtu_status_grid"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		$('#dtu_status_grid').datagrid({
+			//title : '电力数据',
+			//iconCls : 'icon-save',
+			autoRowHeight : true,
+			nowrap : true,
+			//striped: true,
+			collapsible : true,
+			url : 'getDTUStatus.html',
+			//sortName : 'time',
+			remoteSort : false,
+			//sortName : '123',
+			//sortOrder : '456',
+			//queryParams : {wellNum:wellNum},
+
+			columns : [ [ {
+				field : 'wellNum',
+				title : '井号',
+				width : 100,
+				sortable : true
+			}, {
+				field : 'dtuNum',
+				title : 'DTU号',
+				width : 100,
+				sortable : true
+			}, {
+				field : 'connStatus',
+				title : '连接状态',
+				width : 100
+			}, {
+				field : 'commStatus',
+				title : '通讯状态',
+				width : 100
+			}, {
+				field : 'heartBeatTime',
+				title : '上次心跳时间',
+				width : 180
+			} ] ],
+			//pageSize : 10,
+			//pageList : [ 10, 20, 30, 40, 50 ],
+			//pagination : true,
+			rownumbers : true,
+			onLoadSuccess : function(data) {
+				if(data.conn == 'no') {
+					$.messager.alert("错误", "连接不到远端WebService，获取数据失败！", "warning");
+				}
+			},
+			toolbar : [ {
+				id : 'dtu-refresh',
+				text : '刷新',
+				iconCls : 'icon-reload',
+				handler : function() {
+					$('#dtu_status_grid').datagrid('reload', {});
+				}
+			} ]
+		});
+
+	});
+</script>

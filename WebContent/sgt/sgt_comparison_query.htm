@@ -151,7 +151,7 @@
 					async : false,
 					url : url,
 					type : 'post',
-					cache : true,
+					cache : false,
 					dataType : 'json',
 					data : 'wellNum=' + wellNum + '&date=' + comparison_date
 					+ '&time=' + comparison_time,
@@ -162,7 +162,7 @@
 								async : false,
 								url : 'getSGTPlotData.html',
 								type : 'post',
-								cache : true,
+								cache : false,
 								dataType : 'json',
 								data : 'wellNum=' + wellNum,
 								success : function(data) {
@@ -233,7 +233,7 @@
 					rendererOptions : {
 						smooth : true
 					},
-					lineWidth : 2,
+					lineWidth : 1,
 					showMarker : false
 				},
 				series : [ {
@@ -246,14 +246,16 @@
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
 						tickOptions : {
 							formatString : '%0.2f'
-						}
+						},
+						min : 0
 					},
 					yaxis : {
 						label : "载荷（千牛）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
 						tickOptions : {
 							formatString : '%0.1f'
-						}
+						},
+						ticks : ['10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
 					}
 				},
 				
@@ -322,7 +324,7 @@
 
 			$(timeSelected).appendTo(myDiv);
 			
-			myDiv.find('input[name=time_]').numberspinner({  
+			myDiv.find('input[name=time_]').numberspinner({
 			    min:0,
 			    max:23
 			});

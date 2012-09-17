@@ -39,11 +39,10 @@ public class CollectionConstants {
 	
 	public static final String ELEC_DATA = "ElecData";
 	
-	public static String getWellDataCollection(String wellNum, Calendar c) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyMM");
-		String time = sdf.format(c.getTime());
-		return CollectionConstants.WELL_DATA + "_" + wellNum + "_"
-		+ time;
+	public static final String GZZD_HISTORY = "GzzdHistory";
+	
+	public static String getWellDataCollection(String wellNum) {
+		return CollectionConstants.WELL_DATA + "_" + wellNum;// + "_1206";
 	}
 
 }

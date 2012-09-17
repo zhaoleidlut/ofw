@@ -2,20 +2,9 @@
 	src="js/addTab.js"></script>
 
 <div class="easyui-accordion" fit="true">
-	<div title="电量数据查询" 
-		style="overflow: auto; padding: 10px;" selected="true" iconCls="icon-i_gzzd">
-		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('电能数据查询')">电能数据查询</a>
-		</p>
-		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('电力数据查询')">电力数据查询</a>
-		</p>
-		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd">电能数据统计</a>
-		</p>
-	</div>
+	
 	<div title="示功图查询" 
-		style="overflow: auto; padding: 10px;"  iconCls="icon-i_dgt_query">
+		style="overflow: auto; padding: 10px;"  selected="true" iconCls="icon-i_dgt_query">
 
 		<p>
 			<a href="#" class="easyui-linkbutton" iconCls="icon-search"	onclick="addTab('实时示功图查询')">实时示功图查询</a>
@@ -61,8 +50,11 @@
 		<p>
 			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('日产量查询')">日产量查询</a>
 		</p>
-		<p>
+		<!--<p>
 			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('时间段产量查询')">时间段产量</a>
+		</p>-->
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('分离器对比')">分离器对比</a>
 		</p>
 	</div>
 	
@@ -80,10 +72,26 @@
 	<div title="井矿故障诊断" 
 		style="overflow: auto; padding: 10px;" iconCls="icon-i_gzzd">
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('井矿诊断')">示功图井矿诊断</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" >实时自动诊断</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd">电功图井矿诊断</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('井矿诊断')">历史手动诊断</a>
+		</p>
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd">诊断历史记录</a>
+		</p>
+	</div>
+	
+	<div title="电量数据查询" 
+		style="overflow: auto; padding: 10px;" iconCls="icon-i_gzzd">
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('电能数据查询')">电能数据查询</a>
+		</p>
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('电力数据查询')">电力数据查询</a>
+		</p>
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd">电能数据统计</a>
 		</p>
 	</div>
 	
@@ -91,7 +99,7 @@
 	<div title="系统运行状态" 
 		style="overflow: auto; padding: 10px;" iconCls="icon-i_sys_status">
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-search">DTU状态</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('DTU状态')">DTU状态</a>
 		</p>
 	</div>
 	

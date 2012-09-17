@@ -4,6 +4,7 @@
 		<h2>Layout in Panel</h2>
 	</div> -->
 	<div region="center" icon="icon-reload">
+		<div id='month_statistics_time' style="height: 35px; background: #fafafa;"></div>
 		<div id='product_month_pannel' class="easyui-panel" fit="true">
 
 		</div>
@@ -38,7 +39,7 @@
 		myTree.tree({
 			data : treeData,
 			animate : true,
-			//checkbox : true,
+			checkbox : true,
 			onClick : function(node) {
 				if (typeof (node.attributes) != 'undefined'
 						&& typeof (node.attributes.iswell) != 'undefined'
@@ -48,6 +49,19 @@
 				}
 			}
 		});
+		
+		
+		//统计时间选择
+		var myTimeSelected = '<table style="font-size:14px;color:blue;position: relative;left: 10px;">'
+				+ '<tr>'
+				+ '<td>统计时间选择：</td>'
+				+ '<td><input name="date"></input></td>'
+				+ '<td><input name="time" style="width:35px;" required="true" class="easyui-numberspinner" min="0" max="23" value='+h+'></input>点</td>'
+				+ '<td><input name="button" value="查询" type="button"></td>'
+				+ '</tr>' + '</table>';
+
+		var myPanel = $('#product_month').find('#month_statistics_time');
+		var jq_myTimeSelected = $(myTimeSelected).appendTo(myPanel);
 		
 	
 

@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.htong.alg.DFT;
 import com.htong.alg.LvBo;
+import com.htong.alg.MyLvBo;
 import com.htong.alg.SGTDataComputerProcess;
 import com.htong.domain.WellData;
 import com.htong.domain.WellModel;
@@ -65,20 +67,11 @@ public class WellDataController {
 		} else {
 			map.put("zero", "no");
 		}
+		
+		
+		MyLvBo.myLvBo(wellData.getWeiyi(), wellData.getZaihe());
 
-		LvBo.lvBo(wellData.getWeiyi(), wellData.getZaihe());
-
-		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
-		JSONArray zaihe = JSONArray.fromObject(wellData.getZaihe());
-
-		for (int i = 0; i < weiyi.size(); i++) {
-			JSONArray json = new JSONArray();
-			json.add(weiyi.get(i));
-			json.add(zaihe.get(i));
-
-			jsonArray.add(json);
-		}
-		jsonArrayResult.add(jsonArray);
+		
 
 		float chongChengTime = wellData.getChong_cheng_time();
 
@@ -90,6 +83,18 @@ public class WellDataController {
 				Float.valueOf(wellModel.getBengjing()),
 				Float.valueOf(wellModel.getOilDensity()),
 				Float.valueOf(wellModel.getHanshui()));
+		
+		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
+		JSONArray zaihe = JSONArray.fromObject(wellData.getZaihe());
+
+		for (int i = 0; i < weiyi.size(); i++) {
+			JSONArray json = new JSONArray();
+			json.add(weiyi.get(i));
+			json.add(zaihe.get(i));
+
+			jsonArray.add(json);
+		}
+		jsonArrayResult.add(jsonArray);
 
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String time = sdf.format(wellData.getDevice_time()); // 数据时间
@@ -107,6 +112,12 @@ public class WellDataController {
 
 		float maxZaihe = (Float) result.get("maxZaihe");
 		String maxZaiHe = String.valueOf(maxZaihe); // 最大载荷
+		
+		Float f = (Float) result.get("liquidProduct");
+		map.put("cyl", f);
+		
+		Float yxcc = (Float)result.get("youxiaochongcheng");
+		map.put("yxcc", yxcc);
 
 		// 位移 载荷
 		map.put("data", jsonArrayResult);
@@ -116,9 +127,6 @@ public class WellDataController {
 		map.put("chongci", chongCi);
 		map.put("minzaihe", minZaiHe);
 		map.put("maxzaihe", maxZaiHe);
-		
-		
-		
 
 		return map;
 	}
@@ -165,19 +173,9 @@ public class WellDataController {
 			map.put("hasDGTData", "yes");
 		}
 
-		LvBo.lvBo(wellData.getWeiyi(), wellData.getDgt());
+		MyLvBo.myLvBo(wellData.getWeiyi(), wellData.getDgt());
 
-		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
-		JSONArray zaihe = JSONArray.fromObject(wellData.getDgt());
-
-		for (int i = 0; i < weiyi.size(); i++) {
-			JSONArray json = new JSONArray();
-			json.add(weiyi.get(i));
-			json.add(zaihe.get(i));
-
-			jsonArray.add(json);
-		}
-		jsonArrayResult.add(jsonArray);
+		
 
 		float chongChengTime = wellData.getChong_cheng_time();
 
@@ -189,6 +187,18 @@ public class WellDataController {
 				Float.valueOf(wellModel.getBengjing()),
 				Float.valueOf(wellModel.getOilDensity()),
 				Float.valueOf(wellModel.getHanshui()));
+		
+		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
+		JSONArray zaihe = JSONArray.fromObject(wellData.getDgt());
+
+		for (int i = 0; i < weiyi.size(); i++) {
+			JSONArray json = new JSONArray();
+			json.add(weiyi.get(i));
+			json.add(zaihe.get(i));
+
+			jsonArray.add(json);
+		}
+		jsonArrayResult.add(jsonArray);
 
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String time = sdf.format(wellData.getDevice_time()); // 数据时间
@@ -276,19 +286,9 @@ public class WellDataController {
 		JSONArray jsonArrayResult = new JSONArray(); // 最终的数组
 		JSONArray jsonArray = new JSONArray();
 
-		LvBo.lvBo(wellData.getWeiyi(), wellData.getZaihe());
+		MyLvBo.myLvBo(wellData.getWeiyi(), wellData.getZaihe());
 
-		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
-		JSONArray zaihe = JSONArray.fromObject(wellData.getZaihe());
-		log.debug(weiyi.size());
-		for (int i = 0; i < weiyi.size(); i++) {
-			JSONArray json = new JSONArray();
-			json.add(weiyi.get(i));
-			json.add(zaihe.get(i));
-
-			jsonArray.add(json);
-		}
-		jsonArrayResult.add(jsonArray);
+		
 
 		float chongChengTime = wellData.getChong_cheng_time();
 
@@ -300,6 +300,18 @@ public class WellDataController {
 				Float.valueOf(wellModel.getBengjing()),
 				Float.valueOf(wellModel.getOilDensity()),
 				Float.valueOf(wellModel.getHanshui()));
+		
+		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
+		JSONArray zaihe = JSONArray.fromObject(wellData.getZaihe());
+//		log.debug(weiyi.size());
+		for (int i = 0; i < weiyi.size(); i++) {
+			JSONArray json = new JSONArray();
+			json.add(weiyi.get(i));
+			json.add(zaihe.get(i));
+
+			jsonArray.add(json);
+		}
+		jsonArrayResult.add(jsonArray);
 
 		String datetime = sdf.format(wellData.getDevice_time()); // 数据时间
 
@@ -316,6 +328,14 @@ public class WellDataController {
 
 		float maxZaihe = (Float) result.get("maxZaihe");
 		String maxZaiHe = String.valueOf(maxZaihe); // 最大载荷
+		
+		Float f = (Float) result.get("liquidProduct");
+		map.put("cyl", f);
+		
+		
+		
+		Float yxcc = (Float)result.get("youxiaochongcheng");
+		map.put("yxcc", yxcc);
 
 		// 位移 载荷
 		map.put("data", jsonArrayResult);
@@ -392,19 +412,9 @@ public class WellDataController {
 		JSONArray jsonArrayResult = new JSONArray(); // 最终的数组
 		JSONArray jsonArray = new JSONArray();
 
-		LvBo.lvBo(wellData.getWeiyi(), wellData.getDgt());
+		MyLvBo.myLvBo(wellData.getWeiyi(), wellData.getDgt());
 
-		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
-		JSONArray zaihe = JSONArray.fromObject(wellData.getDgt());
-		log.debug(weiyi.size());
-		for (int i = 0; i < weiyi.size(); i++) {
-			JSONArray json = new JSONArray();
-			json.add(weiyi.get(i));
-			json.add(zaihe.get(i));
-
-			jsonArray.add(json);
-		}
-		jsonArrayResult.add(jsonArray);
+		
 
 		float chongChengTime = wellData.getChong_cheng_time();
 
@@ -416,6 +426,18 @@ public class WellDataController {
 				Float.valueOf(wellModel.getBengjing()),
 				Float.valueOf(wellModel.getOilDensity()),
 				Float.valueOf(wellModel.getHanshui()));
+		
+		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
+		JSONArray zaihe = JSONArray.fromObject(wellData.getDgt());
+		log.debug(weiyi.size());
+		for (int i = 0; i < weiyi.size(); i++) {
+			JSONArray json = new JSONArray();
+			json.add(weiyi.get(i));
+			json.add(zaihe.get(i));
+
+			jsonArray.add(json);
+		}
+		jsonArrayResult.add(jsonArray);
 
 		String datetime = sdf.format(wellData.getDevice_time()); // 数据时间
 

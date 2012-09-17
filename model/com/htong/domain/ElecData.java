@@ -1,6 +1,9 @@
 package com.htong.domain;
 
+import java.text.DecimalFormat;
 import java.util.Date;
+
+import com.htong.util.DecimalFormatUtil;
 
 /**
  * 电量数据
@@ -61,157 +64,157 @@ public class ElecData {
 		this.save_time = save_time;
 	}
 	public float getUa() {
-		return ua;
+		return DecimalFormatUtil.floatToFloat(ua, 2);
 	}
 	public void setUa(float ua) {
 		this.ua = ua;
 	}
 	public float getUb() {
-		return ub;
+		return DecimalFormatUtil.floatToFloat(ub, 2);
 	}
 	public void setUb(float ub) {
 		this.ub = ub;
 	}
 	public float getUc() {
-		return uc;
+		return DecimalFormatUtil.floatToFloat(uc, 2);
 	}
 	public void setUc(float uc) {
 		this.uc = uc;
 	}
 	public float getIa() {
-		return ia;
+		return DecimalFormatUtil.floatToFloat(ia, 2);
 	}
 	public void setIa(float ia) {
 		this.ia = ia;
 	}
 	public float getIb() {
-		return ib;
+		return DecimalFormatUtil.floatToFloat(ib, 2);
 	}
 	public void setIb(float ib) {
 		this.ib = ib;
 	}
 	public float getIc() {
-		return ic;
+		return DecimalFormatUtil.floatToFloat(ic, 2);
 	}
 	public void setIc(float ic) {
 		this.ic = ic;
 	}
 	public float getShygglZ() {
-		return shygglZ;
+		return DecimalFormatUtil.floatToFloat(shygglZ, 2);
 	}
 	public void setShygglZ(float shygglZ) {
 		this.shygglZ = shygglZ;
 	}
 	public float getShygglA() {
-		return shygglA;
+		return DecimalFormatUtil.floatToFloat(shygglA, 2);
 	}
 	public void setShygglA(float shygglA) {
 		this.shygglA = shygglA;
 	}
 	public float getShygglB() {
-		return shygglB;
+		return DecimalFormatUtil.floatToFloat(shygglB, 2);
 	}
 	public void setShygglB(float shygglB) {
 		this.shygglB = shygglB;
 	}
 	public float getShygglC() {
-		return shygglC;
+		return DecimalFormatUtil.floatToFloat(shygglC, 2);
 	}
 	public void setShygglC(float shygglC) {
 		this.shygglC = shygglC;
 	}
 	public float getShwgglZ() {
-		return shwgglZ;
+		return DecimalFormatUtil.floatToFloat(shwgglZ, 2);
 	}
 	public void setShwgglZ(float shwgglZ) {
 		this.shwgglZ = shwgglZ;
 	}
 	public float getShwgglA() {
-		return shwgglA;
+		return DecimalFormatUtil.floatToFloat(shwgglA, 2);
 	}
 	public void setShwgglA(float shwgglA) {
 		this.shwgglA = shwgglA;
 	}
 	public float getShwgglB() {
-		return shwgglB;
+		return DecimalFormatUtil.floatToFloat(shwgglB, 2);
 	}
 	public void setShwgglB(float shwgglB) {
 		this.shwgglB = shwgglB;
 	}
 	public float getShwgglC() {
-		return shwgglC;
+		return DecimalFormatUtil.floatToFloat(shwgglC, 2);
 	}
 	public void setShwgglC(float shwgglC) {
 		this.shwgglC = shwgglC;
 	}
 	public float getGlysZ() {
-		return glysZ;
+		return DecimalFormatUtil.floatToFloat(glysZ, 2);
 	}
 	public void setGlysZ(float glysZ) {
 		this.glysZ = glysZ;
 	}
 	public float getGlysA() {
-		return glysA;
+		return DecimalFormatUtil.floatToFloat(glysA, 2);
 	}
 	public void setGlysA(float glysA) {
 		this.glysA = glysA;
 	}
 	public float getGlysB() {
-		return glysB;
+		return DecimalFormatUtil.floatToFloat(glysB, 2);
 	}
 	public void setGlysB(float glysB) {
 		this.glysB = glysB;
 	}
 	public float getGlysC() {
-		return glysC;
+		return DecimalFormatUtil.floatToFloat(glysC, 2);
 	}
 	public void setGlysC(float glysC) {
 		this.glysC = glysC;
 	}
 	public float getPinlv() {
-		return pinlv;
+		return DecimalFormatUtil.floatToFloat(pinlv, 2);
 	}
 	public void setPinlv(float pinlv) {
 		this.pinlv = pinlv;
 	}
 	public float getLxdl() {
-		return lxdl;
+		return DecimalFormatUtil.floatToFloat(lxdl, 2);
 	}
 	public void setLxdl(float lxdl) {
 		this.lxdl = lxdl;
 	}
 	public float getLxdy() {
-		return lxdy;
+		return DecimalFormatUtil.floatToFloat(lxdy, 2);
 	}
 	public void setLxdy(float lxdy) {
 		this.lxdy = lxdy;
 	}
 	public float getDlbphd() {
-		return dlbphd;
+		return DecimalFormatUtil.floatToFloat(dlbphd, 2);
 	}
 	public void setDlbphd(float dlbphd) {
 		this.dlbphd = dlbphd;
 	}
 	public float getDybphd() {
-		return dybphd;
+		return DecimalFormatUtil.floatToFloat(dybphd, 2);
 	}
 	public void setDybphd(float dybphd) {
 		this.dybphd = dybphd;
 	}
 	public float getUab() {
-		return uab;
+		return DecimalFormatUtil.floatToFloat(uab, 2);
 	}
 	public void setUab(float uab) {
 		this.uab = uab;
 	}
 	public float getUbc() {
-		return ubc;
+		return DecimalFormatUtil.floatToFloat(ubc, 2);
 	}
 	public void setUbc(float ubc) {
 		this.ubc = ubc;
 	}
 	public float getUca() {
-		return uca;
+		return DecimalFormatUtil.floatToFloat(uca, 2);
 	}
 	public void setUca(float uca) {
 		this.uca = uca;

@@ -1,0 +1,55 @@
+<div id="flq_product_query" class="easyui-layout" fit="true">
+	<!--  <div region="north"
+		style="overflow:hidden;height: 60px; padding: 10px">
+		<h2>Layout in Panel</h2>
+	</div> -->
+	<div region="center" icon="icon-reload" title="分离器与功图量油对比" split="true">
+		<div id='flq_product' class="easyui-tabs"></div>
+	</div>
+	<div region="west" title="油井选择" split="true" style="width: 200px;">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var westRegion = $('#flq_product_query>div[region=west]');
+		
+		var myTree = $('<div></div>').appendTo(westRegion);
+		
+		var myTabs = $('#flq_product');
+		
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [data];
+			}
+		});
+		
+		myTree.tree({
+			data : treeData,
+			animate : true,
+			onClick : function(node) {
+				if (typeof (node.attributes) != 'undefined'
+						&& typeof (node.attributes.iswell) != 'undefined'
+						&& node.attributes.iswell) {
+					if (myTabs.tabs('getTab', node.text + '示功图量油') == null) {
+						myTabs.tabs('add', {
+							title : node.text + "示功图量油",
+							//id : node.text + "示功图",
+							closable : true,							
+							href : 'oil_product/flq.htm'
+						});
+					} else {
+						myTabs.tabs('select', node.text + '示功图量油');
+					}
+				}
+			}
+
+		});
+	});
+
+</script>

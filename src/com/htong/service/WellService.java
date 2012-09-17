@@ -85,6 +85,22 @@ public class WellService {
 	 */
 	public WellModel getWellByNum(String wellNum) {
 		return wellModelDao.getWellByNum(wellNum);
-		
+	}
+	
+	/**
+	 * 通过DTU号获得井号
+	 * @param dtuNum
+	 * @return
+	 */
+	public WellModel getWellByDtuNum(String dtuNum) {
+		return wellModelDao.getWellByDtuNum(dtuNum);
+	}
+	
+	/**
+	 * 获得所有井
+	 * @return
+	 */
+	public List<WellModel> getAllWells() {
+		return wellModelDao.getAllWells();
 	}
 }

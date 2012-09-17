@@ -25,6 +25,12 @@ public class WellModelDao {
 		List<WellModel> wellList = mongoTemplate.find(CollectionConstants.WELL_COLLECTION_NAME, query, WellModel.class);
 		return wellList;
 	}
+	
+	public List<WellModel> getAllWells() {
+		Query query = new Query(Criteria.where("num").exists(true));
+		List<WellModel> wellList = mongoTemplate.find(CollectionConstants.WELL_COLLECTION_NAME, query, WellModel.class);
+		return wellList;
+	}
 	/**
 	 * 通过井号获得井
 	 * @param wellNum
@@ -32,6 +38,18 @@ public class WellModelDao {
 	 */
 	public WellModel getWellByNum(String wellNum) {
 		Query query = new Query(Criteria.where("num").is(wellNum));
+		System.out.println(wellNum);
+		WellModel well = mongoTemplate.findOne(CollectionConstants.WELL_COLLECTION_NAME, query, WellModel.class);
+		return well;
+	}
+	
+	/**
+	 * 通过dtu号获得井
+	 * @param dtuNum
+	 * @return
+	 */
+	public WellModel getWellByDtuNum(String dtuNum) {
+		Query query = new Query(Criteria.where("dtuId").is(dtuNum));
 		WellModel well = mongoTemplate.findOne(CollectionConstants.WELL_COLLECTION_NAME, query, WellModel.class);
 		return well;
 	}

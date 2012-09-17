@@ -21,8 +21,15 @@ $(function() {
 
 						$('#center_region').attr("title",
 								jsonData.username + "  欢迎使用本系统！");
+								
+						setInterval(function() {
+							alert('hello world');
+						}, 1000*600);
 
 						$('body').layout();
+						
+						
+						
 					} else {
 						$.messager.alert('信息', "用户名或密码错误！", 'info');
 						$('#login').find('[name=password]').val('');
@@ -30,6 +37,8 @@ $(function() {
 					}
 				}
 		});
+		
+		
 		
 		//var user = '<%=session.getAttribute("user")%>';
 		//alert(user);
@@ -45,6 +54,10 @@ $(function() {
 			$('#south_region').show();
 
 			$('#center_region').attr("title", user + "  欢迎使用本系统！");
+			
+			setInterval(function() {
+				alert('hello world111111');
+			}, 1000*600);
 
 			$('body').layout();
 		}

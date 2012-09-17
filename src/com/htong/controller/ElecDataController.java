@@ -37,7 +37,7 @@ public class ElecDataController {
 			int end = (len - page*rows)>0?(page*rows):len;
 			System.out.println("起始点：" + start);
 			System.out.println("结束点：" + end);
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			for(;start<end;start++) {
 				ElecData elecData = elecDataList.get(start);
 				String time = sdf.format(elecData.getSave_time());

@@ -1,0 +1,57 @@
+<div id="gzzd_query" class="easyui-layout" fit="true">
+	<!--  <div region="north"
+		style="overflow:hidden;height: 60px; padding: 10px">
+		<h2>Layout in Panel</h2>
+	</div> -->
+	<div region="center" icon="icon-reload">
+		<div id='gzzd_query_tabs' class="easyui-tabs">
+		</div>
+	</div>
+	<div region="west" title="油井选择" split="true" style="width: 200px;">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var westRegion = $('#gzzd_query>div[region=west]');
+
+		var myTree = $('<div></div>').appendTo(westRegion);
+		
+		var myTabs = $('#gzzd_query_tabs');
+
+		var treeData;
+		$.ajax({
+			async : false,
+			url : 'getWellTreeInfo.html',
+			type : 'post',
+			cache : true,
+			dataType : 'json',
+			success : function(data) {
+				treeData = [ data ];
+			}
+		});
+
+		myTree.tree({
+			data : treeData,
+			animate : true,
+			//checkbox : true,
+			onClick : function(node) {
+				if (typeof (node.attributes) != 'undefined'
+						&& typeof (node.attributes.iswell) != 'undefined'
+						&& node.attributes.iswell) {
+					
+					if (myTabs.tabs('getTab', node.text + '故障诊断') == null) {
+						myTabs.tabs('add', {
+							title : node.text + "故障诊断",
+							//id : node.text + "示功图",
+							closable : true,							
+							href : 'sys/gzzd.htm'
+						});
+					} else {
+						myTabs.tabs('select', node.text + '故障诊断');
+					}
+				}
+			}
+		});
+
+	});
+</script>

@@ -1,0 +1,216 @@
+<script class="code" type="text/javascript">
+	$(function() {
+		var tab = $('#flq_product').tabs('getSelected');
+		var id = tab.panel('options').title + 'flq';
+		$(
+				'<div style="height:250px;width:350px;position: relative;left: 170px;" id='+id+'></div>')
+				.appendTo(tab);
+
+		var wellNum = id.substring(0, id.length - 8);
+
+		var chongcheng = '';
+		var chongci = '';
+		var minZaihe = '';
+		var maxZaihe = '';
+		var time = '';
+		var yxcc = '';
+		var llcyl = '';
+		var cyl = '';
+		var zhc = '';
+
+		
+
+		var options = {
+			title : wellNum + '示功图',
+			seriesDefaults : {
+				showLine : true,
+				rendererOptions : {
+					smooth : true
+				},
+				lineWidth : 1,
+				showMarker : false
+			},
+			series : [ {
+				color : '#A020F0'
+			} ],
+			sortData : false,
+			axes : {
+				xaxis : {
+					label : "位移（米）",
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					tickOptions : {
+						formatString : '%0.2f'
+					},
+					min:0,
+					pad:1.2
+					//ticks : ['0.00', '1.00', '2.00', '3.00', '4.00', '5.00', '6.00']
+				},
+				yaxis : {
+					label : "载荷（千牛）",
+					labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+					tickOptions : {
+						formatString : '%0.1f'
+					},
+				
+					ticks : ['10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
+				}
+			},
+			highlighter : {
+				show : true
+			},
+			cursor : {
+				//show : true,
+				//zoom : true
+			}
+		};
+		
+		//var jsonurl = 'getDayProductByHourGT.html';
+		var plot = $.jqplot(id, [[[]]], options);
+
+		var myDiv = $('<div style="height:200px;width:800px"></div>').appendTo(
+				tab);
+		var str = '<table style="font-size:15px;color:blue;position: relative;left: 55px;">'
+				+ '<tr>'
+				+ '<td align="right">冲程（米）：</td>'
+				+ '<td name="_chongcheng">'
+				+ chongcheng
+				+ '</td>'
+				+ '<td align="right">冲次    ：</td>'
+				+ '<td name="_chongci">'
+				+ chongci
+				+ '</td>'
+				+ '</tr>'
+				+ '<tr>'
+				+ '<td align="right">最小载荷（KN）：</td>'
+				+ '<td width="70px" name="_minZaihe">'
+				+ minZaihe
+				+ '</td>'
+				+ '<td align="right">最大载荷（KN）：</td>'
+				+ '<td name="_maxZaihe">'
+				+ maxZaihe
+				+ '</td>'
+				+ '</tr>'
+				+ '<tr height="2px"></tr>'
+				+ '<tr>'
+				+ '<td align="right">数据时间    ：</td>'
+				+ '<td colspan="2" name="_time">'
+				+ time
+				+ '</td>'
+				+ '</tr>'
+				
+				+ '<tr>'
+				+ '<td align="right">有效冲程   ：</td>'
+				+ '<td colspan="2" name="_yxcc">'
+				+ yxcc
+				+ '</td>'
+				+ '</tr>'
+				
+				+ '<tr>'
+				+ '<td align="right">载荷差   ：</td>'
+				+ '<td colspan="2" name="_zhc">'
+				+ zhc
+				+ '</td>'
+				+ '</tr>'
+				
+				+ '<tr>'
+				+ '<td align="right">当前小时估算全天理论产液量   ：</td>'
+				+ '<td colspan="2" name="_llcyl">'
+				+ llcyl
+				+ '</td>'
+				+ '</tr>'
+				
+				+ '<tr>'
+				+ '<td align="right">当前小时估算全天产液量   ：</td>'
+				+ '<td colspan="2" name="_cyl">'
+				+ cyl
+				+ '</td>'
+				+ '</tr>'
+				
+				+ '</table>';
+
+		$(str).appendTo(myDiv);
+		
+		var date = new Date();
+		y = date.getFullYear();
+		m = date.getMonth() + 1;
+		d = date.getDate();
+		h = date.getHours();
+		var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+				+ (d < 10 ? ("0" + d) : d);
+
+		var timeSelected = '<table style="font-size:15px;color:blue;position: relative;left: 240px;">'
+				+ '<tr height="2px"></tr>'
+				+ '<tr>'
+				+ '<td align="right"><input name="date"></input></td>'
+				+ '<td style="padding:15px"><input name="time" style="width:35px;" required="true" class="easyui-numberspinner" min="0" max="23" value='+h+'></input>点</td>'
+				+ '<td align="right"><input name="button" value="查询" type="button"></td>'
+				+ '</tr>' + '</table>';
+
+		$(timeSelected).appendTo(myDiv);
+
+		
+
+		tab.find('input[name=date]').datebox(
+				{
+					required : true,
+					value : currentTime,
+					formatter : function(date) {
+						y = date.getFullYear();
+						m = date.getMonth() + 1;
+						d = date.getDate();
+						return y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+								+ (d < 10 ? ("0" + d) : d);
+					}
+				});
+
+		tab.find('input[name=button]').click(
+				function() {
+					var date = tab.find('input[name=date]').val();
+					var time = tab.find('input[name=time]').val();
+
+					$.ajax({
+						async : false,
+						url : 'getDayProductByHourGT.html',
+						type : 'post',
+						cache : true,
+						dataType : 'json',
+						data : 'wellNum=' + wellNum + '&date=' + date
+								+ '&time=' + time,
+						success : function(data) {
+							if (data.hasData == 'no') {
+								$.messager.alert("错误", Message_NO_Data_Hour, "warning");
+							} else if (data.hasData == 'yes') {
+								if(data.zero == 'yes') {
+									$.messager.alert("错误", Message_Zero_Data_Hour, "warning");
+
+								} else {
+									
+									idata = data.data;
+									chongcheng = data.chongcheng;
+									chongci = data.chongci;
+									minZaihe = data.minzaihe;
+									maxZaihe = data.maxzaihe;
+									time = data.time;
+
+									tab.find('td[name=_time]').text(time);
+									tab.find('td[name=_chongcheng]').text(
+											chongcheng);
+									tab.find('td[name=_chongci]').text(chongci);
+									tab.find('td[name=_minZaihe]').text(minZaihe);
+									tab.find('td[name=_maxZaihe]').text(maxZaihe);
+									
+									tab.find('td[name=_yxcc]').text(data.yxcc);
+									tab.find('td[name=_zhc]').text(data.zhc);
+									tab.find('td[name=_llcyl]').text(data.llcyl);
+									tab.find('td[name=_cyl]').text(data.cyl);
+
+									$.jqplot(id, idata, options).replot();
+								}
+								
+								
+							}
+						}
+					});
+				});
+	});
+</script>

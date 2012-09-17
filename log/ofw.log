@@ -1,0 +1,2265 @@
+2012-09-10 09:03:26,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 09:03:26,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:03:26,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.84165
+2012-09-10 09:03:26,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：25.198954
+2012-09-10 09:03:26,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：49
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：128.24649
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.14602904 Y:0.8909217
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:0.9709649 Y:0.87888956
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.6899999
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.005408498 Y:0.0035333112
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.776306
+2012-09-10 09:03:26,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：39.165134
+2012-09-10 09:09:45,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 09:09:45,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:09:45,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.84165
+2012-09-10 09:09:45,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：25.198954
+2012-09-10 09:09:45,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：49
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：128.24649
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.513 Y:88.92881
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.4109998 Y:88.22321
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.6899999
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.019000053 Y:36.889957
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.776306
+2012-09-10 09:09:45,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：39.165134
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.84165
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：25.198954
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：49
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：128.24649
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.513 Y:77.44501
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.4109998 Y:76.73941
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.6899999
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.019000053 Y:25.406157
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.776306
+2012-09-10 09:20:18,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：39.165134
+2012-09-10 09:22:19,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 09:22:19,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:22:19,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.84165
+2012-09-10 09:22:19,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：25.198954
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：49
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：128.24649
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.513 Y:77.44501
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.4109998 Y:76.73941
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.6899999
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.019000053 Y:33.145023
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.776306
+2012-09-10 09:22:19,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：39.165134
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:23:43,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:23:43,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:23:43,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:23:43,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:23:43,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：52.57701
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:29:34,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：52.57701
+2012-09-10 09:31:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:31:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:31:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:31:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:31:04,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：52.57701
+2012-09-10 09:32:36,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:32:36,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:32:36,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:32:36,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:32:36,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：52.57701
+2012-09-10 09:35:30,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:35:30,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:35:30,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:35:30,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:35:30,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：53.323254
+2012-09-10 09:39:04,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:39:04,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:39:04,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:39:04,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:39:04,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:39:04,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：53.323254
+2012-09-10 09:40:15,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:40:15,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:40:15,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:40:15,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:40:15,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：53.323254
+2012-09-10 09:42:14,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:42:14,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:42:14,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:42:14,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:42:14,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：53.323254
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:43:36,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：53.323254
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:44:09,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:44:09,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:44:09,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.114746
+2012-09-10 09:45:12,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:45:12,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:45:12,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.114746
+2012-09-10 09:58:57,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 09:58:57,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 09:58:57,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.506 Y:65.24453
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.2400002 Y:75.60028
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.0 Y:37.62767
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：73.94162
+2012-09-10 09:58:57,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.114746
+2012-09-10 10:00:41,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-10 10:00:41,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 10:00:41,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：81.94985
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：23.172602
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：38
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：130.11249
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.753 Y:80.85494
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.513 Y:73.03187
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.3729999
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：1.3729999 Y:23.25714
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.031999975 Y:31.478197
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.41953
+2012-09-10 10:00:41,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：27.51908
+2012-09-10 10:12:04,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:36.59468
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:3.513 Y:74.50213
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：81.94985
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：23.172602
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：38
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：130.11249
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.753 Y:80.85494
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.513 Y:73.03187
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.3729999
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：1.3729999 Y:23.25714
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.031999975 Y:31.478197
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.41953
+2012-09-10 10:12:04,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：27.51908
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:36.59468
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:3.513 Y:74.50213
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：81.94985
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：23.172602
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：38
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：130.11249
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.753 Y:80.85494
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.513 Y:73.03187
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.031999975
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.031999975 Y:31.478197
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.031999975 Y:31.478197
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.41953
+2012-09-10 10:20:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：31.478197
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:36.59468
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:3.513 Y:74.50213
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：81.94985
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：23.172602
+2012-09-10 10:20:38,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：38
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：130.11249
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.753 Y:80.85494
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右上点 X:3.513 Y:73.03187
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.892
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：1.892 Y:29.31061
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左下点为 X：0.031999975 Y:31.478197
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.41953
+2012-09-10 10:20:38,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：27.30593
+2012-09-10 10:50:16,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-10 10:50:16,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 10:50:16,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:36.59468
+2012-09-10 10:50:16,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:3.513 Y:74.50213
+2012-09-10 10:50:16,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：81.94985
+2012-09-10 10:50:16,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：23.172602
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：38
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：130.11249
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.753 Y:80.85494
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.892
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：1.892 Y:29.31061
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.82738
+2012-09-10 10:50:16,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：28.145872
+2012-09-10 10:53:22,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-10 10:53:22,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 10:53:22,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:36.59468
+2012-09-10 10:53:22,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:3.513 Y:74.50213
+2012-09-10 10:53:22,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：81.94985
+2012-09-10 10:53:22,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：23.172602
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：38
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.51
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：130.11249
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.753 Y:80.85494
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：1.892
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：1.892 Y:29.31061
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.82738
+2012-09-10 10:53:22,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：28.145872
+2012-09-10 11:01:33,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 11:01:33,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 11:01:33,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:37.62767
+2012-09-10 11:01:33,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:4.823 Y:73.839325
+2012-09-10 11:01:33,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 11:01:33,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.65800005 Y:71.868835
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.0
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.0 Y:37.62767
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.44644
+2012-09-10 11:01:33,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.62767
+2012-09-10 11:05:05,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 11:05:05,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 11:05:05,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:37.62767
+2012-09-10 11:05:05,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:4.823 Y:73.839325
+2012-09-10 11:05:05,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 11:05:05,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.65800005 Y:71.868835
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.44644
+2012-09-10 11:05:05,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.178864
+2012-09-10 11:06:42,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 11:06:42,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 11:06:42,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:37.62767
+2012-09-10 11:06:42,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:4.823 Y:73.839325
+2012-09-10 11:06:42,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 11:06:42,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.65800005 Y:71.868835
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.15200001
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X：0.15200001 Y:36.942413
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.44644
+2012-09-10 11:06:42,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.178864
+2012-09-10 11:26:06,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 11:26:06,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 11:26:06,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:37.62767
+2012-09-10 11:26:06,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:4.823 Y:73.839325
+2012-09-10 11:26:06,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 11:26:06,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 11:26:06,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 11:26:06,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 11:26:06,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 11:26:06,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.65800005 Y:71.868835
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:37.62767
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:4.823 Y:73.839325
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 11:39:22,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.65800005 Y:71.868835
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.25299996
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X:0.25299996 Y:37.381058
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.44644
+2012-09-10 11:39:22,765 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.189617
+2012-09-10 11:40:04,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点   X:0.0 Y:37.62767
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点   X:4.823 Y:73.839325
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29048
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.88687
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42358
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点 X:0.65800005 Y:71.868835
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程为：0.25299996
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点为 X:0.25299996 Y:37.381058
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.44644
+2012-09-10 11:40:04,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.189617
+2012-09-10 15:08:00,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.62767
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:73.839325
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.65800005 Y:71.868835
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:37.381058
+2012-09-10 15:08:00,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.601
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.89
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.44644
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.189617
+2012-09-10 15:08:00,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-10 15:08:51,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 15:08:51,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:08:51,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.62767
+2012-09-10 15:08:51,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:73.839325
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.65800005 Y:71.868835
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:37.381058
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.601
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.89
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.45
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.19
+2012-09-10 15:08:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-10 15:09:40,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 15:09:40,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.62767
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:73.839325
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.65800005 Y:71.868835
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:37.381058
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.601
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.89
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.45
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.19
+2012-09-10 15:09:40,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-10 15:11:59,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.62767
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:73.839325
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.65800005 Y:71.868835
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:37.381058
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.601
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.89
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.45
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.19
+2012-09-10 15:11:59,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:4.81 Y:75.43571
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.013000012 Y:36.80414
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 15:13:32,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.01
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0040
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：0.0
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.9
+2012-09-10 15:13:32,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 15:28:04,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.62767
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:73.839325
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.65800005 Y:71.868835
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:37.381058
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.601
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.89
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.45
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.19
+2012-09-10 15:28:04,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42
+2012-09-10 15:28:20,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:4.81 Y:75.43571
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.013000012 Y:36.80414
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.01
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0040
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：0.0
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.9
+2012-09-10 15:28:20,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 15:43:09,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 15:43:09,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:43:09,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 15:43:09,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:4.81 Y:75.43571
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.013000012 Y:36.80414
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.01
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0040
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：0.0
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.9
+2012-09-10 15:43:09,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 15:44:05,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 15:44:05,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:44:05,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 15:44:05,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.013000012 Y:36.80414
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.01
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0040
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.9
+2012-09-10 15:44:05,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 15:50:29,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 15:50:29,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:50:29,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 15:50:29,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.013000012 Y:36.80414
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.01
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0040
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.9
+2012-09-10 15:50:29,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 15:52:55,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 15:52:55,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 15:52:55,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 15:52:55,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 15:52:55,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 15:52:55,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:04:14,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:04:14,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:04:14,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:05:14,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:05:14,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:05:14,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:07:43,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:07:43,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:09:06,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:09:06,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:09:06,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:09:06,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:09:06,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:09:06,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:09:06,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:11:34,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:11:34,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:11:34,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:11:34,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:11:34,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:11:59,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:11:59,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:11:59,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:11:59,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:11:59,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:12:54,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:12:54,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:12:54,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:12:54,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:12:54,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:13:25,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:13:25,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:13:25,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:13:25,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:13:25,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:18:20,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.557 Y:67.81423
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.4560002 Y:37.747776
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.46
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.398
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.89
+2012-09-10 16:18:20,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.28
+2012-09-10 16:18:20,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:20:48,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:20:48,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:20:48,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:20:48,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.82299995 Y:75.333496
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.506 Y:38.23001
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.51
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.412
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.07
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.31
+2012-09-10 16:20:48,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:21:58,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:21:58,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:21:58,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:21:58,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.82299995 Y:75.333496
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.506 Y:38.23001
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.51
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.412
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.07
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.31
+2012-09-10 16:21:58,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：101
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.955246
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:74.96212
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.82299995 Y:75.333496
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.506 Y:38.23001
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.642
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.51
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.412
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.44
+2012-09-10 16:23:14,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.8
+2012-09-10 16:23:14,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.07
+2012-09-10 16:23:14,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.31
+2012-09-10 16:23:14,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：63.44
+2012-09-10 16:25:08,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 16:25:08,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.62767
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:73.839325
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.506 Y:65.24453
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:37.381058
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.601
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.29
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.89
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.22
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.19
+2012-09-10 16:25:08,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.42
+2012-09-10 16:28:23,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 16:28:23,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：196
+2012-09-10 16:28:23,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:19.832556
+2012-09-10 16:28:23,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.021 Y:33.51813
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：39
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.24199998 Y:33.02179
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.9950001 Y:24.73395
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：24.084
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.02
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：4.0
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.298
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：33.96
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：16.48
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：33.06
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：18.04
+2012-09-10 16:28:23,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.43
+2012-09-10 16:31:57,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：196
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:19.384802
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.021 Y:33.666855
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：34
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.306 Y:33.40085
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.753 Y:14.858264
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：24.096
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.02
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.75
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.158
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：34.15
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：13.47
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：33.35
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：17.29
+2012-09-10 16:31:57,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：61.38
+2012-09-10 16:35:53,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 16:35:53,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：196
+2012-09-10 16:35:53,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:19.384802
+2012-09-10 16:35:53,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.021 Y:33.666855
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：34
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.306 Y:33.40085
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.753 Y:14.858264
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：24.096
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.02
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.75
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.158
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：34.15
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：13.47
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：33.35
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：17.29
+2012-09-10 16:35:53,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：61.38
+2012-09-10 16:36:19,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 16:36:19,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：196
+2012-09-10 16:36:19,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:19.832556
+2012-09-10 16:36:19,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.021 Y:33.51813
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：39
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.24199998 Y:33.02179
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.779 Y:17.707087
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：24.084
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.02
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.78
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.174
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：33.96
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：16.48
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：33.06
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：17.7
+2012-09-10 16:36:19,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.43
+2012-09-10 16:42:01,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-10 16:42:01,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：196
+2012-09-10 16:42:01,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:19.400167
+2012-09-10 16:42:01,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.021 Y:32.444187
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：29
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.204 Y:33.17012
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.9950001 Y:21.945562
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：24.084
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.02
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：4.0
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.298
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：33.47
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：14.72
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：32.45
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：18.23
+2012-09-10 16:42:01,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：55.3
+2012-09-10 16:42:32,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：106
+2012-09-10 16:42:32,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:42:32,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:42.547115
+2012-09-10 16:42:32,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.0865 Y:72.532166
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：16
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.55149996 Y:73.42625
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.7925 Y:44.04085
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：74.564
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.09
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.79
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.147
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：77.19
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：41.22
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.54
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：43.18
+2012-09-10 16:42:32,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：32.26
+2012-09-10 16:44:20,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：108
+2012-09-10 16:44:20,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:44:20,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:44.04448
+2012-09-10 16:44:20,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.0865 Y:74.826195
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：25
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.31049997 Y:62.735302
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.7034999 Y:43.49432
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：75.452
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.09
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.7
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.129
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.99
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：43.35
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.48
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：43.67
+2012-09-10 16:44:20,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：34.65
+2012-09-10 16:57:51,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：108
+2012-09-10 16:57:51,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:57:51,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:44.04448
+2012-09-10 16:57:51,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.0865 Y:74.826195
+2012-09-10 16:57:51,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：25
+2012-09-10 16:57:51,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.6654999 Y:75.27798
+2012-09-10 16:57:51,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.7034999 Y:43.49432
+2012-09-10 16:57:51,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：75.452
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.09
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.7
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.129
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.99
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：43.35
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.09
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：43.67
+2012-09-10 16:57:51,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：34.65
+2012-09-10 16:58:21,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：108
+2012-09-10 16:58:21,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 16:58:21,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:44.04448
+2012-09-10 16:58:21,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.0865 Y:74.826195
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：25
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.6654999 Y:75.27798
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.7034999 Y:43.49432
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：75.452
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.09
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.7
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.129
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.99
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：43.35
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.09
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：43.67
+2012-09-10 16:58:21,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：34.65
+2012-09-10 17:37:16,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：106
+2012-09-10 17:37:16,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-10 17:37:16,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:42.547115
+2012-09-10 17:37:16,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.0865 Y:72.532166
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：16
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.81749994 Y:76.62966
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.7925 Y:44.04085
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：74.564
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.09
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.79
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.147
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：77.19
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：41.22
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：74.54
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：43.18
+2012-09-10 17:37:16,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：32.26
+2012-09-11 09:17:04,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 09:17:04,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：198
+2012-09-11 09:17:04,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.67714
+2012-09-11 09:17:04,593 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.804 Y:56.204838
+2012-09-11 09:17:04,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-11 09:17:04,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.558 Y:57.681118
+2012-09-11 09:17:04,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:4.246 Y:33.13392
+2012-09-11 09:17:04,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：28.721
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.8
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：4.25
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.048
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：61.53
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：30.95
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：58.65
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：32.76
+2012-09-11 09:17:04,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：110.28
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：198
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.67714
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.804 Y:56.204838
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:1.585 Y:59.676884
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.8280005 Y:31.089943
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：28.721
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.8
+2012-09-11 09:52:45,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.83
+2012-09-11 09:52:45,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：1.847
+2012-09-11 09:52:45,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：61.53
+2012-09-11 09:52:45,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：30.95
+2012-09-11 09:52:45,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：58.79
+2012-09-11 09:52:45,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：32.81
+2012-09-11 09:52:45,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：110.28
+2012-09-11 09:55:41,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：198
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.67714
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.804 Y:56.204838
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:1.585 Y:59.676884
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.8280005 Y:31.089943
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：28.721
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.8
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.83
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：1.847
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：61.53
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：30.95
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：58.79
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：32.81
+2012-09-11 09:55:41,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：110.28
+2012-09-11 09:57:56,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 09:57:56,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：198
+2012-09-11 09:57:56,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.67714
+2012-09-11 09:57:56,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.804 Y:56.204838
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.558 Y:57.681118
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:4.246 Y:33.13392
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：28.721
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.8
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：4.25
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.048
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：61.53
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：30.95
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：58.65
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：32.76
+2012-09-11 09:57:56,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：110.28
+2012-09-11 09:59:51,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-11 09:59:51,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：198
+2012-09-11 09:59:51,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:33.005856
+2012-09-11 09:59:51,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.804 Y:56.3885
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：32
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.812 Y:56.985676
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:4.297 Y:35.819168
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：28.709
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.8
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：4.3
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.074
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：57.38
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：32.1
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：56.87
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：32.46
+2012-09-11 09:59:51,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：102.52
+2012-09-11 10:05:57,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-11 10:05:57,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-11 10:05:57,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-11 10:05:57,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-11 10:05:57,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-11 13:38:05,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 13:38:05,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-11 13:38:05,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:40.496655
+2012-09-11 13:38:05,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.1219997 Y:46.311646
+2012-09-11 13:38:05,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：20
+2012-09-11 13:38:05,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.2529999 Y:44.908108
+2012-09-11 13:38:05,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.135 Y:36.570133
+2012-09-11 13:38:05,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：22.117
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.12
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.13
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：1.964
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：47.56
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.37
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：45.41
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：39.1
+2012-09-11 13:38:05,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：22.47
+2012-09-11 14:49:14,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:39.47047
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.1219997 Y:44.446762
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：21
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.291 Y:43.908237
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.3630002 Y:38.52229
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：22.079
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.12
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.36
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.11
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：45.17
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.6
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：44.49
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：38.32
+2012-09-11 14:49:14,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：22.92
+2012-09-11 14:52:20,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 14:52:20,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-11 14:52:20,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:39.47047
+2012-09-11 14:52:20,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.1219997 Y:44.446762
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：21
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.291 Y:43.908237
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.806 Y:39.395245
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：22.079
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.12
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.81
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.388
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：45.17
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.6
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：44.49
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：38.39
+2012-09-11 14:52:20,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：22.92
+2012-09-11 14:57:29,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-11 14:57:29,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-11 14:57:29,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-11 14:57:29,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-11 14:57:29,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-11 15:04:25,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-11 15:04:25,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-11 15:04:25,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.95536
+2012-09-11 15:04:25,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:75.90658
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：26
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:74.5582
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.025000036 Y:37.48198
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.613
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.03
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0070
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：77.83
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：37.48
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.83
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.73
+2012-09-11 15:04:25,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.57
+2012-09-11 15:05:15,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.654
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:78.813065
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：36
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.92399997 Y:78.37678
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.038 Y:36.53094
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.92
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.04
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.555
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：80.35
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：34.25
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：79.22
+2012-09-11 15:05:15,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.37
+2012-09-11 15:05:15,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：100.34
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:31.491982
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.211632
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：34
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.139 Y:41.131504
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4889998 Y:24.88009
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.981
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.49
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.419
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：43.68
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：14.14
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：38.29
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.07
+2012-09-11 15:09:12,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：68.78
+2012-09-12 15:34:28,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:34:28,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:34:28,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-12 15:34:28,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-12 15:34:28,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-12 15:34:28,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-12 15:34:28,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-12 15:34:28,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:34:28,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-12 15:34:28,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-12 15:36:38,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:36:38,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:36:38,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-12 15:36:38,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  不存在！
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-12 15:36:38,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-12 15:44:18,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:44:18,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:44:18,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-12 15:44:18,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-12 15:44:18,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-12 15:44:18,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  不存在！
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-12 15:44:18,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.941412
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:76.025185
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：43
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.78499997 Y:83.97225
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:23.098343
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  不存在！
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.671
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:45:48,562 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:45:48,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:45:48,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：88.87
+2012-09-12 15:45:48,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.59
+2012-09-12 15:45:48,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.53
+2012-09-12 15:45:48,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.99
+2012-09-12 15:45:48,578 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：187.78
+2012-09-12 15:47:13,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:47:13,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:47:13,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.941412
+2012-09-12 15:47:13,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:76.025185
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：43
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.78499997 Y:83.97225
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:23.098343
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  不存在！
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.671
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:47:13,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:47:13,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:47:13,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：88.87
+2012-09-12 15:47:13,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.59
+2012-09-12 15:47:13,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.53
+2012-09-12 15:47:13,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.99
+2012-09-12 15:47:13,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：187.78
+2012-09-12 15:47:24,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:47:24,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:47:24,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.941412
+2012-09-12 15:47:24,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:76.025185
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：43
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.78499997 Y:83.97225
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:23.098343
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  不存在！
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.671
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：88.87
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.59
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.53
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.99
+2012-09-12 15:47:24,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：187.78
+2012-09-12 15:50:01,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:50:01,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:50:01,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.941412
+2012-09-12 15:50:01,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:76.025185
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：43
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.78499997 Y:83.97225
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:23.098343
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：3
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.101  Y:71.23182
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.671
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：88.87
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.59
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.53
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.99
+2012-09-12 15:50:01,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：187.78
+2012-09-12 15:51:57,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:51:57,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:51:57,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-12 15:51:57,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-12 15:51:57,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-12 15:51:57,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.038  Y:68.81544
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-12 15:51:57,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-12 15:55:18,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:55:18,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:55:18,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 1.0
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.038  Y:68.81544
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-12 15:55:18,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-12 15:58:58,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:58:58,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:58:58,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-12 15:58:58,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-12 15:58:58,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.038  Y:68.81544
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-12 15:58:58,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:31.037096
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:74.80444
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.8989999 Y:84.10207
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.544 Y:27.09418
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.993904
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.0629997  Y:67.40033
+2012-09-12 15:59:11,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.7
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.54
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.545
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.69
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：18.18
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.15
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：23.18
+2012-09-12 15:59:11,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：189.64
+2012-09-12 17:24:17,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-12 17:24:17,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-12 17:24:17,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:31.037096
+2012-09-12 17:24:17,640 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:74.80444
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.8989999 Y:84.10207
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.544 Y:27.09418
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.993904
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.0629997  Y:67.40033
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 3
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.7
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.54
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.545
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.69
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：18.18
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.15
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：23.18
+2012-09-12 17:24:17,656 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：189.64
+2012-09-13 10:12:21,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 10:12:21,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-13 10:12:21,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.027746
+2012-09-13 10:12:21,703 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.101 Y:73.76057
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：48
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.84799993 Y:86.98672
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:2.3669999 Y:22.11767
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.038  Y:68.81544
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:3.266  Y:56.978058
+2012-09-13 10:12:21,718 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：64.644
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.1
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：2.37
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.507
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：87.29
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：20.27
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：83.56
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：22.95
+2012-09-13 10:12:21,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：190.8
+2012-09-13 10:52:01,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 10:52:01,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 10:52:01,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.95536
+2012-09-13 10:52:01,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:75.90658
+2012-09-13 10:52:01,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：26
+2012-09-13 10:52:01,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:74.5582
+2012-09-13 10:52:01,875 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.025000036 Y:37.48198
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：3
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.7590003  Y:73.69207
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:2.24  Y:73.719475
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.613
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.03
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.0070
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：77.83
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：37.48
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.83
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：37.73
+2012-09-13 10:52:01,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.57
+2012-09-13 11:08:17,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 11:08:17,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 11:08:17,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:34.19925
+2012-09-13 11:08:17,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:76.22462
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：16
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:76.97696
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.2530001 Y:36.485104
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.468  Y:71.94218
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:2.506  Y:74.174805
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.672
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.25
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.343
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：77.21
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：33.75
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.74
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.1
+2012-09-13 11:08:17,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：57.67
+2012-09-13 15:57:09,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 15:57:09,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 15:57:09,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.082966
+2012-09-13 15:57:09,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:79.12372
+2012-09-13 15:57:09,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:78.77117
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.7720001 Y:36.214848
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:78.69018
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:3.7470002  Y:76.33075
+2012-09-13 15:57:09,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.713
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.77
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.484
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.35
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：31.98
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：80.1
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.0
+2012-09-13 15:57:09,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：88.67
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.082966
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:79.12372
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:78.77117
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.7720001 Y:36.214848
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 15:58:59,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:78.69018
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:3.696  Y:76.3118
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.713
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.77
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.484
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.35
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：31.98
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：80.1
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.0
+2012-09-13 15:58:59,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：88.67
+2012-09-13 16:02:13,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 16:02:13,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 16:02:13,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.082966
+2012-09-13 16:02:13,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:79.12372
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:78.77117
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.7720001 Y:36.214848
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:78.69018
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点序列：102
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - C点序列：162
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:3.696  Y:76.3118
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.713
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.77
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.484
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.35
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：31.98
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：80.1
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.0
+2012-09-13 16:02:13,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：88.67
+2012-09-13 16:03:01,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 16:03:01,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 16:03:01,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.082966
+2012-09-13 16:03:01,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:79.12372
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:78.77117
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.7720001 Y:36.214848
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:78.69018
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点序列：102
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - C点序列：162
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点凸包个数：11
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:3.696  Y:76.3118
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.713
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.77
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.484
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.35
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：31.98
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：80.1
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.0
+2012-09-13 16:03:01,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：88.67
+2012-09-13 16:03:43,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 16:03:43,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 16:03:43,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:32.082966
+2012-09-13 16:03:43,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:79.12372
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：27
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.96199995 Y:78.77117
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:1.7720001 Y:36.214848
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:78.69018
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点序列：102
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - C点序列：162
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点凸包个数：11
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:2.823  Y:75.20638
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.713
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：1.77
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.484
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：83.35
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：31.98
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：80.1
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：35.0
+2012-09-13 16:03:43,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：88.67
+2012-09-13 16:07:03,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 16:07:03,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 16:07:03,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.11361
+2012-09-13 16:07:03,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:76.2215
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.87299997 Y:76.42931
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:34.757313
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：3
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:75.56588
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点序列：102
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - C点序列：191
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点凸包个数：15
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:2.1390002  Y:76.862885
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.715
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.93
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：34.7
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.52
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.41
+2012-09-13 16:07:03,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.34
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.11361
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:76.2215
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.87299997 Y:76.42931
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:34.757313
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：3
+2012-09-13 17:18:43,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:75.56588
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:4.797  Y:76.64174
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--气体影响】
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.715
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.93
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：34.7
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.52
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.41
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.34
+2012-09-13 17:18:43,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：154.50702
+2012-09-14 10:30:52,078 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：100
+2012-09-14 10:30:52,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-14 10:30:52,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:37.11361
+2012-09-14 10:30:52,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:4.823 Y:76.2215
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.87299997 Y:76.42931
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.25299996 Y:34.757313
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：3
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:4.81  Y:75.56588
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:4.797  Y:76.64174
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--气体影响】
+2012-09-14 10:30:52,125 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：50.715
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：4.82
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.25
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.069
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：76.93
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：34.7
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：75.52
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.41
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：21.34
+2012-09-14 10:30:52,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：154.50702
+2012-09-14 14:22:47,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 14:22:47,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 14:22:47,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 14:22:47,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 14:22:47,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 14:22:47,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 14:22:47,421 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 14:22:47,437 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 14:22:47,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 14:27:31,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 14:27:31,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 14:27:31,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 14:27:31,671 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 14:27:31,687 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 14:27:53,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 14:27:53,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 14:27:53,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 14:27:53,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 14:27:53,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:20:16,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:20:16,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:20:16,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:20:16,953 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:20:16,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:20:16,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:20:16,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:20:16,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:21:33,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:21:33,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:21:33,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:21:33,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:21:33,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:22:35,390 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:22:35,390 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:22:35,390 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:22:35,390 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:22:35,406 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:29:27,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:29:27,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:29:27,265 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:29:27,281 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:29:59,781 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:29:59,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:29:59,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:29:59,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:29:59,796 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:29:59,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:29:59,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:32:25,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:32:25,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:32:25,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:32:25,812 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:32:25,828 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:33:06,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:33:06,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:33:06,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:33:06,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:33:06,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:34:11,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:34:11,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:34:11,296 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：47.29795050960529
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:34:11,312 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:38:51,890 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：326.9104
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8020921
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:38:51,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:41:37,984 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：326.9104
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8020921
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:41:38,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 17:42:24,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:42:24,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:42:24,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.05966
+2012-09-14 17:42:24,734 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.492304
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：44
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.594 Y:40.83375
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4769998 Y:25.11796
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：332.8942
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8117994
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.985
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.48
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.41
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.36
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：14.97
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.04
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.27
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：62.65
+2012-09-14 17:42:24,750 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：46.464363
+2012-09-14 17:42:34,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:42:34,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:42:34,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.27613
+2012-09-14 17:42:34,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.01741
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：60
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.16399997 Y:37.509754
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.401 Y:24.151934
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：316.74985
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8014351
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.956
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.4
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.361
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.45
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.16
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.46
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.16
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：62.9
+2012-09-14 17:42:34,937 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.028378
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:28.676435
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.272034
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：56
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.35399997 Y:38.47752
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4390001 Y:24.3114
+2012-09-14 17:42:51,140 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：281.99405
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.78864753
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.933
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.44
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.39
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：40.76
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.87
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.02
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.62
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.6
+2012-09-14 17:42:51,156 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：49.066578
+2012-09-14 17:45:42,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:45:42,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:45:42,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:28.676435
+2012-09-14 17:45:42,031 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.272034
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：56
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.35399997 Y:38.47752
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4390001 Y:24.3114
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：281.99405
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.78864753
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.933
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.44
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.39
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：40.76
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.87
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.02
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.62
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.6
+2012-09-14 17:45:42,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：49.066578
+2012-09-14 17:50:24,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:50:24,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:50:24,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:28.676435
+2012-09-14 17:50:24,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.272034
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：56
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.35399997 Y:38.47752
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4390001 Y:24.3114
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：281.99405
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.78864753
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.933
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.44
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.39
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：40.76
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.87
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.02
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.62
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.6
+2012-09-14 17:50:24,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：49.066578
+2012-09-14 17:51:46,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:51:46,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:51:46,531 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:28.676435
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.272034
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：56
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.35399997 Y:38.47752
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4390001 Y:24.3114
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：281.99405
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.78864753
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.933
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.44
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.39
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：40.76
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.87
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.02
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.62
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.6
+2012-09-14 17:51:46,546 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：49.066578
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:28.676435
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.272034
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：56
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.35399997 Y:38.47752
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4390001 Y:24.3114
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：281.99405
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.78864753
+2012-09-14 17:51:59,906 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.933
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.44
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.39
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：40.76
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.87
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.02
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.62
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.6
+2012-09-14 17:51:59,921 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：49.066578
+2012-09-14 17:52:12,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:52:12,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:52:12,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:28.676435
+2012-09-14 17:52:12,328 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.272034
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：56
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.35399997 Y:38.47752
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4390001 Y:24.3114
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：281.99405
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.78864753
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.933
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.44
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.39
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：40.76
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.87
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.02
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.62
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：59.6
+2012-09-14 17:52:12,343 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：49.066578
+2012-09-14 17:52:23,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:52:23,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:52:23,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.27613
+2012-09-14 17:52:23,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.01741
+2012-09-14 17:52:23,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：60
+2012-09-14 17:52:23,093 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.16399997 Y:37.509754
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.401 Y:24.151934
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：316.74985
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8014351
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.956
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.4
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.361
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.45
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.16
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.46
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.16
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：62.9
+2012-09-14 17:52:23,109 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.028378
+2012-09-14 17:52:31,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:52:31,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:52:31,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.05966
+2012-09-14 17:52:31,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.492304
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：44
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.594 Y:40.83375
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4769998 Y:25.11796
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：332.8942
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8117994
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.985
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.48
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.41
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.36
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：14.97
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.04
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.27
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：62.65
+2012-09-14 17:52:31,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：46.464363
+2012-09-14 17:52:57,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:52:57,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:52:57,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:30.05966
+2012-09-14 17:52:57,000 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.492304
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：44
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.594 Y:40.83375
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4769998 Y:25.11796
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：332.8942
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8117994
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.985
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.48
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.41
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.36
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：14.97
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.04
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.27
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：62.65
+2012-09-14 17:52:57,015 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：46.464363
+2012-09-14 17:53:08,046 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：326.9104
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8020921
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 17:53:08,062 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：408.638
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.8416737
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 18:03:19,484 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 18:03:19,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 18:03:19,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 18:03:19,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 18:03:19,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 18:03:19,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 18:03:19,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 18:04:15,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 18:04:15,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 18:04:15,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 18:04:15,609 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 18:04:15,625 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.531666
+2012-09-14 19:03:06,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 19:03:06,453 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 19:03:06,468 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：10
+2012-09-14 20:10:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:10:58,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:10:58,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 20:10:58,218 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:10:58,234 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:10:58,250 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：8
+2012-09-14 20:11:42,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:11:42,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:11:42,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 20:11:42,359 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:11:42,375 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：8
+2012-09-14 20:12:05,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:12:05,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:12:05,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 20:12:05,171 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:12:05,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：8
+2012-09-14 20:12:30,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:12:30,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:12:30,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 20:12:30,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:12:30,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：8
+2012-09-14 20:13:18,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:13:18,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:13:18,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 20:13:18,843 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--固定凡尔漏失】
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:13:18,859 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：8
+2012-09-14 20:13:58,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:13:58,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:13:58,187 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:13:58,203 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：10
+2012-09-14 20:30:59,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：98
+2012-09-14 20:30:59,500 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：197
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：46
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：86.61497
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--双凡尔漏失】
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 漏失程度：0.2530372
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：19.938
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：3.54
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：3.46
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：2.407
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：41.73
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：17.27
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：37.99
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：21.28
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：64.7
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：55.53
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：3
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.21500003 Y:39.873608
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
+2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009

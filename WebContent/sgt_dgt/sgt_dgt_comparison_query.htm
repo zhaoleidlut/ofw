@@ -161,7 +161,7 @@
 					rendererOptions : {
 						smooth : true
 					},
-					lineWidth : 2,
+					lineWidth : 1,
 					showMarker : false
 				},
 				series : [ {
@@ -174,14 +174,16 @@
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
 						tickOptions : {
 							formatString : '%0.2f'
-						}
+						},
+						min:0
 					},
 					yaxis : {
 						label : "载荷（千牛）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
 						tickOptions : {
 							formatString : '%0.1f'
-						}
+						},
+						ticks : ['10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
 					}
 				},
 				highlighter : {
@@ -418,7 +420,7 @@
 					rendererOptions : {
 						smooth : true
 					},
-					lineWidth : 2,
+					lineWidth : 1,
 					showMarker : false
 				},
 				series : [ {
@@ -431,14 +433,16 @@
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
 						tickOptions : {
 							formatString : '%0.2f'
-						}
+						},
+						min:0
 					},
 					yaxis : {
 						label : "载荷（千牛）",
 						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
 						tickOptions : {
 							formatString : '%0.1f'
-						}
+						},
+						ticks : ['10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
 					}
 				},
 				highlighter : {

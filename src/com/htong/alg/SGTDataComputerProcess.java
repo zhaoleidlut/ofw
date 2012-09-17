@@ -29,18 +29,19 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		
 		int num = studyF(weiyi, zaihe, standardGuaidianF);
 		int outWhile = 0;	//跳出while 防止死循环
-		while((num<6 || num>10) && outWhile <100) {
-			if(num<6) {
+		while((num<12 || num>18) && outWhile <100) {
+			if(num<12) {
 				standardGuaidianF--;
-//				log.debug("拐点数为：" + num + " 增加拐点-减小拐点自由度...为" + standardGuaidianF);
+				//System.out.println("拐点数为：" + num + " 增加拐点-减小拐点自由度...为" + standardGuaidianF);
 			} else {
 				standardGuaidianF++;
-//				log.debug("拐点数为：" + num + "减小拐点-增加拐点自由度...为" + standardGuaidianF);
+				//System.out.println("拐点数为：" + num + "减小拐点-增加拐点自由度...为" + standardGuaidianF);
 			}
 			num = studyF(weiyi, zaihe, standardGuaidianF);
 			outWhile++;
 		}
 //		log.debug("拐点数：" + num);
+//		System.out.println("拐点数为：" + num + "&&&&&&&&&&& 拐点自由度：" + standardGuaidianF);
 		if(num<6 || num>10) {
 			log.debug("故障井，拐点数为：" + num);
 			resultMap.put("gongtuxinxi", "暂时不明故障");	//添加故障信息
@@ -166,9 +167,9 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		}
 		Melkman melkman = new Melkman(pointList);
 		Point[] newPoint = melkman.getTubaoPoint(); // 凸包点
-//		log.debug("凸包点个数：" + newPoint.length);
+//		System.out.println("凸包点个数：" + newPoint.length);
 //		for (Point p : newPoint) {
-//			log.debug("凸包点：" + p.getX() + ", " + p.getY());
+//			System.out.println("凸包点：" + p.getX() + ", " + p.getY());
 //		}
 
 		// 将位移差小于0.015m的点合并，载荷取平均值
@@ -220,7 +221,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		}
 
 		// 求斜率差值的极值点
-		int pointfinal[] = new int[15]; // 极值点位置数组
+		int pointfinal[] = new int[80]; // 极值点位置数组
 		int pointNum = 0; // 极值点个数
 		for (int i = 1; i < flagnum - 1; i++)
 			if (slopearrsub[i] - standardGuaidianF > slopearrsub[i - 1]
@@ -238,9 +239,9 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			pointfinal[pointNum] = flagnum - 2;
 			pointNum++;
 		}
-//		log.debug("极值点个数：" + pointNum);
+		System.out.println("极值点个数：" + pointNum);
 //		for(int i = 0;i<pointNum;i++) {
-//			log.debug("极值点：" + newPoint[pointfinal[i]].getX() + "," + newPoint[pointfinal[i]].getY());
+//			System.out.println("极值点：" + newPoint[pointfinal[i]].getX() + "," + newPoint[pointfinal[i]].getY());
 //		}
 
 //		if (pointNum == 4) {
@@ -270,14 +271,68 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		}
 		//取最大的作为有效冲程点
 		float youxiaochongcheng = newPoint[houxuanList.get(0)].getX();
+		int yxccd = houxuanList.get(0);
 		for(int i = 1;i<houxuanList.size();i++) {
 			if(newPoint[houxuanList.get(i)].getX()>youxiaochongcheng) {
 				youxiaochongcheng = newPoint[houxuanList.get(i)].getX();
+				yxccd = houxuanList.get(i);
 			}
 		}
-		log.debug("有效冲程为：" + youxiaochongcheng);
+		System.out.println("有效冲程为：" + youxiaochongcheng + "       ");
+//		System.out.println("有效冲程序号：" + yxccd);//
+		float pjxz = 0;	//平均下载荷
+		for(int i = 0;i<=yxccd;i++) {
+			pjxz += newPoint[i].getY()/(yxccd+1);
+		}
+//		System.out.println("下载荷均值：" + pjxz);
+		
+		//获取最大位移凸包点
+		float maxWeiyi = newPoint[pointfinal[0]].getX();//
+		int ssd = pointfinal[0];
+		for(int i = 1;i<pointNum;i++) {
+			if(newPoint[pointfinal[i]].getX()>=maxWeiyi) {
+				maxWeiyi = newPoint[pointfinal[i]].getX();
+				ssd = pointfinal[i];
+			}
+		}
+		float pjsz = 0;//平均上载
+		int szNum = 0;//上载荷选取个数
+		for(int i = ssd;i<flagnum && newPoint[i].getX()>=maxWeiyi-youxiaochongcheng;i++) {
+			pjsz += newPoint[i].getY();
+			szNum ++;
+		}
+		pjsz = pjsz/szNum;
+//		System.out.println("上载荷均值：" + pjsz);
+		
+		resultMap.put("pjsz", pjsz);	//平均上载
+		resultMap.put("pjxz", pjxz);	//平均下载
+		resultMap.put("zhc", pjsz-pjxz);	//载荷差
+		
+//		System.out.println("载荷差值：" + (pjsz-pjxz));
 		
 		resultMap.put("youxiaochongcheng", youxiaochongcheng);
+		
+		
+		//求左上拐点
+		List<Integer> zsHouxuanList = new ArrayList<Integer>();
+		for(int i=0;i<pointNum;i++) {
+			//System.out.println("左上比较点：" + newPoint[pointfinal[i]].getX() + "****" + newPoint[pointfinal[i]].getY());
+			if(Math.abs(newPoint[pointfinal[i]].getY() - pjsz)<=8) {
+				zsHouxuanList.add(pointfinal[i]);
+			}
+		}
+		//取最小
+		float zs = newPoint[zsHouxuanList.get(0)].getX();
+		for(int i = 1;i<zsHouxuanList.size();i++) {
+			if(newPoint[zsHouxuanList.get(i)].getX()<zs) {
+				zs = newPoint[zsHouxuanList.get(i)].getX();
+			}
+		}
+		
+		resultMap.put("zs", zs);
+//		System.out.println("上载平均值: "+ pjsz);
+//		System.out.println("取点为：" + zs);
+		
 		
 		
 		//产液量
@@ -293,6 +348,8 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		BigDecimal bd = new BigDecimal(liquidProduct);
 		float newLiquidProduct = bd.setScale(4, BigDecimal.ROUND_HALF_UP)
 				.floatValue();
+		
+//		System.out.println("产液量为："+newLiquidProduct);
 
 		//产油量
 		float oilProduct = liquidProduct*(100-hanshuiliang)/100;
@@ -309,6 +366,13 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		} else {
 			resultMap.put("gongtuxinxi", "正常");
 		}
+		
+//		if(youxiaochongcheng < 0.75*chongcheng) {
+//			resultMap.put("gongtuxinxi", "1");//产液量不足
+//		}else {
+//			
+//		}
+		
 
 		return resultMap;
 	}
@@ -444,7 +508,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		}
 
 		// 求斜率差值的极值点
-		int pointfinal[] = new int[15]; // 极值点位置数组
+		int pointfinal[] = new int[80]; // 极值点位置数组
 		int pointNum = 0; // 极值点个数
 		for (int i = 1; i < flagnum - 1; i++)
 			if (slopearrsub[i] - standardGuaidianF > slopearrsub[i - 1]

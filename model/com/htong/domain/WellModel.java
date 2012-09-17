@@ -24,6 +24,7 @@ public class WellModel {
 	private String heartBeat;	//心跳信号
 	
 	private String loss;	//补偿量
+	private String zhc;	//标准载荷差
 	
 	private String deviceOid;	//设备id
 
@@ -150,6 +151,14 @@ public class WellModel {
 
 	public void setDeviceOid(String deviceOid) {
 		this.deviceOid = deviceOid;
+	}
+
+	public String getZhc() {
+		return zhc;
+	}
+
+	public void setZhc(String zhc) {
+		this.zhc = zhc;
 	}
 	
 }
