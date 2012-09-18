@@ -1,5 +1,7 @@
 <script type="text/javascript" charset="UTF-8"
 	src="js/addTab.js"></script>
+	<script type="text/javascript" charset="UTF-8"
+	src="js/openWindow.js"></script>
 
 <div class="easyui-accordion" fit="true">
 	
@@ -72,13 +74,13 @@
 	<div title="井矿故障诊断" 
 		style="overflow: auto; padding: 10px;" iconCls="icon-i_gzzd">
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" >实时自动诊断</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="openWin('实时诊断状态')">实时诊断状态</a>
 		</p>
 		<p>
 			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('井矿诊断')">历史手动诊断</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd">诊断历史记录</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('故障历史记录')">故障历史记录</a>
 		</p>
 	</div>
 	
@@ -104,3 +106,10 @@
 	</div>
 	
 </div>
+
+<div id="gzzd_real_status" title="实时故障诊断状态" class="easyui-window" collapsible="false" closed="true" maximizable="false" minimizable="false" style="padding:10px;width:780px;height:540px;">  
+    <div id="gzzd_real_status_grid" fit="true"></div> 
+</div> 
+<div id="gzzd_thm" title="故障诊断报警窗口" class="easyui-window" collapsible="false" closed="true" maximizable="false" minimizable="true" style="padding:10px;width:680px;height:400px;">  
+    <div id="gzzd_thm_grid" fit="true"></div> 
+</div> 

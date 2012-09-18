@@ -7,7 +7,8 @@ public class GzzdHistoryModel {
 	private String faultLevel;	//故障程度
 	private String actionInfo;	//动作信息
 	private String actionUser;	//动作者
-	private String actionTime;	//动作时间
+	private String gzzdTime;	//动作时间
+	private String deviceTime;	//故障设备时间
 	
 	
 	public String getWellNum() {
@@ -22,6 +23,7 @@ public class GzzdHistoryModel {
 	public void setDtuNum(String dtuNum) {
 		this.dtuNum = dtuNum;
 	}
+
 	public String getFaultCode() {
 		return faultCode;
 	}
@@ -46,12 +48,19 @@ public class GzzdHistoryModel {
 	public void setActionUser(String actionUser) {
 		this.actionUser = actionUser;
 	}
-	public String getActionTime() {
-		return actionTime;
+	public String getGzzdTime() {
+		return gzzdTime;
 	}
-	public void setActionTime(String actionTime) {
-		this.actionTime = actionTime;
+	public void setGzzdTime(String gzzdTime) {
+		this.gzzdTime = gzzdTime;
 	}
+	public String getDeviceTime() {
+		return deviceTime;
+	}
+	public void setDeviceTime(String deviceTime) {
+		this.deviceTime = deviceTime;
+	}
+	
 	
 	
 

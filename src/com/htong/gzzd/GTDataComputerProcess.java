@@ -282,7 +282,7 @@ public class GTDataComputerProcess {
 			log.debug("【故障类型--游动凡尔漏失】");
 			fault_code = 1;
 		}
-		fault_level = (int)(1 - gtArea / areaGJ);
+		fault_level = (int)(1 - gtArea / areaGJ)*10;
 
 		int absoluteEIndex = 1000;
 		int absoluteFIndex = 1000;
@@ -308,17 +308,18 @@ public class GTDataComputerProcess {
 						eFlag = eIndex.get(i);
 					}
 				}
+				absoluteEIndex = pointArray[eFlag].getIndex();
 			} else {
-				eFlag = maxFlag;
-				log.debug("E点  不存在！用B点代替。");
+				absoluteEIndex = maxFlag;
+//				log.debug("E点  不存在！用B点代替。");
 			}
 
-			absoluteEIndex = pointArray[eFlag].getIndex();
+			
 			log.debug("E点  X:" + weiyi[absoluteEIndex] + "  Y:"
 					+ zaihe[absoluteEIndex]);
 
 			// 求F
-			int startF = eFlag; // F点起始范围E的索引
+			int startF = absoluteEIndex; // F点起始范围E的索引
 			int endF = pointArray[yxFlag].getIndex(); // F点结束范围C的索引
 
 			// 求EF凸包
@@ -333,7 +334,13 @@ public class GTDataComputerProcess {
 				fPointList.add(p);
 			}
 			Melkman fMelkman = new Melkman(fPointList);
-			Point[] fPointArray = fMelkman.getTubaoPoint(); // 凸包点
+			Point[] fPointArray;
+			if(fPointList.isEmpty()) {
+				fPointArray = new Point[0];
+			} else {
+				fPointArray = fMelkman.getTubaoPoint(); // 凸包点
+			}
+			
 			// log.debug("F点凸包个数："+fPointArray.length);
 
 			QuLvCalc fQuLv = new QuLvCalc();
@@ -352,7 +359,7 @@ public class GTDataComputerProcess {
 			float areaLim = 0.2f; // 面积阈值，小于此值，则可能为气锁
 			float be_cd = 0.4f; // CD-BE阈值，小于此值，则可能为气锁
 
-			float be = zaihe[maxFlag] - zaihe[eFlag];
+			float be = zaihe[maxFlag] - zaihe[absoluteEIndex];
 			if (be < beLim * (pjsz - pjxz)) {
 				log.debug("【故障类型--供液不足】");
 				fault_code = 4;
@@ -369,7 +376,7 @@ public class GTDataComputerProcess {
 					fault_code = 5;
 				}
 			}
-			fault_level = (int)(pointArray[yxFlag].getX()/(1 - pointArray[zsFlag].getX()));
+			fault_level = (int)(pointArray[yxFlag].getX()/(1 - pointArray[zsFlag].getX()))*10;
 			
 		}
 

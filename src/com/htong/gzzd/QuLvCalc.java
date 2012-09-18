@@ -10,9 +10,13 @@ public class QuLvCalc {
 	 * @return
 	 */
 	public float[] getQuLv(Point pointArray[]) {
+		if(pointArray == null || pointArray.length==0) {
+			return null;
+		}
 		// 计算曲率
 		flagnum = pointArray.length;
 		ki = new float[flagnum];
+
 
 		float li1_0 = (float) Math.sqrt(Math.pow(pointArray[0].getY()
 				- pointArray[flagnum - 1].getY(), 2)
@@ -80,6 +84,9 @@ public class QuLvCalc {
 	 * @return
 	 */
 	public float[] getQuLvBHL(Point pointArray[]) {
+		if(pointArray == null || pointArray.length==0) {
+			return null;
+		}
 		if(ki == null) {
 			getQuLv(pointArray);
 		}
@@ -97,6 +104,9 @@ public class QuLvCalc {
 	 * @return
 	 */
 	public float[] getQuLvPJBHL(Point pointArray[]) {
+		if(pointArray == null || pointArray.length==0) {
+			return null;
+		}
 		if(ski == null) {
 			getQuLvBHL(pointArray);
 		}

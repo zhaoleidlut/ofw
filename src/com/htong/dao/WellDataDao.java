@@ -92,7 +92,11 @@ public class WellDataDao {
 				.getWellDataCollection(wellNum), myQuery,
 				WellData.class);
 		if(wellDataList != null && !wellDataList.isEmpty() && wellDataList.size()>1) {
-			return wellDataList.get(1);
+			for(WellData wellData:wellDataList) {
+				if(!wellData.getDevice_time().equals(wellDataList.get(0).getDevice_time())) {
+					return wellData;
+				}
+			}
 		}
 		return null;
 	}

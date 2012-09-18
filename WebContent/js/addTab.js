@@ -213,5 +213,17 @@ function addTab(title) {
 			$('#index_tabs').tabs('select','DTU状态');
 		}
 		
+	}  else if(title == '故障历史记录') {
+		var tab = $('#index_tabs').tabs('getTab','故障历史记录');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '故障历史记录',
+			href : 'sys/gzzd_history_record.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','故障历史记录');
+		}
+		
 	}
 }

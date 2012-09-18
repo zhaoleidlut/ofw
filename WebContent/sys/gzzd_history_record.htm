@@ -1,0 +1,76 @@
+<div id="gzzd_history_record_query" class="easyui-layout" fit="true">
+	<div region="center" icon="icon-reload">
+		<div id="gzzd_history_record_grid" fit="true"></div>
+	</div>
+	<div id="tb" style="padding: 3px">
+		<span>井号:</span> <input id="gzzd_history_record_reserch"
+			style="line-height: 19px; border: 1px solid #ccc" /> <a href="#"
+			class="easyui-linkbutton" plain="false" onclick="doSearch()">查找</a>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		var wellNum = "草13-77";
+
+		$('#gzzd_history_record_grid').datagrid({
+
+			//iconCls : 'icon-save',
+			autoRowHeight : true,
+			nowrap : true,
+			//striped: true,
+			collapsible : true,
+			url : 'getGzzdHistoryRecord.html',
+			//sortName : 'time',
+			remoteSort : false,
+			toolbar : '#tb',
+			//sortName : '123',
+			//sortOrder : '456',
+			//queryParams : {wellNum:wellNum},
+
+			columns : [ [ {
+				field : 'wellNum',
+				title : '井号',
+				width : 70
+			}, {
+				field : 'dtuNum',
+				title : 'DTU号',
+				width : 65
+			}, {
+				field : 'faultCode',
+				title : '故障类型',
+				width : 80
+			}, {
+				field : 'faultLevel',
+				title : '故障程度',
+				width : 65
+			}, {
+				field : 'actionInfo',
+				title : '故障信息',
+				width : 100
+			}, {
+				field : 'actionUser',
+				title : '确认者',
+				width : 80
+			}, {
+				field : 'gzzdTime',
+				title : '故障时间',
+				width : 130
+			}, {
+				field : 'deviceTime',
+				title : '设备时间',
+				width : 130
+			} ] ],
+			pageSize : 18,
+			pageList : [ 15, 20, 30, 40, 50,100 ],
+			pagination : true,
+			rownumbers : true
+		});
+
+	});
+
+	function doSearch() {
+		$('#gzzd_history_record_grid').datagrid('load', {
+			wellNum : $('#gzzd_history_record_reserch').val()
+		});
+	}
+</script>

@@ -1,12 +1,15 @@
 package test;
 
+import java.util.Calendar;
+
 import com.htong.gzzd.Point;
 
 public   class A {
 	Point p = new Point();
 	
 	public static void main(String args[]) {
-		A a = new A();
-		System.out.println(a.getClass().getPackage().getName());
+		Calendar c = Calendar.getInstance();
+		System.out.println(c.getTime().getTime());
+		System.out.println(System.currentTimeMillis());
 	}
 }

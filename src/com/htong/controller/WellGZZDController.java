@@ -3,9 +3,11 @@ package com.htong.controller;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import net.sf.json.JSONArray;
@@ -18,25 +20,33 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.htong.alg.MyLvBo;
+import com.htong.domain.GzzdHistoryModel;
+import com.htong.domain.GzzdRealtimeModel;
 import com.htong.domain.WellData;
 import com.htong.domain.WellModel;
 import com.htong.gzzd.GTDataComputerProcess;
+import com.htong.gzzd.service.GzzdInitService;
+import com.htong.service.GzzdHistoryService;
 import com.htong.service.WellDataService;
 import com.htong.service.WellService;
+import com.htong.util.DzzdFaultType;
 
 @Controller
 public class WellGZZDController {
+	@Autowired
+	private GzzdHistoryService gzzdHistoryService;
 	@Autowired
 	private WellDataService wellDataService;
 	@Autowired
 	private WellService wellService;
 
+
 	private static final Logger log = Logger
 			.getLogger(WellGZZDController.class);
 
-	@RequestMapping("/getHistoryGzzdInfo.html")
+	@RequestMapping("/getGzzdHistoryPointInfo.html")
 	@ResponseBody
-	public Map<String, Object> getDayProductByHourGT(
+	public Map<String, Object> getGzzdHistoryPointInfo(
 			@RequestParam(value = "wellNum", required = true) String wellNum,
 			@RequestParam(value = "date", required = true) String date,
 			@RequestParam(value = "time", required = true) String time) {
@@ -202,5 +212,141 @@ public class WellGZZDController {
 		
 	}
 	
+	
+	@ResponseBody
+	@RequestMapping("/getGzzdHistoryRecord.html")
+	public Map<String, Object> getGzzdHistoryRecord (
+			@RequestParam(value = "wellNum", required = false) String wellNum,
+			@RequestParam(value = "page", required = true) int page,
+			@RequestParam(value = "rows", required = true) int rows) {
+		Map<String, Object> gzzdHistoryMap = new HashMap<String, Object>();
+		
+		List<GzzdHistoryModel> gzzdHistoryList;
+		if(wellNum == null || "".equals(wellNum)) {
+			gzzdHistoryList = gzzdHistoryService.getAllGzzdHistoryModel();
+		} else {
+			gzzdHistoryList = gzzdHistoryService.getGzzdHistoryModelsByWellNum(wellNum);
+		}
+		 
+		if(gzzdHistoryList != null && !gzzdHistoryList.isEmpty()) {
+			int len = gzzdHistoryList.size();
+			List<GzzdHistoryModel> resultData = new ArrayList<GzzdHistoryModel>();
+			int start = (page-1)*rows;
+			int end = (len - page*rows)>0?(page*rows):len;
+//			System.out.println("起始点：" + start);
+//			System.out.println("结束点：" + end);
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			for(;start<end;start++) {
+				GzzdHistoryModel gzzdModel = gzzdHistoryList.get(start);
+//				String time = sdf.format(energyData.getSave_time());
+//				energyData.setTime(time);
+				gzzdModel.setFaultCode(DzzdFaultType.faultType[Integer.valueOf(gzzdModel.getFaultCode())]);
+				resultData.add(gzzdModel);
+			}
+			gzzdHistoryMap.put("rows", resultData);
+			gzzdHistoryMap.put("total", len);
+		} else {
+			gzzdHistoryMap.put("total", 0);
+			gzzdHistoryMap.put("rows", "");
+		}
+		
+		return gzzdHistoryMap;
+	}
+	
+	@ResponseBody
+	@RequestMapping("/getGzzdRealtimeStatus.html")
+	public Map<String, Object> getGzzdRealtimeStatus (
+			@RequestParam(value = "wellNum", required = false) String wellNum,
+			@RequestParam(value = "page", required = true) int page,
+			@RequestParam(value = "rows", required = true) int rows) {
+		Map<String, Object> gzzdRealtimeMap = new HashMap<String, Object>();
+		
+		List<GzzdRealtimeModel> gzzdRealtimeList = new ArrayList<GzzdRealtimeModel>();
+		if(wellNum == null || "".equals(wellNum)) {
+			for(String well : GzzdInitService.gzzdRealtimeMap.keySet()) {
+				gzzdRealtimeList.add(GzzdInitService.gzzdRealtimeMap.get(well));
+			}
+		} else {
+			gzzdRealtimeList.add(GzzdInitService.gzzdRealtimeMap.get(wellNum));
+		}
+		
+		if(gzzdRealtimeList != null && !gzzdRealtimeList.isEmpty()) {
+			int len = gzzdRealtimeList.size();
+			List<GzzdRealtimeModel> resultData = new ArrayList<GzzdRealtimeModel>();
+			int start = (page-1)*rows;
+			int end = (len - page*rows)>0?(page*rows):len;
+			for(;start<end;start++) {
+				GzzdRealtimeModel gzzdModel = gzzdRealtimeList.get(start);
+				gzzdModel.setFaultCodeValue(DzzdFaultType.faultType[Integer.valueOf(gzzdModel.getFaultCode())]);
+				gzzdModel.setFaultFlagValue(gzzdModel.getFaultFlag()?"故障":"正常");
+				gzzdModel.setHasConfirmValue(gzzdModel.getHasConfirm()?"已确认":"未确认");
+				
+				resultData.add(gzzdModel);
+			}
+			gzzdRealtimeMap.put("rows", resultData);
+			gzzdRealtimeMap.put("total", len);
+		} else {
+			gzzdRealtimeMap.put("total", 0);
+			gzzdRealtimeMap.put("rows", "");
+		}
+		
+		return gzzdRealtimeMap;
+	}
+	
+	@ResponseBody
+	@RequestMapping("/getRealtimeFaultStatus.html")
+	public Map<String, Object> getRealtimeFaultStatus (
+			@RequestParam(value = "wellNum", required = false) String wellNum,
+			@RequestParam(value = "page", required = true) int page,
+			@RequestParam(value = "rows", required = true) int rows) {
+		Map<String, Object> gzzdRealtimeMap = new HashMap<String, Object>();
+		
+		List<GzzdRealtimeModel> gzzdRealtimeList = new ArrayList<GzzdRealtimeModel>();
+		if(wellNum == null || "".equals(wellNum)) {
+			for(String well : GzzdInitService.gzzdRealtimeMap.keySet()) {
+				GzzdRealtimeModel grm = GzzdInitService.gzzdRealtimeMap.get(well);
+				if(grm.getFaultFlag() && !grm.getHasConfirm()) {//返回有故障且未确认的信息
+					gzzdRealtimeList.add(grm);
+				}
+			}
+		} else {
+			GzzdRealtimeModel grm = GzzdInitService.gzzdRealtimeMap.get(wellNum);
+			if(grm.getFaultFlag() && !grm.getHasConfirm()) {//返回有故障且未确认的信息
+				gzzdRealtimeList.add(grm);
+			}
+		}
+		
+		if(gzzdRealtimeList != null && !gzzdRealtimeList.isEmpty()) {
+			int len = gzzdRealtimeList.size();
+			List<GzzdRealtimeModel> resultData = new ArrayList<GzzdRealtimeModel>();
+			int start = (page-1)*rows;
+			int end = (len - page*rows)>0?(page*rows):len;
+			for(;start<end;start++) {
+				GzzdRealtimeModel gzzdModel = gzzdRealtimeList.get(start);
+				gzzdModel.setFaultCodeValue(DzzdFaultType.faultType[Integer.valueOf(gzzdModel.getFaultCode())]);
+				gzzdModel.setFaultFlagValue(gzzdModel.getFaultFlag()?"故障":"正常");
+				gzzdModel.setHasConfirmValue(gzzdModel.getHasConfirm()?"已确认":"未确认");
+				
+				resultData.add(gzzdModel);
+			}
+			gzzdRealtimeMap.put("rows", resultData);
+			gzzdRealtimeMap.put("total", len);
+		} else {
+			gzzdRealtimeMap.put("total", 0);
+			gzzdRealtimeMap.put("rows", "");
+		}
+		
+		return gzzdRealtimeMap;
+	}
+	
+	@ResponseBody
+	@RequestMapping("/confirmGzzd.html")
+	public void confirmGzzd(@RequestParam(value = "wellNum", required = true) String wellNum) {
+		GzzdRealtimeModel grm = GzzdInitService.gzzdRealtimeMap.get(wellNum);
+		if(grm != null) {
+			grm.setHasConfirm(true);
+		}
+	}
+			
 	
 }
