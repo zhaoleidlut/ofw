@@ -60,6 +60,9 @@ public class GTDataComputerProcess {
 
 		log.debug("上死点序号为：" + maxFlag);
 		log.debug("下死点序号为：" + minFlag);
+		
+//		log.debug("上死点B  X:" + weiyi[maxFlag] + " Y:" + zaihe[maxFlag]);
+//		log.debug("下死点D  X:" + weiyi[minFlag] + " Y:" + zaihe[minFlag]);
 
 		float minZaihe = zaihe[0]; // 载荷最小值
 		float maxZaihe = zaihe[0]; // 载荷最大值
@@ -144,7 +147,7 @@ public class GTDataComputerProcess {
 		List<Integer> zsIndex = new ArrayList<Integer>();
 		for (int i = 0; i < shangIndex.size(); i++) {
 			if (pointArray[shangIndex.get(i)].getX() < (pointArray[minWeiyiFlag]
-					.getX() + 0.15)) {
+					.getX() + 0.15) && pointArray[shangIndex.get(i)].getIndex()<100) {
 				zsIndex.add(shangIndex.get(i));
 			}
 		}
@@ -154,6 +157,9 @@ public class GTDataComputerProcess {
 				zsFlag = zsIndex.get(i);
 			}
 		}
+		
+//		log.debug("左上点A  X:" + weiyi[pointArray[zsFlag].getIndex()] + " Y:"
+//				+ zaihe[pointArray[zsFlag].getIndex()]);
 
 		// 求右上点B
 		// List<Integer> ysIndex = new ArrayList<Integer>();
@@ -180,11 +186,13 @@ public class GTDataComputerProcess {
 		}
 		int maxWeiyiFlag = xiaIndex.get(0);// 下半部分位移最大点
 		for (int i = 1; i < xiaIndex.size(); i++) {
+			//log.debug(weiyi[pointArray[xiaIndex.get(i)].getIndex()]);
 			if (pointArray[xiaIndex.get(i)].getX() > pointArray[maxWeiyiFlag]
 					.getX()) {
 				maxWeiyiFlag = xiaIndex.get(i);
 			}
 		}
+		//log.debug(weiyi[pointArray[xiaIndex.get(maxWeiyiFlag)].getIndex()]);
 		// 求有效冲程，右下点C
 		List<Integer> yxIndex = new ArrayList<Integer>();
 		int yxFlag = 0;
@@ -193,7 +201,7 @@ public class GTDataComputerProcess {
 		} else {
 			for (int i = 0; i < xiaIndex.size(); i++) {
 				if (pointArray[xiaIndex.get(i)].getX() > (pointArray[maxWeiyiFlag]
-						.getX() - 0.1)) {
+						.getX() - 0.1) && pointArray[xiaIndex.get(i)].getIndex()>100) {
 					yxIndex.add(xiaIndex.get(i));
 				}
 			}
@@ -204,6 +212,9 @@ public class GTDataComputerProcess {
 				}
 			}
 		}
+		
+//		log.debug("右下点C  X:" + weiyi[pointArray[yxFlag].getIndex()] + " Y:"
+//				+ zaihe[pointArray[yxFlag].getIndex()]);
 
 		// 求左下
 		// List<Integer> zxIndex = new ArrayList<Integer>();
@@ -261,13 +272,13 @@ public class GTDataComputerProcess {
 		float areaGJ = (float) (maxZaihe - minZaihe) * chongcheng; // 用冲程*（最大载荷-最小载荷）估算漏失面积
 		log.debug("估算饱满面积值：" + areaGJ);
 		if (zaihe[minFlag] >= minZaihe + maxminZaiheCha * 0.25
-				&& zaihe[yxFlag] >= minZaihe + maxminZaiheCha * 0.25) {
+				&& zaihe[pointArray[yxFlag].getIndex()] >= minZaihe + maxminZaiheCha * 0.25) {
 			if (gtArea < 0.8 * areaGJ) {
 				gdfel = true;
 			}
 		}
 		if (zaihe[maxFlag] <= maxZaihe - maxminZaiheCha * 0.25
-				&& zaihe[zsFlag] <= maxZaihe - maxminZaiheCha * 0.02) {
+				&& zaihe[pointArray[zsFlag].getIndex()] <= maxZaihe - maxminZaiheCha * 0.02) {
 			if (gtArea < 0.8 * areaGJ) {
 				ydfel = true;
 			}
@@ -275,6 +286,7 @@ public class GTDataComputerProcess {
 		if (gdfel && ydfel) {
 			log.debug("【故障类型--双凡尔漏失】");
 			fault_code = 3;
+			
 		} else if (gdfel) {
 			log.debug("【故障类型--固定凡尔漏失】");
 			fault_code = 2;
@@ -282,8 +294,7 @@ public class GTDataComputerProcess {
 			log.debug("【故障类型--游动凡尔漏失】");
 			fault_code = 1;
 		}
-		fault_level = (int)(1 - gtArea / areaGJ)*10;
-
+		
 		int absoluteEIndex = 1000;
 		int absoluteFIndex = 1000;
 
@@ -344,16 +355,21 @@ public class GTDataComputerProcess {
 			// log.debug("F点凸包个数："+fPointArray.length);
 
 			QuLvCalc fQuLv = new QuLvCalc();
+			log.debug(fPointArray.length);
 			float fSki5[] = fQuLv.getQuLvPJBHL(fPointArray);
 			int fFlag = 2; // 最大曲率变化值索引
-			for (int i = 3; i <= fSki5.length - 2; i++) {
-				if (fSki5[i] > fSki5[fFlag]) {
-					fFlag = i;
+			if(fSki5!=null && fSki5.length>0) {
+				for (int i = 3; i <= fSki5.length - 2; i++) {
+					if (fSki5[i] > fSki5[fFlag]) {
+						fFlag = i;
+					}
 				}
+				absoluteFIndex = fPointArray[fFlag].getIndex();
+				log.debug("F点  X:" + weiyi[absoluteFIndex] + "  Y:"
+						+ zaihe[absoluteFIndex]);
 			}
-			absoluteFIndex = fPointArray[fFlag].getIndex();
-			log.debug("F点  X:" + weiyi[absoluteFIndex] + "  Y:"
-					+ zaihe[absoluteFIndex]);
+			
+			
 
 			float beLim = 0.02f; // BE阈值，小于此值，则一定为供液不足
 			float areaLim = 0.2f; // 面积阈值，小于此值，则可能为气锁
@@ -376,32 +392,35 @@ public class GTDataComputerProcess {
 					fault_code = 5;
 				}
 			}
-			fault_level = (int)(pointArray[yxFlag].getX()/(1 - pointArray[zsFlag].getX()))*10;
+			
+//			System.out.println(pointArray[yxFlag].getX());
+//			System.out.println(1 - pointArray[zsFlag].getX());
+//			System.out.println("故障级别：" + fault_level);
 			
 		}
 
-		float ski[] = quLv.getCommonQulv(weiyi, zaihe);
-		for (int i = maxFlag - 20; i <= maxFlag + 20; i++) {
-			if (ski[i] >= 50) {
-				log.debug("【故障类型--泵上碰】");
-				fault_code = 7;
-				break;
-			}
-		}
-		for (int i = 25;; i--) {
-			if (ski[i] >= 50) {
-				log.debug("【故障类型--泵下碰】");
-				fault_code = 8;
-				break;
-			}
-
-			if (i <= 0) {
-				i = 199;
-			}
-			if (i < 175) {
-				break;
-			}
-		}
+//		float ski[] = quLv.getCommonQulv(weiyi, zaihe);
+//		for (int i = maxFlag - 20; i <= maxFlag + 20; i++) {
+//			if (ski[i] >= 50 && weiyi[i]>weiyi[i-1] && weiyi[i]<weiyi[i+1]) {
+//				log.debug("【故障类型--泵上碰】");
+//				fault_code = 7;
+//				break;
+//			}
+//		}
+//		for (int i = 25;; i--) {
+//			if (ski[i] >= 50 && weiyi[i]>weiyi[i-1] && weiyi[i]<weiyi[i+1]) {
+//				log.debug("【故障类型--泵下碰】");
+//				fault_code = 8;
+//				break;
+//			}
+//
+//			if (i <= 0) {
+//				i = 199;
+//			}
+//			if (i < 175) {
+//				break;
+//			}
+//		}
 
 		if (maxZaihe < llsxzhjz && gtArea < chongcheng * 10) {
 			log.debug("【故障类型--抽油杆断脱】");
@@ -409,6 +428,13 @@ public class GTDataComputerProcess {
 		} else if (minZaihe > 100 && gtArea < chongcheng * 10) {
 			log.debug("【故障类型--连抽带喷】");
 			fault_code = 10;
+		}
+		
+		
+		if(fault_code == 1||fault_code == 2||fault_code == 3) {
+			fault_level = (int)((areaGJ - gtArea)*10 / areaGJ);
+		} else if(fault_code == 4 || fault_code == 5||fault_code == 6) {
+			fault_level = (int)(10-pointArray[yxFlag].getX()*10/(1 - pointArray[zsFlag].getX()));
 		}
 
 		// 产液量
@@ -494,7 +520,7 @@ public class GTDataComputerProcess {
 		resultMap.put("DY", zaihe[minFlag]);
 		log.debug("下死点D  X:" + weiyi[minFlag] + " Y:" + zaihe[minFlag]);
 
-		if(absoluteEIndex<200) {
+		if(absoluteEIndex<200 && absoluteFIndex<200) {
 			resultMap.put("EX", weiyi[absoluteEIndex]);
 			resultMap.put("EY", zaihe[absoluteEIndex]);
 			resultMap.put("FX", weiyi[absoluteFIndex]);

@@ -18,5 +18,9 @@ public class GzzdHistoryService {
 	public List<GzzdHistoryModel> getGzzdHistoryModelsByWellNum(String wellNum) {
 		return gzzdHistoryDao.getGzzdHistoryModelsByWellNum(wellNum);
 	}
+	
+	public void saveGzzdHistory(GzzdHistoryModel gzzdHistoryModel) {
+		gzzdHistoryDao.saveGzzdHistory(gzzdHistoryModel);
+	}
 
 }

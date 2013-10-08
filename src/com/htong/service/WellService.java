@@ -31,6 +31,7 @@ public class WellService {
 		IndexNodeModel indexNodeModel = indexNodeModelDao.getIndexNodeModel();
 		if(indexNodeModel != null) {
 			Map<String, Object> map = new HashMap<String, Object>();
+			
 			map.put("text", indexNodeModel.getName());
 			map.put("iconCls", "icon-save");
 			List<Map<String, Object>> childrenList = new ArrayList<Map<String,Object>>();

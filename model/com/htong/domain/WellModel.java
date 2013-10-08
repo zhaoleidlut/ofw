@@ -27,6 +27,8 @@ public class WellModel {
 	private String zhc;	//标准载荷差
 	
 	private String deviceOid;	//设备id
+	
+	private String mobileNum;	//负责人手机号
 
 	public String getOilDensity() {
 		return oilDensity;
@@ -34,6 +36,14 @@ public class WellModel {
 
 	public void setOilDensity(String oilDensity) {
 		this.oilDensity = oilDensity;
+	}
+
+	public String getMobileNum() {
+		return mobileNum;
+	}
+
+	public void setMobileNum(String mobileNum) {
+		this.mobileNum = mobileNum;
 	}
 
 	public String getChouyoujiXinghao() {

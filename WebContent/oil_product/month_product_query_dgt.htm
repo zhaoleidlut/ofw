@@ -1,0 +1,132 @@
+<div id="month_product_query_dgt"  fit="true" > 
+	<div id='month_product_query_selected_dgt'
+		style="height:35; background: #fafafa;"></div>
+	<div id='month_product_query_grid_dgt'></div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		
+		var mySelected = '<table style="font-size:14px;color:blue;">'
+				+ '<tr>'
+				+ '<td>井号：</td>'
+				+ '<td><input name="num" id="month_product_query_wellNum_dgt"></input></td>'
+				+ '<td>年：</td>'
+				+ '<td style=""><input name="year" value="2012" size="4"></input></td>'
+				+ '<td>月：</td>'
+				+ '<td><input name="mon" id="month_product_query_month_dgt"></input></td>'
+				+ '<td><input name="button" value="查询" type="button"></td>'
+				+ '</tr>' + '</table>';
+
+				
+		var myPanel = $('#month_product_query_selected_dgt');
+		var jq_mySelected = $(mySelected).appendTo(myPanel);
+		
+		
+		var wellList;
+		$.ajax({
+			async : false,
+			url : 'getDGTWellList.html',
+			type : 'post',
+			//cache : true,
+			dataType : 'json',
+			success : function(data) {
+				wellList = data.data;
+			}
+		});
+		
+		
+		$('#month_product_query_wellNum_dgt').combobox({
+			width : '120',
+			//url : 'getWellList.html',
+			valueField : 'value',
+			textField : 'label',
+			data : wellList
+		});
+
+
+		$('#month_product_query_month_dgt').combobox({
+			width : '70',
+			valueField : 'value',
+			textField : 'label',
+			data : [ {
+				label : '1',
+				value : '1'
+			}, {
+				label : '2',
+				value : '2'
+			}, {
+				label : '3',
+				value : '3'
+			}, {
+				label : '4',
+				value : '4'
+			}, {
+				label : '5',
+				value : '5'
+			}, {
+				label : '6',
+				value : '6'
+			}, {
+				label : '7',
+				value : '7'
+			}, {
+				label : '8',
+				value : '8'
+			}, {
+				label : '9',
+				value : '9'
+			}, {
+				label : '10',
+				value : '10'
+			}, {
+				label : '11',
+				value : '11'
+			}, {
+				label : '12',
+				value : '12'
+			} ]
+		});
+		
+		
+		
+		$('#month_product_query_selected_dgt').find('input[name=button]').click(function() {
+			var iWellNum = $('#month_product_query_wellNum_dgt').combobox('getValue');
+			var year = $('#month_product_query_selected_dgt').find('input[name=year]').val();
+			var month = $('#month_product_query_month_dgt').combobox('getText');
+			var parentHeight = $('#month_product_query_dgt').parent().height()-35;
+			
+			//alert(parentHeight);
+			$('#month_product_query_grid_dgt').datagrid({
+				//title:'text',
+				//iconCls : 'icon-save',
+				autoRowHeight : true,
+				nowrap : true,
+				//striped: true,
+				collapsible : true,
+				url : 'getMonthProductByWellNumForDGT.html',
+				//sortName : 'time',
+				remoteSort : false,
+				//toolbar : '#tb',
+				//sortName : '123',
+				//sortOrder : '456',
+				queryParams : {wellNum:iWellNum,year:year,month:month},
+				height : parentHeight,
+
+				columns : [ [ {
+					field : 'month',
+					title : '日期',
+					width : 100
+				}, {
+					field : 'product',
+					title : '产液量',
+					width : 100
+				}] ],
+				rownumbers : true
+			});
+			
+			
+		});
+		
+		
+	});
+</script>

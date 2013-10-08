@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -24,10 +25,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.htong.alg.MyLvBo;
 import com.htong.alg.SGTDataComputerProcess;
-import com.htong.dao.WellModelDao;
 import com.htong.domain.WellData;
 import com.htong.domain.WellModel;
+import com.htong.model.MonthProductModel;
 import com.htong.service.WellDataService;
+import com.htong.service.WellProductService;
 import com.htong.service.WellService;
 
 @Controller
@@ -36,10 +38,19 @@ public class WellProductController {
 	private WellDataService wellDataService;
 	@Autowired
 	private WellService wellService;
+	@Autowired
+	private WellProductService wellPruductService;
 
 	private static final Logger log = Logger
 			.getLogger(WellProductController.class);
 	
+	/**
+	 * 通过每小时的功图来计算产液量
+	 * @param wellNum
+	 * @param date
+	 * @param time
+	 * @return
+	 */
 	@RequestMapping("/getDayProductByHourGT.html")
 	@ResponseBody
 	public Map<String, Object> getDayProductByHourGT(
@@ -68,7 +79,7 @@ public class WellProductController {
 			map.put("hasData", "yes");
 		}
 		
-		if(wellData.getZaihe()[0]<0.5 && wellData.getZaihe()[1]<0.5 && wellData.getZaihe()[2]<0.5) {
+		if(wellData.getZaihe()[50]<0.5 && wellData.getZaihe()[51]<0.5 && wellData.getZaihe()[52]<0.5) {
 			map.put("zero", "yes");
 			return map;
 		} else {
@@ -105,9 +116,7 @@ public class WellProductController {
 		
 		Float cyl = (Float) calcMap.get("liquidProduct");
 		
-		
 		Float yxcc = (Float)calcMap.get("youxiaochongcheng");
-		
 		
 		JSONArray jsonArrayResult = new JSONArray(); // 最终的数组
 		JSONArray jsonArray = new JSONArray();
@@ -162,9 +171,7 @@ public class WellProductController {
 			loss = Float.valueOf(wellModel.getLoss());
 		}
 		float bz_zhc = 0;
-//		if(yxcc<=0.1) {
-//			yxcc = 1;
-//		}
+
 		float chanyeliang = 0;
 		
 		if(wellModel.getZhc() != null && !wellModel.getZhc().equals("0")) {
@@ -174,7 +181,6 @@ public class WellProductController {
 			chanyeliang = cyl * 24 + cyl * 24*addChongCheng/yxcc - loss; // 平均值+补偿值
 		}
 		
-		
 		BigDecimal yeBd = new BigDecimal(chanyeliang);
 		float newChanyeliang = yeBd.setScale(3, BigDecimal.ROUND_HALF_UP)
 				.floatValue();
@@ -182,21 +188,15 @@ public class WellProductController {
 		if (newChanyeliang < 0) {
 			newChanyeliang = 0;
 		}
-//		if(loss<0) {
-//			if(cyl*24<(0-loss)) {
-//				newChanyeliang = 0;
-//			}
-//		}
 		
 		map.put("llcyl", cyl * 24 + cyl * 24*addChongCheng/yxcc);
 		map.put("cyl", newChanyeliang);
 		
 		return map;
-		
 	}
 	
 	/**
-	 * 获得产液量
+	 * 获得日产液量
 	 * 
 	 * @param wellNum
 	 * @return
@@ -207,7 +207,7 @@ public class WellProductController {
 			@RequestParam(value = "wellNum", required = true) String wellNum,
 			@RequestParam(value = "starttime", required = true) String startTime,
 			@RequestParam(value = "endtime", required = true) String endTime) {
-		log.debug(wellNum + startTime + endTime);
+		log.debug(wellNum +" "+ startTime +" "+ endTime);
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date startDate = null;
@@ -225,11 +225,23 @@ public class WellProductController {
 		Calendar endCalendar = Calendar.getInstance();
 		endCalendar.setTime(endDate);
 		
-		String product = "";
+		WellModel well = wellService.getWellByNum(wellNum);
+		
+		String product = "0";
 		if(startTime.equals(endTime)) {//一天日产量查询
-			product = wellDataService.getDayProduct(wellNum, startCalendar);
+			if(well.getChouyoujiXinghao()!=null && well.getChouyoujiXinghao().equals("GGHX")) {
+				product = wellPruductService.getDayProductGGHX(wellNum, startCalendar);
+			} else {
+				try {
+					product = wellPruductService.getDayProduct(wellNum, startCalendar);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			
 		} else {//自定义时间段
-			product = wellDataService.getCustomDayProduct(wellNum, startCalendar, endCalendar);
+			product = wellPruductService.getCustomDayProduct(wellNum, startCalendar, endCalendar);
 		}
 		log.debug("产液量：" + product);
 
@@ -238,6 +250,218 @@ public class WellProductController {
 		return map;
 	}
 	
+	/**
+	 * 通过井号获得一个月的产液量
+	 * @param wellNum
+	 * @param year
+	 * @param month
+	 * @return
+	 */
+	@RequestMapping("/getMonthProductByWellNum.html")
+	@ResponseBody
+	public Map<String, Object> getMonthProductByWellNum(
+			@RequestParam(value = "wellNum", required = true) String wellNum, 
+			@RequestParam(value = "year", required = true) String year,
+			@RequestParam(value = "month", required = true) String month) {
+		
+		if("".equals(wellNum)|| "".equals(month) || "".equals(year)) {
+			return null;
+		}
+		
+		Map<String, Object> map = new HashMap<String, Object>();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date dateTime = null;
+		try {
+			dateTime = sdf.parse(year+"-" +month+ "-"+"01 "+"01:00:00");
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(dateTime);
+		
+		int days = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
+		
+		List<MonthProductModel> monthProList = new ArrayList<MonthProductModel>();
+		
+		for(int i=1;i<=days;i++) {
+			try {
+				dateTime = sdf.parse(year+"-" +month+ "-"+(i<10?"0"+String.valueOf(i):String.valueOf(i))+" "+"00:00:00");
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			Calendar c = Calendar.getInstance();
+			c.setTime(dateTime);
+			
+			String product = "0";
+			WellModel well = wellService.getWellByNum(wellNum);
+			
+			if(well.getChouyoujiXinghao()!=null && well.getChouyoujiXinghao().equals("GGHX")) {
+				product = wellPruductService.getDayProductGGHX(wellNum, c);
+			} else {
+				try {
+					product = wellPruductService.getDayProduct(wellNum, c);
+				} catch (Exception e) {
+					product = "0";
+					e.printStackTrace();
+				}
+			}
+			
+			String m =month+"月" + (i<10?"0"+String.valueOf(i):String.valueOf(i)) + "日";
+			MonthProductModel mpm = new MonthProductModel();
+			mpm.setMonth(m);
+			mpm.setProduct(product);
+			
+			monthProList.add(mpm);
+		}
+		map.put("rows", monthProList);
+		map.put("total", days);
+		
+		return map;
+	}
+	
+	/**
+	 * 通过井号获得一个月的产液量
+	 * @param wellNum
+	 * @param year
+	 * @param month
+	 * @return
+	 */
+	@RequestMapping("/getMonthProductByWellNumForDGT.html")
+	@ResponseBody
+	public Map<String, Object> getMonthProductByWellNumForDGT(
+			@RequestParam(value = "wellNum", required = true) String wellNum, 
+			@RequestParam(value = "year", required = true) String year,
+			@RequestParam(value = "month", required = true) String month) {
+		
+		if("".equals(wellNum)|| "".equals(month) || "".equals(year)) {
+			return null;
+		}
+		
+		Map<String, Object> map = new HashMap<String, Object>();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date dateTime = null;
+		try {
+			dateTime = sdf.parse(year+"-" +month+ "-"+"01 "+"01:00:00");
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(dateTime);
+		
+		int days = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
+		
+		List<MonthProductModel> monthProList = new ArrayList<MonthProductModel>();
+		
+		for(int i=1;i<=days;i++) {
+			try {
+				dateTime = sdf.parse(year+"-" +month+ "-"+(i<10?"0"+String.valueOf(i):String.valueOf(i))+" "+"00:00:00");
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			Calendar c = Calendar.getInstance();
+			c.setTime(dateTime);
+			
+			String product = "0";
+			WellModel well = wellService.getWellByNum(wellNum);
+			
+			if(well.getChouyoujiXinghao() != null && well.getChouyoujiXinghao().equals("DGT")) {
+				product = wellPruductService.getDGTDayProduct(wellNum, c);
+				map.put("isDGT", true);
+			} else {
+				map.put("isDGT", false);
+				return map;
+			}
+			
+//			if(well.getChouyoujiXinghao()!=null && well.getChouyoujiXinghao().equals("GGHX")) {
+//				product = wellPruductService.getDayProductGGHX(wellNum, c);
+//			} else {
+//				product = wellPruductService.getDayProduct(wellNum, c);
+//			}
+			
+			String m =month+"月" + (i<10?"0"+String.valueOf(i):String.valueOf(i)) + "日";
+			MonthProductModel mpm = new MonthProductModel();
+			mpm.setMonth(m);
+			mpm.setProduct(product);
+			
+			monthProList.add(mpm);
+		}
+		map.put("rows", monthProList);
+		map.put("total", days);
+		
+		return map;
+	}
+	
+	@RequestMapping("/getP.html")
+	@ResponseBody
+	public Map<String, Object> getP() throws IOException {
+		String month = "11";
+		
+		Map<String, Object> map = new HashMap<String, Object>();
+		 File f = new File("d:\\"+month+"月理论值.txt");
+		   if(f.exists()){
+		    System.out.print("文件存在");
+		   }else{
+		    System.out.print("文件不存在");
+		    f.createNewFile();//不存在则创建
+		   }
+		   
+		BufferedWriter output = new BufferedWriter(new FileWriter(f));
+		
+		List<WellModel> welllist = wellService.getAllWells();
+		for(WellModel well:welllist) {
+			 output.write(well.getNum() + "  " + month + "月理论值\r\n");
+			 for(int i = 1;i<=30;i++) {
+				String startTime = "2012-" + month + "-" + i;
+				String endTime = "2012-" + month + "-" + i;
+				
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				Date startDate = null;
+				Date endDate = null;
+				
+				try {
+					startDate = sdf.parse(startTime + " 00:00:00");
+					endDate = sdf.parse(endTime + " 23:59:59");
+				} catch (ParseException e) {
+					log.error("日期转换错误！");
+					e.printStackTrace();
+				}
+				Calendar startCalendar = Calendar.getInstance();
+				startCalendar.setTime(startDate);
+				Calendar endCalendar = Calendar.getInstance();
+				endCalendar.setTime(endDate);
+				
+				String product = "";
+				try {
+					product = wellPruductService.getDayProduct(well.getNum(), startCalendar);
+				} catch (Exception e) {
+					product="0";
+					e.printStackTrace();
+				}
+				
+//				String yxcc = "";
+//				try {
+//					yxcc = wellPruductService.getYXCC(well.getNum(), startCalendar);
+//				} catch (Exception e) {
+//					yxcc = "0";
+//					e.printStackTrace();
+//				}
+				
+//				String zhc = "";
+//				zhc = wellDataService.getZHC(well.getNum(), startCalendar);
+				
+				
+//				output.write(yxcc +  "\r\n");
+				output.write(product+"\r\n");
+//				output.write(zhc+"\r\n");
+				
+//				map.put(month +"月" + String.valueOf(i) + "日产液量", product);
+			}
+		}
+		output.close();
+		return map;
+	}
 	
 	
 	@RequestMapping("/getZHC.html")
@@ -266,9 +490,9 @@ public class WellProductController {
 		
 		String product = "";
 		if(startTime.equals(endTime)) {//一天日产量查询
-			product = wellDataService.getZHC(wellNum, startCalendar);
+			product = wellPruductService.getZHC(wellNum, startCalendar);
 		} else {//自定义时间段
-			product = wellDataService.getCustomDayProduct(wellNum, startCalendar, endCalendar);
+			product = wellPruductService.getCustomDayProduct(wellNum, startCalendar, endCalendar);
 		}
 		log.debug("产液量：" + product);
 
@@ -277,115 +501,109 @@ public class WellProductController {
 		return map;
 	}
 	
-	@RequestMapping("/getP.html")
+	@RequestMapping("/getYearProductByWellNumForBar.html")
 	@ResponseBody
-	public Map<String, Object> getP() throws IOException {
-		String month = "08";
+	public Map<String, Object> getYearProductByWellNumForBar(
+			@RequestParam(value = "wellNum", required = true) String wellNum, 
+			@RequestParam(value = "year", required = true) String year) {
 		
-		Map<String, Object> map = new HashMap<String, Object>();
-		 File f = new File("d:\\"+month+"月修正刀把理论值.txt");
-		   if(f.exists()){
-		    System.out.print("文件存在");
-		   }else{
-		    System.out.print("文件不存在");
-		    f.createNewFile();//不存在则创建
-		   }
-		   
-		   BufferedWriter output = new BufferedWriter(new FileWriter(f));
-
-		
-		List<WellModel> welllist = wellService.getAllWells();
-		for(WellModel well:welllist) {
-			 output.write(well.getNum() + "  " + month + "月修正刀把理论值\r\n");
-			 for(int i = 1;i<=7;i++) {
-				String startTime = "2012-" + month + "-" + i;
-				String endTime = "2012-" + month + "-" + i;
-				
-				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-				Date startDate = null;
-				Date endDate = null;
-				
-				try {
-					startDate = sdf.parse(startTime + " 00:00:00");
-					endDate = sdf.parse(endTime + " 23:59:59");
-				} catch (ParseException e) {
-					log.error("日期转换错误！");
-					e.printStackTrace();
-				}
-				Calendar startCalendar = Calendar.getInstance();
-				startCalendar.setTime(startDate);
-				Calendar endCalendar = Calendar.getInstance();
-				endCalendar.setTime(endDate);
-//				
-				String product = "";
-				product = wellDataService.getDayProduct(well.getNum(), startCalendar);
-				
-//				String yxcc = "";
-//				yxcc = wellDataService.getYXCC(well.getNum(), startCalendar);
-				
-//				String zhc = "";
-//				zhc = wellDataService.getZHC(well.getNum(), startCalendar);
-				
-				
-//				output.write(yxcc +  "\r\n");
-				output.write(product+"\r\n");
-//				output.write(zhc+"\r\n");
-				
-//				map.put(month +"月" + String.valueOf(i) + "日产液量", product);
-			}
+		if("".equals(wellNum)|| "".equals(year)) {
+			return null;
 		}
 		
-		 output.close();
+		Map<String, Object> map = new HashMap<String, Object>();
+		JSONArray jsonArray = new JSONArray();
+		JSONArray result = new JSONArray();
 		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		for(int i = 1;i<13;i++) {
+			Date dateTime = null;
+			try {
+				dateTime = sdf.parse(year+"-" +i+ "-"+"01 "+"01:00:00");
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			Calendar calendar = Calendar.getInstance();
+			calendar.setTime(dateTime);
+			
+			String product;
+			try {
+				product = wellPruductService.getDayProduct(wellNum, calendar);
+			} catch (Exception e) {
+				product = "0";
+				e.printStackTrace();
+			}
+			
+			JSONArray ja = new JSONArray();
+			ja.add(i);
+			ja.add(Float.parseFloat(product)*30);
+			jsonArray.add(ja);
+		}
+
+		result.add(jsonArray);
+
+		map.put("monthProduct", result);
 		return map;
 	}
 	
-	@RequestMapping("/getMonthProduct.html")
+	@RequestMapping("/getMonthProductByWellNumForLine.html")
 	@ResponseBody
-	public Map<String, Object> getMonthProduct(
-			@RequestParam(value = "dtu", required = true) String dtu, @RequestParam(value = "month", required = true) String month) {
+	public Map<String, Object> getMonthProductByWellNumForLine(
+			@RequestParam(value = "wellNum", required = true) String wellNum, 
+			@RequestParam(value = "year", required = true) String year,
+			@RequestParam(value = "month", required = true) String month) {
+		
+		if("".equals(wellNum)|| "".equals(month) || "".equals(year)) {
+			return null;
+		}
 		
 		Map<String, Object> map = new HashMap<String, Object>();
 		
-		WellModel well = wellService.getWellByDtuNum(dtu);
-		if(well == null) {
-			map.put("错误", "不存在"+dtu+"的DTU");
-			return map;
-		} else {
-			map.put(dtu + "所属井", well.getNum());
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date dateTime = null;
+		try {
+			dateTime = sdf.parse(year+"-" +month+ "-"+"01 "+"01:00:00");
+		} catch (ParseException e) {
+			e.printStackTrace();
 		}
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(dateTime);
 		
-		for(int i = 1;i<=30;i++) {
-			String startTime = "2012-" + month + "-" + i;
-			String endTime = "2012-" + month + "-" + i;
-			
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			Date startDate = null;
-			Date endDate = null;
-			
+		int days = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
+		
+		JSONArray jsonArray = new JSONArray();
+		JSONArray result = new JSONArray();
+		
+		for(int i=1;i<=days;i++) {
 			try {
-				startDate = sdf.parse(startTime + " 00:00:00");
-				endDate = sdf.parse(endTime + " 23:59:59");
+				dateTime = sdf.parse(year+"-" +month+ "-"+(i<10?"0"+String.valueOf(i):String.valueOf(i))+" "+"00:00:00");
 			} catch (ParseException e) {
-				log.error("日期转换错误！");
 				e.printStackTrace();
 			}
-			Calendar startCalendar = Calendar.getInstance();
-			startCalendar.setTime(startDate);
-			Calendar endCalendar = Calendar.getInstance();
-			endCalendar.setTime(endDate);
+			Calendar c = Calendar.getInstance();
+			c.setTime(dateTime);
 			
-			String product = "";
+			String product = "0";
+			WellModel well = wellService.getWellByNum(wellNum);
 			
-			product = wellDataService.getMouthProduct(dtu, startCalendar);
+			if(well.getChouyoujiXinghao()!=null && well.getChouyoujiXinghao().equals("GGHX")) {
+				product = wellPruductService.getDayProductGGHX(wellNum, c);
+			} else {
+				try {
+					product = wellPruductService.getDayProduct(wellNum, c);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
 			
-			log.debug("产液量：" + product);
-
-			
-			map.put(month +"月" + String.valueOf(i) + "日产液量", product);
+			JSONArray ja = new JSONArray();
+			ja.add(i);
+			ja.add(Float.parseFloat(product));
+			jsonArray.add(ja);
 		}
-		
+		result.add(jsonArray);
+
+		map.put("monthProduct", result);
 		return map;
 	}
-
 }

@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.htong.domain.User;
 import com.htong.service.UserService;
+import com.opensymphony.xwork2.ActionContext;
 
 @Controller
 public class UserController {
@@ -32,7 +34,9 @@ public class UserController {
 			map.put("username", user.getUsername());
 
 			request.getSession().setAttribute("user", user.getUsername());
-
+			
+			log.debug(user.getUsername());
+			
 			return map;
 		} else {
 			map.put("success", false);

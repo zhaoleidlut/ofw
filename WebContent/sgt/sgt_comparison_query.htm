@@ -5,7 +5,7 @@
 	</div> -->
 	<div region="center" icon="icon-reload">
 		<div id='slected_time' style="height: 35px; background: #fafafa;"></div>
-		<div id='sgt_comparision' class="easyui-panel" fit="true">
+		<div id='sgt_comparision' fit="true">
 			<div style="width: 33%"></div>
 			<div style="width: 33%"></div>
 			<div style="width: 33%"></div>
@@ -79,6 +79,12 @@
 				});
 
 		$('#sgt_comparison_query').find('input[name=button]').click(function() {
+			//设置高度
+			//var ht = $('#slected_time').parent().height()-35;
+			//$('#sgt_comparision').css('height','400');
+			//alert(ht);
+			//alert($('#sgt_comparision').height());
+			
 			var nodes = myTree.tree('getChecked');
 			if (nodes.length < 1) {
 				return;
@@ -92,6 +98,7 @@
 				iportal.portal({
 					border : false,
 					fit : true
+					//height : 400
 				});
 
 				var panels = iportal.portal('getPanels');
@@ -107,7 +114,7 @@
 						continue;
 					}
 					
-					var p = $('<div></div>').appendTo(iportal);
+					var p = $('<div></div>').appendTo('body');
 					p.panel({
 						title : nodes[i].text,
 						id : nodes[i].text + 'sgt_comparison',
@@ -255,7 +262,7 @@
 						tickOptions : {
 							formatString : '%0.1f'
 						},
-						ticks : ['10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
+						ticks : ['0.0','10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
 					}
 				},
 				

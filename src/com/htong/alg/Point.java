@@ -9,6 +9,7 @@ public class Point{
 	private float x;	//X坐标
 	private float y;	//Y坐标
 	private double arCos;	//与P0点的角度
+	private int index;	//索引
 	
 	public float getX() {
 		return x;
@@ -27,6 +28,12 @@ public class Point{
 	}
 	public void setArCos(double arCos) {
 		this.arCos = arCos;
+	}
+	public int getIndex() {
+		return index;
+	}
+	public void setIndex(int index) {
+		this.index = index;
 	}
 
 }

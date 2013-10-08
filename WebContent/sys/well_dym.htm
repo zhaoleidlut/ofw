@@ -1,0 +1,82 @@
+<div id="well_dym" fit="true">
+	<div id='well_dym_selected'
+		style="height: 35; background: #fafafa;"></div>
+	<div style="height: 45; background: #fafafa;position:relative;left:20px;color:rgb(0,0,255);"><span style="">油井动液面：</span><span><input name="num" id="well_dym_result" type="text"></input></span></div>
+	<div id='well_dym_compute' fit="true">
+		<div style="width: 33%"></div>
+		<div style="width: 33%"></div>
+		<div style="width: 33%"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+
+		var date = new Date();
+		y = date.getFullYear();
+		m = date.getMonth() + 1;
+		d = date.getDate();
+		h = date.getHours();
+		var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+				+ (d < 10 ? ("0" + d) : d);
+
+		var mySelected = '<table style="font-size:14px;color:blue;">'
+				+ '<tr>'
+				+ '<td>井号：</td>'
+				+ '<td><input name="num" id="well_dym_selected_wellNum"></input></td>'
+				+ '<td>对比时间选择：</td>'
+				+ '<td><input name="date"></input></td>'
+				+ '<td><input name="time" style="width:35px;" required="true" class="easyui-numberspinner" min="0" max="23" value='+h+'></input>点</td>'
+				+ '<td><input name="button" value="计算" type="button"></td>'
+				+ '</tr>' + '</table>';
+
+		var myPanel = $('#well_dym_selected');
+		var jq_mySelected = $(mySelected).appendTo(myPanel);
+
+		var wellList;
+		$.ajax({
+			async : false,
+			url : 'getWellList.html',
+			type : 'post',
+			dataType : 'json',
+			success : function(data) {
+				wellList = data.data;
+			}
+		});
+
+		$('#well_dym_selected_wellNum').combobox({
+			width : '120',
+			valueField : 'value',
+			textField : 'label',
+			data : wellList
+		});
+
+		$('#well_dym_selected').find('input[name=date]')
+				.datebox(
+						{
+							required : true,
+							value : currentTime,
+							formatter : function(date) {
+								y = date.getFullYear();
+								m = date.getMonth() + 1;
+								d = date.getDate();
+								return y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+										+ (d < 10 ? ("0" + d) : d);
+							}
+						});
+
+		$('#well_dym_selected')
+				.find('input[name=button]')
+				.click(
+						function() {
+							
+							$.messager.alert("错误", "该井未安装回压套压油压传感器，请确定安装后再尝试计算！",
+							"warning");
+					return;
+							
+							
+						});
+
+
+
+	});
+</script>

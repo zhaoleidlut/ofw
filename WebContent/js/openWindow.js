@@ -19,7 +19,7 @@ function openWin(winTitle) {
 			columns : [ [ {
 				field : 'wellNum',
 				title : '井号',
-				width : 70
+				width : 75
 			}, {
 				field : 'dtuNum',
 				title : 'DTU号',
@@ -50,6 +50,22 @@ function openWin(winTitle) {
 				field : 'deviceTime',
 				title : '设备时间',
 				width : 130
+			}, {	
+				field : 'confirm',
+				title : '确认操作',
+				width : 65,
+				formatter: function(value,row,index){
+					var record = $('#gzzd_real_status_grid').datagrid('getData').rows[index];
+					var flag = record.faultFlag;
+					var sure = record.hasConfirm;
+//					alert(flag);
+					if(flag && !sure) {
+						var c = '<input type="button" value="确认" onClick="confirmGzzdHistory('+index+')"></input>';
+						return c;
+					} else {
+						return '';
+					}
+				}
 			} ] ],
 			pageSize : 15,
 			pageList : [ 15, 20, 30, 40, 50 ],
@@ -64,4 +80,21 @@ function openWin(winTitle) {
 			} ]
 		});
 	}
+}
+
+function confirmGzzdHistory(index) {
+	var wellNum = $('#gzzd_real_status_grid').datagrid('getData').rows[index].wellNum;
+	
+	$.ajax({
+		async : false,
+		url : 'confirmGzzd.html',
+		type : 'post',
+		cache : false,
+		dataType : 'json',
+		data : 'wellNum=' + wellNum,
+		success : function(data) {
+			$('#gzzd_real_status_grid').datagrid('reload');
+		}
+	});
+
 }

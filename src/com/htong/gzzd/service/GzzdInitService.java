@@ -37,7 +37,7 @@ public class GzzdInitService extends Thread {
 
 	private void init() {
 		log.debug("init");
-		this.start();
+//		this.start();
 	}
 
 	@Override
@@ -53,25 +53,10 @@ public class GzzdInitService extends Thread {
 		if (wellList != null && !wellList.isEmpty()) {
 			for (int i = 0; i < wellList.size(); i++) {
 				WellModel well = wellList.get(i);
+				log.debug(well.getNum());
 
-				WellData latestWellData = wellDataDao
-						.getLatedWellDataByWellNum(well.getNum());
-				WellData secondLatestWellData = wellDataDao
-						.getSecondLatedWellDataByWellNum(well.getNum());
-				
-				if(latestWellData.getZaihe()[0]<0.5 && latestWellData.getZaihe()[1]<0.5 && latestWellData.getZaihe()[2]<0.5 && latestWellData.getZaihe()[3]<0.5 && latestWellData.getZaihe()[4]<0.5) {
-					continue;
-				}
-				if(secondLatestWellData.getZaihe()[0]<0.5 && secondLatestWellData.getZaihe()[1]<0.5 && secondLatestWellData.getZaihe()[2]<0.5 && secondLatestWellData.getZaihe()[3]<0.5 && secondLatestWellData.getZaihe()[4]<0.5) {
-					continue;
-				}
-
-				GzzdThread gzzdThread = new GzzdThread(gzzdHistoryDao,
-						latestWellData, secondLatestWellData, well);
+				GzzdThread gzzdThread = new GzzdThread(gzzdHistoryDao,wellDataDao, well);
 				gzzdThread.start();
-				
-				
-				
 				try {
 					sleep(100);
 				} catch (InterruptedException e) {
@@ -86,7 +71,8 @@ public class GzzdInitService extends Thread {
 		long nextTimeInterval = c.getTime().getTime();
 
 		while (true) {
-			if (System.currentTimeMillis() < nextTimeInterval) {
+			long currentTime = System.currentTimeMillis();
+			if (currentTime < nextTimeInterval) {
 				//log.debug("下次时间：" + nextTimeInterval + "当前时间" + System.currentTimeMillis());
 				//log.debug("实时诊断队列个数：" + gzzdRealtimeMap.size());
 				try {
@@ -99,32 +85,14 @@ public class GzzdInitService extends Thread {
 				if (wellList != null && !wellList.isEmpty()) {
 					for (int i = 0; i < wellList.size(); i++) {
 						WellModel well = wellList.get(i);
-
-						WellData latestWellData = wellDataDao
-								.getLatedWellDataByWellNum(well.getNum());
-						WellData secondLatestWellData = wellDataDao
-								.getSecondLatedWellDataByWellNum(well.getNum());
-						
-						if(latestWellData.getZaihe()[0]<0.5 && latestWellData.getZaihe()[1]<0.5 && latestWellData.getZaihe()[2]<0.5 && latestWellData.getZaihe()[3]<0.5 && latestWellData.getZaihe()[4]<0.5) {
-							continue;
-						}
-						if(secondLatestWellData.getZaihe()[0]<0.5 && secondLatestWellData.getZaihe()[1]<0.5 && secondLatestWellData.getZaihe()[2]<0.5 && secondLatestWellData.getZaihe()[3]<0.5 && secondLatestWellData.getZaihe()[4]<0.5) {
-							continue;
-						}
-
-						GzzdThread gzzdThread = new GzzdThread(gzzdHistoryDao,
-								latestWellData, secondLatestWellData, well);
+						GzzdThread gzzdThread = new GzzdThread(gzzdHistoryDao,wellDataDao, well);
 						gzzdThread.start();
-						
-						
-						
 						try {
 							sleep(100);
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 						}
 					}
-					
 					log.debug("执行完一遍故障诊断线程！");
 				}
 
@@ -137,7 +105,6 @@ public class GzzdInitService extends Thread {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-
 		}
 	}
 

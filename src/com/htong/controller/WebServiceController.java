@@ -1,6 +1,9 @@
 package com.htong.controller;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,15 +52,29 @@ public class WebServiceController {
 				} else {
 					var.setConnStatus("已连接");
 				}
-				if(dtuStatusModel.isCommStatus() == null || !dtuStatusModel.isCommStatus()) {
-					var.setCommStatus("离线");
-				} else {
-					var.setCommStatus("在线");
-				}
+//				if(dtuStatusModel.isCommStatus() == null || !dtuStatusModel.isCommStatus()) {
+//					var.setCommStatus("离线");
+//				} else {
+//					var.setCommStatus("在线");
+//				}
 				if(dtuStatusModel.getHeartBeatTime() == null) {
 					var.setHeartBeatTime("无心跳");
+					var.setCommStatus("离线");
 				} else {
 					var.setHeartBeatTime(dtuStatusModel.getHeartBeatTime());
+					SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+					Date date = null;
+					try {
+						date = sdf.parse(dtuStatusModel.getHeartBeatTime());
+					} catch (ParseException e) {
+						var.setCommStatus("离线");
+						e.printStackTrace();
+					}
+					if ((new Date().getTime() - date.getTime()) > 18 * 60 * 1000) {
+						var.setCommStatus("离线");
+					} else {
+						var.setCommStatus("在线");
+					}
 				}
 				
 				dtuList.add(var);

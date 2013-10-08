@@ -82,6 +82,18 @@ function addTab(title) {
 			$('#index_tabs').tabs('select','分离器对比');
 		}
 		
+	} else if(title == '电功图量油') {
+		var tab = $('#index_tabs').tabs('getTab','电功图量油');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '电功图量油',
+			href : 'oil_product/month_product_query_dgt.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','电功图量油');
+		}
+		
 	} else if(title == '示功图电功图对比') {
 		var tab = $('#index_tabs').tabs('getTab','示功图电功图对比');
 		if(typeof(tab) == 'undefined' || tab == null) {
@@ -225,5 +237,71 @@ function addTab(title) {
 			$('#index_tabs').tabs('select','故障历史记录');
 		}
 		
+	}  else if(title == '月产量查询') {
+		var tab = $('#index_tabs').tabs('getTab','月产量查询');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '月产量查询',
+			href : 'oil_product/month_product_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','月产量查询');
+		}
+	}  else if(title == '示功图电量对比') {
+		var tab = $('#index_tabs').tabs('getTab','示功图电量对比');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '示功图电量对比',
+			href : 'sgt_dian/sgt_dian.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','示功图电量对比');
+		}
+	}  else if(title == '油井平衡分析') {
+		var tab = $('#index_tabs').tabs('getTab','油井平衡分析');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '油井平衡分析',
+			href : 'sys/well_balance.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','油井平衡分析');
+		}
+	}  else if(title == '动液面估算') {
+		var tab = $('#index_tabs').tabs('getTab','动液面估算');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '动液面估算',
+			href : 'sys/well_dym.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','动液面估算');
+		}
+	}  else if(title == '油井运行状态') {
+		var tab = $('#index_tabs').tabs('getTab','油井运行状态');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '油井运行状态',
+			href : 'well_status/well_status_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','油井运行状态');
+		}
+	}  else if(title == '油井起停记录') {
+		var tab = $('#index_tabs').tabs('getTab','油井起停记录');
+		if(typeof(tab) == 'undefined' || tab == null) {
+			$('#index_tabs').tabs('add', {
+			title : '油井起停记录',
+			href : 'well_status/well_status_history_query.htm',
+			closable : true
+			});
+		} else {
+			$('#index_tabs').tabs('select','油井起停记录');
+		}
 	}
 }

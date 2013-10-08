@@ -1,0 +1,344 @@
+<div id="well_balance" fit="true">
+	<div id='well_balance_selected'
+		style="height: 35; background: #fafafa;"></div>
+	<div style="height: 45; background: #fafafa;position:relative;left:20px;color:rgb(0,0,255);"><span style="">油井平衡度：</span><span><input name="num" id="well_balance_result" type="text"></input></span></div>
+	<div id='well_balance_compute' fit="true">
+		<div style="width: 33%"></div>
+		<div style="width: 33%"></div>
+		<div style="width: 33%"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+
+		var date = new Date();
+		y = date.getFullYear();
+		m = date.getMonth() + 1;
+		d = date.getDate();
+		h = date.getHours();
+		var currentTime = y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+				+ (d < 10 ? ("0" + d) : d);
+
+		var mySelected = '<table style="font-size:14px;color:blue;">'
+				+ '<tr>'
+				+ '<td>井号：</td>'
+				+ '<td><input name="num" id="well_balance_selected_wellNum"></input></td>'
+				+ '<td>对比时间选择：</td>'
+				+ '<td><input name="date"></input></td>'
+				+ '<td><input name="time" style="width:35px;" required="true" class="easyui-numberspinner" min="0" max="23" value='+h+'></input>点</td>'
+				+ '<td><input name="button" value="计算" type="button"></td>'
+				+ '</tr>' + '</table>';
+
+		var myPanel = $('#well_balance_selected');
+		var jq_mySelected = $(mySelected).appendTo(myPanel);
+
+		var wellList;
+		$.ajax({
+			async : false,
+			url : 'getWellList.html',
+			type : 'post',
+			dataType : 'json',
+			success : function(data) {
+				wellList = data.data;
+			}
+		});
+
+		$('#well_balance_selected_wellNum').combobox({
+			width : '120',
+			valueField : 'value',
+			textField : 'label',
+			data : wellList
+		});
+
+		$('#well_balance_selected').find('input[name=date]')
+				.datebox(
+						{
+							required : true,
+							value : currentTime,
+							formatter : function(date) {
+								y = date.getFullYear();
+								m = date.getMonth() + 1;
+								d = date.getDate();
+								return y + "-" + (m < 10 ? ("0" + m) : m) + "-"
+										+ (d < 10 ? ("0" + d) : d);
+							}
+						});
+
+		$('#well_balance_selected')
+				.find('input[name=button]')
+				.click(
+						function() {
+							
+							
+							//var ht = $('#sgt_dian_comparison').parent().height()-35;
+							$('#well_balance_compute').css("height", 680);
+							//初始化日期与时间
+							comparison_date = $(
+									'#well_balance_selected')
+									.find('input[name=date]').val();
+							comparison_time = $(
+									'#well_balance_selected')
+									.find('input[name=time]').val();
+							wellNum = $(
+									'#well_balance_selected_wellNum')
+									.combobox('getValue');
+
+							var chongcheng = '4';
+							var chongci = '2';
+							var minZaihe = '12.3';
+							var maxZaihe = '34';
+							var time = '2012-05-23 13:30:31';
+
+							var ret;
+
+							$.ajax({
+								async : false,
+								url : 'getHistorySGTDianData.html',
+								type : 'post',
+								cache : false,
+								dataType : 'json',
+								data : 'wellNum=' + wellNum + '&date='
+										+ comparison_date + '&time='
+										+ comparison_time,
+								success : function(data) {
+									//指定日期无数据选择最后采集的数据
+									if (data.hasData == 'no') {
+										$.messager.alert("错误", "该时间点未采集到数据！",
+												"warning");
+										return;
+									} else {
+										if (data.zero == 'yes') {
+											$.messager.alert("错误", "该井数据均为0！",
+													"warning");
+											return;
+										} else {
+											ret = data;
+											//alert(ret);
+
+											chongcheng = data.chongcheng;
+											chongci = data.chongci;
+											minZaihe = data.minzaihe;
+											maxZaihe = data.maxzaihe;
+											time = data.time;
+										}
+
+									}
+								}
+							});
+							
+							//赋值平衡度
+							$('#well_balance_result').val(ret.wellbalance);
+
+							var iportal = $('#well_balance_compute');
+							iportal.portal({
+								border : false,
+								fit : true
+							});
+							
+							var panels = iportal.portal('getPanels');
+							for ( var j = 0; j < panels.length; j++) {
+								iportal.portal('remove', panels[j]);
+							}
+
+							var p = $('<div></div>').appendTo("body");
+							p.panel({
+								title : wellNum,
+								//id : wellNum + 'sgt_dian_panel',
+								height : 330,
+								closable : true,
+								//	fit:true,
+								collapsible : true,
+								onOpen : function() {
+									//createContent(nodes[i]);
+								}
+							});
+
+							//var panel = $('#' + wellNum + 'sgt_dian_panel');
+
+							var id = wellNum + 'sgt_dian';
+							//曲线图形
+							var div = $(
+									'<div style="height:190px;width:280px;position: relative;left: 2px;" id='+id+'></div>')
+									.appendTo(p);
+
+							var myDiv = $(
+									'<div style="height:100px;width:225px;position: relative;left: 55px;"></div>')
+									.appendTo(p);
+							var str = '<table style="color:blue;">' + '<tr>'
+									+ '<td align="right">冲程：</td>'
+									+ '<td name="_chongcheng">'
+									+ chongcheng
+									+ '</td>'
+									+ '<td align="right">冲次    ：</td>'
+									+ '<td name="_chongci">'
+									+ chongci
+									+ '</td>'
+									+ '</tr>'
+									+ '<tr>'
+									+ '<td align="right">最小载荷：</td>'
+									+ '<td width="35px" name="_minZaihe">'
+									+ minZaihe
+									+ '</td>'
+									+ '<td align="right">最大载荷：</td>'
+									+ '<td name="_maxZaihe">'
+									+ maxZaihe
+									+ '</td>'
+									+ '</tr>'
+									+ '<tr height="2px"></tr>'
+									+ '<tr>'
+									+ '<td align="right">数据时间    ：</td>'
+									+ '<td colspan="3" name="_time">'
+									+ time
+									+ '</td>' + '</tr>' + '</table>';
+
+							$(str).appendTo(myDiv);
+
+							var options = {
+								title : wellNum + '示功图',
+								seriesDefaults : {
+									showLine : true,
+									rendererOptions : {
+										smooth : true
+									},
+									lineWidth : 1,
+									showMarker : false
+								},
+								series : [ {
+									color : '#A020F0'
+								} ],
+								sortData : false,
+								axes : {
+									xaxis : {
+										label : "位移（米）",
+										labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+										tickOptions : {
+											formatString : '%0.2f'
+										},
+										min : 0
+									},
+									yaxis : {
+										label : "载荷（千牛）",
+										labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+										tickOptions : {
+											formatString : '%0.1f'
+										},
+										ticks : [ '0.0', '10.0', '20.0',
+												'30.0', '40.0', '50.0', '60.0',
+												'70.0', '80.0', '90.0', '100.0' ]
+									}
+								},
+
+								//tickRenderer : $.jqplot.AxisTickRenderer,
+								highlighter : {
+									show : true
+								},
+								cursor : {
+									show : true,
+									zoom : true
+								}
+							}
+
+							//alert(ret.sgt);
+							var plot = $.jqplot(id, ret.sgt, options);
+							
+							
+
+							iportal.portal('add', {
+								panel : p,
+								columnIndex : 0
+							});
+							iportal.portal('add', {
+								panel : createPanels(wellNum,time,"功率图","功率（千瓦）",ret.gl,1),
+								columnIndex : 1
+							});
+							iportal.portal('add', {
+								panel : createPanels(wellNum,time,"电流图","电流（安）",ret.dl,2),
+								columnIndex : 2
+							});
+							
+						});
+
+		function createPanels(wellNum,time,titleName,zzb,data,t) {
+			var p = $('<div></div>').appendTo("body");
+			p.panel({
+				title : wellNum,
+				//id : wellNum + 'sgt_dian_panel',
+				height : 330,
+				closable : true,
+				//	fit:true,
+				collapsible : true,
+				onOpen : function() {
+					//createContent(nodes[i]);
+				}
+			});
+
+			var id = wellNum + 'sgt_dian'+t;
+			//曲线图形
+			var div = $(
+					'<div style="height:190px;width:280px;position: relative;left: 2px;" id='+id+'></div>')
+					.appendTo(p);
+
+			var myDiv = $(
+					'<div style="height:100px;width:225px;position: relative;left: 55px;"></div>')
+					.appendTo(p);
+			var str = '<table style="color:blue;">'
+
+					+ '<tr height="2px"></tr>'
+					+ '<tr>'
+					+ '<td align="right">数据时间    ：</td>'
+					+ '<td colspan="3" name="_time">'
+					+ time
+					+ '</td>' + '</tr>' + '</table>';
+
+			$(str).appendTo(myDiv);
+
+			var options = {
+				title : wellNum + titleName,
+				seriesDefaults : {
+					showLine : true,
+					rendererOptions : {
+						smooth : true
+					},
+					lineWidth : 1,
+					showMarker : false
+				},
+				series : [ {
+					color : '#A020F0'
+				} ],
+				sortData : false,
+				axes : {
+					xaxis : {
+						label : "位移（米）",
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.2f'
+						},
+						min : 0
+					},
+					yaxis : {
+						label : zzb,
+						labelRenderer : $.jqplot.CanvasAxisLabelRenderer,
+						tickOptions : {
+							formatString : '%0.1f'
+						}
+					}
+				},
+
+				//tickRenderer : $.jqplot.AxisTickRenderer,
+				highlighter : {
+					show : true
+				},
+				cursor : {
+					show : true,
+					zoom : true
+				}
+			}
+
+			//alert(ret.sgt);
+			var plot = $.jqplot(id, data, options);
+
+			return p;
+		}
+
+	});
+</script>

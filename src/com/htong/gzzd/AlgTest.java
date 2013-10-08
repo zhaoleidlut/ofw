@@ -26,13 +26,13 @@ public class AlgTest {
 	public static void main(String[] args) throws UnknownHostException, MongoException, ParseException {
 		Mongo m = new Mongo( "127.0.0.1" , 27017 );
 		DB db = m.getDB( "idata" );
-		DBCollection coll = db.getCollection("WellData_草13-115");
+		DBCollection coll = db.getCollection("WellData_草13-斜502");
 		
 		BasicDBObject query = new BasicDBObject();
 
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String startStr = "2012-09-10 15:00:00";
-		String endStr = "2012-09-15 15:00:00";
+		String startStr = "2012-09-21 07:00:00";
+		String endStr = "2012-10-15 15:00:00";
 		Date start = sdf.parse(startStr);
 		Date end = sdf.parse(endStr);
 		

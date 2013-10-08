@@ -1,0 +1,49 @@
+<div id="well_status_history_query"  fit="true" > 
+	<div id='well_status_history_query_grid'></div>
+</div>
+<script type="text/javascript">
+	$(function() {
+			var parentHeight = $('#well_status_history_query').parent().height()-35;
+			$('#well_status_history_query_grid').datagrid({
+				//title:'text',
+				//iconCls : 'icon-save',
+				autoRowHeight : true,
+				nowrap : true,
+				//striped: true,
+				collapsible : true,
+				url : 'getAllWellStatus.html',
+				//sortName : 'time',
+				remoteSort : false,
+				//toolbar : '#tb',
+				//sortName : '123',
+				//sortOrder : '456',
+				//queryParams : {wellNum:iWellNum,year:year,month:month},
+				height : parentHeight,
+				
+				rowStyler : function(index,row) {
+					if(row.status == '已停井') {
+						return 'background-color:red;color:yellow;';
+					}
+				},
+
+				columns : [ [ {
+					field : 'wellNum',
+					title : '井号',
+					width : 150
+				}, {
+					field : 'status',
+					title : '状态',
+					width : 150
+				}] ],
+				
+				
+				rownumbers : true,
+				onLoadSuccess : function(data) {
+					if(data.conn == 'no') {
+						$.messager.alert("错误", "连接不到远端WebService，获取数据失败！", "warning");
+					}
+				}
+			});
+			
+	});
+</script>

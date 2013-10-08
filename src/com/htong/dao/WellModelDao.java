@@ -38,7 +38,7 @@ public class WellModelDao {
 	 */
 	public WellModel getWellByNum(String wellNum) {
 		Query query = new Query(Criteria.where("num").is(wellNum));
-		System.out.println(wellNum);
+		//System.out.println(wellNum);
 		WellModel well = mongoTemplate.findOne(CollectionConstants.WELL_COLLECTION_NAME, query, WellModel.class);
 		return well;
 	}

@@ -2263,3 +2263,2354 @@
 2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:3.54 Y:31.365326
 2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:3.4640002 Y:24.132332
 2012-09-14 20:30:59,515 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:29.11009
+2012-09-21 12:59:35,974 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：97
+2012-09-21 12:59:36,024 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：198
+2012-09-21 12:59:36,034 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：28
+2012-09-21 12:59:36,034 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.891685
+2012-09-21 12:59:36,034 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 12:59:36,034 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：1
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:67.17918
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:1.6999999  Y:68.335304
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--气体影响】
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：40.558
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：1.79
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.37
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.125
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：72.88
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：35.47
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：71.75
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.5
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷差：35.25
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：22.48
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：42.15
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：5
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障程度：6
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.5920001 Y:72.40036
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:70.937904
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.365 Y:35.46754
+2012-09-21 12:59:36,044 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:38.460598
+2012-09-21 13:03:07,928 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 13:03:07,938 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 13:03:07,968 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 13:03:07,998 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 13:03:07,998 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 13:03:07,998 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 13:03:07,998 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 13:04:19,041 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 13:04:19,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 13:04:19,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 13:04:19,061 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 13:04:19,061 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 13:04:19,061 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 13:04:19,061 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 13:04:19,061 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0
+2012-09-21 14:23:04,337 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 14:23:04,347 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 14:23:04,347 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:72.981544
+2012-09-21 14:23:04,347 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.918373
+2012-09-21 14:23:04,347 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 14:23:04,347 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.52900004 Y:70.38367
+2012-09-21 14:23:04,347 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.176 Y:50.92659
+2012-09-21 14:23:04,357 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 14:23:04,357 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 14:23:04,357 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 14:23:04,357 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 14:23:04,357 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0
+2012-09-21 14:34:14,797 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 14:34:14,797 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 14:34:14,797 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:72.981544
+2012-09-21 14:34:14,797 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.918373
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.52900004 Y:70.38367
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.011999965
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.176 Y:50.92659
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 14:34:14,807 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0
+2012-09-21 14:38:17,041 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 14:38:17,041 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 14:38:17,041 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:72.981544
+2012-09-21 14:38:17,041 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.918373
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.52900004 Y:70.38367
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.28900003
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.32700002
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.352
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.176
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.03700006
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.0
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.0
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.08800006
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.100000024
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.18900001
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.22600007
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.011999965
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.176 Y:50.92659
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 14:38:17,051 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 14:38:17,061 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0
+2012-09-21 14:41:20,374 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 14:41:20,374 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:72.981544
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.918373
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.52900004 Y:70.38367
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.352
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.176 Y:50.92659
+2012-09-21 14:41:20,384 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 14:41:20,394 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 14:41:20,394 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 14:41:20,394 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 14:41:20,394 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0
+2012-09-21 14:46:46,711 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点序号为：103
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点序号为：0
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:72.981544
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.918373
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 凸包点个数：23
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.52900004 Y:70.38367
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 0.352
+2012-09-21 14:46:46,721 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.26400006 Y:36.17689
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 估算饱满面积值：66.51284
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障诊断】：产液量不足
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点备用数量：2
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - E点  X:1.7630001  Y:69.50366
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 15
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - F点  X:0.352  Y:36.849804
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 【故障类型--气体影响】
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程时间：40.565
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 冲程：1.79
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 有效冲程：0.26
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论产液量：0.09
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最大值：73.38
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷最小值：36.18
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均上载：70.68
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 平均下载：36.59
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 载荷差：34.09
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 示功图面积：20.29
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 理论示功图面积：42.92
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障诊断代码：5
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 故障程度：7
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 左上点A  X:0.52900004 Y:70.38367
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 上死点B  X:1.788 Y:72.981544
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 右下点C  X:0.26400006 Y:36.17689
+2012-09-21 14:46:46,731 DEBUG [com.htong.gzzd.GTDataComputerProcess] - 下死点D  X:0.0 Y:36.918373
+2012-09-21 22:15:09,779 WARN [com.htong.sms.SmsControler] - 短信端口未打开。
+2012-09-21 22:18:20,664 WARN [com.htong.sms.SmsControler] - 短信端口未打开。
+2012-09-21 22:22:37,653 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:22:37,656 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:22:37,656 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:22:37,677 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:22:37,677 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:22:37,677 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:22:37,678 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:22:37,678 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:22:37,755 DEBUG [smslib] - Initialized.
+2012-09-21 22:22:37,756 DEBUG [smslib] - Running...
+2012-09-21 22:22:37,757 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:22:37,760 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:22:37,761 DEBUG [smslib] - Initialized.
+2012-09-21 22:22:37,763 DEBUG [smslib] - Initialized.
+2012-09-21 22:22:37,765 DEBUG [smslib] - Running...
+2012-09-21 22:22:37,765 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-21 22:22:37,766 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-21 22:22:37,781 DEBUG [smslib] - Running...
+2012-09-21 22:22:37,782 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:22:52,766 DEBUG [smslib] - Running...
+2012-09-21 22:23:07,766 DEBUG [smslib] - Running...
+2012-09-21 22:23:22,767 DEBUG [smslib] - Running...
+2012-09-21 22:25:57,719 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:25:57,721 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:25:57,722 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:25:57,743 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:25:57,744 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:25:57,744 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:25:57,744 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:25:57,744 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:25:57,748 DEBUG [smslib] - Initialized.
+2012-09-21 22:25:57,748 DEBUG [smslib] - Running...
+2012-09-21 22:25:57,749 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:25:57,750 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:25:57,750 DEBUG [smslib] - Initialized.
+2012-09-21 22:25:57,751 DEBUG [smslib] - Running...
+2012-09-21 22:25:57,751 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:25:57,751 DEBUG [smslib] - Initialized.
+2012-09-21 22:25:57,752 DEBUG [smslib] - Running...
+2012-09-21 22:25:57,752 DEBUG [smslib] - DelayQueueManager end...
+2012-09-21 22:25:57,952 DEBUG [smslib] - Stopped.
+2012-09-21 22:25:57,953 DEBUG [smslib] - Stopped.
+2012-09-21 22:25:57,955 WARN [com.htong.sms.SmsControler] - 短信端口未打开。
+2012-09-21 22:27:34,067 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:27:34,070 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:27:34,070 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:27:34,092 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:27:34,092 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:27:34,092 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:27:34,093 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:27:34,093 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:27:34,097 DEBUG [smslib] - Initialized.
+2012-09-21 22:27:34,098 DEBUG [smslib] - Running...
+2012-09-21 22:27:34,098 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:27:34,099 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:27:34,100 DEBUG [smslib] - Initialized.
+2012-09-21 22:27:34,100 DEBUG [smslib] - Running...
+2012-09-21 22:27:34,100 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:27:34,100 DEBUG [smslib] - Initialized.
+2012-09-21 22:27:34,101 DEBUG [smslib] - Running...
+2012-09-21 22:27:34,101 DEBUG [smslib] - DelayQueueManager end...
+2012-09-21 22:27:34,301 DEBUG [smslib] - Stopped.
+2012-09-21 22:27:34,304 DEBUG [smslib] - Stopped.
+2012-09-21 22:27:34,305 WARN [com.htong.sms.SmsControler] - 短信端口未打开。
+2012-09-21 22:27:46,708 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:27:46,710 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:27:46,710 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:27:46,730 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:27:46,730 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:27:46,730 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:27:46,731 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:27:46,731 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:27:46,735 DEBUG [smslib] - Initialized.
+2012-09-21 22:27:46,736 DEBUG [smslib] - Running...
+2012-09-21 22:27:46,736 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:27:46,737 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:27:46,738 DEBUG [smslib] - Initialized.
+2012-09-21 22:27:46,738 DEBUG [smslib] - Running...
+2012-09-21 22:27:46,738 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:27:46,739 DEBUG [smslib] - Initialized.
+2012-09-21 22:27:46,739 DEBUG [smslib] - Running...
+2012-09-21 22:27:46,743 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-21 22:27:46,743 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-21 22:28:01,740 DEBUG [smslib] - Running...
+2012-09-21 22:28:16,741 DEBUG [smslib] - Running...
+2012-09-21 22:28:31,742 DEBUG [smslib] - Running...
+2012-09-21 22:28:46,743 DEBUG [smslib] - Running...
+2012-09-21 22:29:01,744 DEBUG [smslib] - Running...
+2012-09-21 22:29:16,746 DEBUG [smslib] - Running...
+2012-09-21 22:29:31,746 DEBUG [smslib] - Running...
+2012-09-21 22:29:46,748 DEBUG [smslib] - Running...
+2012-09-21 22:30:01,750 DEBUG [smslib] - Running...
+2012-09-21 22:30:16,751 DEBUG [smslib] - Running...
+2012-09-21 22:30:31,752 DEBUG [smslib] - Running...
+2012-09-21 22:30:46,753 DEBUG [smslib] - Running...
+2012-09-21 22:31:01,755 DEBUG [smslib] - Running...
+2012-09-21 22:31:16,755 DEBUG [smslib] - Running...
+2012-09-21 22:31:31,756 DEBUG [smslib] - Running...
+2012-09-21 22:31:46,758 DEBUG [smslib] - Running...
+2012-09-21 22:32:01,759 DEBUG [smslib] - Running...
+2012-09-21 22:32:16,760 DEBUG [smslib] - Running...
+2012-09-21 22:32:31,761 DEBUG [smslib] - Running...
+2012-09-21 22:32:46,762 DEBUG [smslib] - Running...
+2012-09-21 22:33:01,762 DEBUG [smslib] - Running...
+2012-09-21 22:33:16,763 DEBUG [smslib] - Running...
+2012-09-21 22:33:31,764 DEBUG [smslib] - Running...
+2012-09-21 22:33:46,765 DEBUG [smslib] - Running...
+2012-09-21 22:34:01,766 DEBUG [smslib] - Running...
+2012-09-21 22:34:16,768 DEBUG [smslib] - Running...
+2012-09-21 22:34:31,770 DEBUG [smslib] - Running...
+2012-09-21 22:36:09,714 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:36:09,718 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:36:09,718 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:36:09,738 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:36:09,739 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:36:09,739 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:36:09,739 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:36:09,739 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:36:09,743 DEBUG [smslib] - Initialized.
+2012-09-21 22:36:09,744 DEBUG [smslib] - Running...
+2012-09-21 22:36:09,744 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:36:09,745 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:36:09,746 DEBUG [smslib] - Initialized.
+2012-09-21 22:36:09,746 DEBUG [smslib] - Running...
+2012-09-21 22:36:09,747 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:36:09,747 DEBUG [smslib] - Initialized.
+2012-09-21 22:36:09,747 DEBUG [smslib] - Running...
+2012-09-21 22:36:09,751 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-21 22:36:09,751 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-21 22:36:24,749 DEBUG [smslib] - Running...
+2012-09-21 22:36:39,750 DEBUG [smslib] - Running...
+2012-09-21 22:36:54,751 DEBUG [smslib] - Running...
+2012-09-21 22:37:09,752 DEBUG [smslib] - Running...
+2012-09-21 22:37:24,752 DEBUG [smslib] - Running...
+2012-09-21 22:37:38,032 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:37:38,035 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:37:38,035 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:37:38,057 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:37:38,057 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:37:38,058 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:37:38,058 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:37:38,058 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:37:38,062 DEBUG [smslib] - Initialized.
+2012-09-21 22:37:38,063 DEBUG [smslib] - Running...
+2012-09-21 22:37:38,063 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:37:38,064 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:37:38,065 DEBUG [smslib] - Initialized.
+2012-09-21 22:37:38,066 DEBUG [smslib] - Running...
+2012-09-21 22:37:38,066 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:37:38,066 DEBUG [smslib] - Initialized.
+2012-09-21 22:37:38,066 DEBUG [smslib] - Running...
+2012-09-21 22:37:38,071 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-21 22:37:38,071 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-21 22:37:53,068 DEBUG [smslib] - Running...
+2012-09-21 22:38:08,069 DEBUG [smslib] - Running...
+2012-09-21 22:38:23,070 DEBUG [smslib] - Running...
+2012-09-21 22:38:38,072 DEBUG [smslib] - Running...
+2012-09-21 22:39:00,039 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-21 22:39:00,042 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:39:00,042 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-21 22:39:00,063 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-21 22:39:00,064 INFO [smslib] - Version: 3.5.0
+2012-09-21 22:39:00,064 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-21 22:39:00,065 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-21 22:39:00,065 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-21 22:39:00,069 DEBUG [smslib] - Initialized.
+2012-09-21 22:39:00,069 DEBUG [smslib] - Running...
+2012-09-21 22:39:00,070 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:39:00,071 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-21 22:39:00,072 DEBUG [smslib] - Initialized.
+2012-09-21 22:39:00,072 DEBUG [smslib] - Running...
+2012-09-21 22:39:00,073 DEBUG [smslib] - DelayQueueManager running...
+2012-09-21 22:39:00,073 DEBUG [smslib] - Initialized.
+2012-09-21 22:39:00,073 DEBUG [smslib] - Running...
+2012-09-21 22:39:00,077 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-21 22:39:00,078 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-21 22:39:00,450 DEBUG [smslib] - Initialized.
+2012-09-21 22:39:00,451 DEBUG [smslib] - Running...
+2012-09-21 22:39:00,452 DEBUG [smslib] - Initialized.
+2012-09-21 22:39:00,452 DEBUG [smslib] - ** disabled **
+2012-09-21 22:39:00,453 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-21 22:39:00,539 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-21 22:39:00,540 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-21 22:39:00,541 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-21 22:39:01,541 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-21 22:39:01,748 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-21 22:39:01,950 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-21 22:39:02,151 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-21 22:39:03,151 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-21 22:39:03,353 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-21 22:39:03,559 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-21 22:39:04,559 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-21 22:39:04,609 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPIN: READY
+2012-09-21 22:39:04,611 DEBUG [smslib] - GTW: modem.com1: RECV :+CPIN: READY(cr)
+2012-09-21 22:39:04,611 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-21 22:39:04,813 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-21 22:39:05,814 DEBUG [smslib] - GTW: modem.com1: SEND :AT^CURC=0(cr)
+2012-09-21 22:39:05,853 DEBUG [smslib] - GTW: modem.com1: BUFFER: ERROR
+2012-09-21 22:39:05,854 DEBUG [smslib] - GTW: modem.com1: RECV :ERROR(cr)
+2012-09-21 22:39:05,854 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CLIP=1(cr)
+2012-09-21 22:39:05,884 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:05,885 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:05,885 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-21 22:39:06,087 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-21 22:39:07,087 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CREG=1(cr)
+2012-09-21 22:39:07,117 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:07,119 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:07,119 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CREG?(cr)
+2012-09-21 22:39:07,171 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CREG: 1,5OK
+2012-09-21 22:39:07,173 DEBUG [smslib] - GTW: modem.com1: RECV :+CREG: 1,5(cr)OK(cr)
+2012-09-21 22:39:07,174 INFO [smslib] - GTW: modem.com1: GSM: Registered to foreign network (roaming).
+2012-09-21 22:39:07,174 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMEE=1(cr)
+2012-09-21 22:39:07,212 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:07,213 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:07,214 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS=?(cr)
+2012-09-21 22:39:07,309 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: (("SM","ME","BM","SR"),("SM","ME"),("SM","ME"))OK
+2012-09-21 22:39:07,309 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: (("SM","ME","BM","SR"),("SM","ME"),("SM","ME"))(cr)OK(cr)
+2012-09-21 22:39:07,310 INFO [smslib] - GTW: modem.com1: MEM: Storage Locations Found: SMMEBMSR
+2012-09-21 22:39:07,310 WARN [smslib] - GTW: modem.com1: Callback indications were *not* set succesfully!
+2012-09-21 22:39:07,310 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGF=0(cr)
+2012-09-21 22:39:07,340 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:07,340 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:07,343 DEBUG [smslib] - Initialized.
+2012-09-21 22:39:07,344 INFO [smslib] - GTW: modem.com1: Gateway started.
+2012-09-21 22:39:07,344 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-21 22:39:07,346 DEBUG [smslib] - Running...
+2012-09-21 22:39:07,444 DEBUG [smslib] - Running...
+2012-09-21 22:39:07,444 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:39:07,445 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-21 22:39:07,546 DEBUG [smslib] - Running...
+2012-09-21 22:39:07,546 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:39:08,074 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-21 22:39:08,280 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMMS=2(cr)
+2012-09-21 22:39:08,316 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:08,317 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:08,327 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsSubmitPdu >>
+Raw Pdu: 0891683108401105F011000B815140422084F60008FF0E6545969C8BCA65AD62A58B66FF01
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800411500]
+First Octet: 11 [TP-MTI: (SMS-SUBMIT), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-VPF: (validity format, integer, TP-SRI: (No Status Report), TP-SRR: (No Status Report), TP-UDHI: (no UDH)]
+Message Reference: 00
+Destination Address: [Length: 11 (0B), Type: 81 (10000001), Address: 15042402486]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-VPF: 10584 hours
+
+User Data Length: 14 (0E) octets
+User Data (pdu) : 6545969C8BCA65AD62A58B66FF01
+User Data (decoded): [故障诊断报警！]
+=================================================
+
+2012-09-21 22:39:08,328 DEBUG [smslib] - GTW: modem.com1: Sending Pdu: 0891683108401105F011000B815140422084F60008FF0E6545969C8BCA65AD62A58B66FF01
+2012-09-21 22:39:08,328 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGS=28(cr)
+2012-09-21 22:39:08,529 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-21 22:39:09,529 DEBUG [smslib] - GTW: modem.com1: SEND :0891683108401105F011000B815140422084F60008FF0E6545969C8BCA65AD62A58B66FF01
+2012-09-21 22:39:12,347 DEBUG [smslib] - Running...
+2012-09-21 22:39:13,517 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CMGS: 68OK
+2012-09-21 22:39:13,518 DEBUG [smslib] - GTW: modem.com1: RECV :+CMGS: 68(cr)OK(cr)
+2012-09-21 22:39:13,522 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: modem.com1
+ Message Id: 0
+ Message UUID: 080a56ef-4a48-4c8c-a292-885adfddf65b
+ Encoding: UCS2 (Unicode)
+ Date: Fri Sep 21 22:39:08 CST 2012
+ SMSC Ref No: 68
+ Recipient: 15042402486
+ Dispatch Date: Fri Sep 21 22:39:13 CST 2012
+ Message Status: SENT
+ Failure Cause: NO_ERROR
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-21 22:39:13,523 INFO [com.htong.sms.SmsControler] - 短信发送完毕
+2012-09-21 22:39:15,084 DEBUG [smslib] - Running...
+2012-09-21 22:39:17,348 DEBUG [smslib] - Running...
+2012-09-21 22:39:22,349 DEBUG [smslib] - Running...
+2012-09-21 22:39:27,349 DEBUG [smslib] - Running...
+2012-09-21 22:39:30,087 DEBUG [smslib] - Running...
+2012-09-21 22:39:30,454 DEBUG [smslib] - Running...
+2012-09-21 22:39:30,455 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="SM"(cr)
+2012-09-21 22:39:30,530 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 6,40,6,40,6,40OK
+2012-09-21 22:39:30,530 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 6,40,6,40,6,40(cr)OK(cr)
+2012-09-21 22:39:30,531 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:39:32,361 DEBUG [smslib] - Running...
+2012-09-21 22:39:32,591 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CMGL: 1,1,,1270891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011+CMGL: 2,1,,1570891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D+CMGL: 3,1,,1570891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D+CMGL: 4,1,,1570891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A+CMGL: 5,1,,1570891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66+CMGL: 6,1,,550891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01OK
+2012-09-21 22:39:32,594 DEBUG [smslib] - GTW: modem.com1: RECV :+CMGL: 1,1,,127(cr)0891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011(cr)+CMGL: 2,1,,157(cr)0891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D(cr)+CMGL: 3,1,,157(cr)0891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D(cr)+CMGL: 4,1,,157(cr)0891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A(cr)+CMGL: 5,1,,157(cr)0891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66(cr)+CMGL: 6,1,,55(cr)0891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01(cr)OK(cr)
+2012-09-21 22:39:32,594 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011
+2012-09-21 22:39:32,661 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240553]
+First Octet: 24 [TP-MTI: (SMS-DELIVER), TP-MMS: (Has more messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (no UDH)]
+Originator Address: [Length: 12 (0C), Type: 81 (10000001), Address: 106575000443]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期日 24-六月-2012 21:01:36 GMT+08:00
+
+User Data Length: 108 (6C) octets
+User Data (pdu) : 5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011
+User Data (decoded): [尊敬的用户，您的帐号激活码为：5155。请填入该激活码完成激活。本激活码将在本次使用后自动失效。【去哪儿网】]
+=================================================
+
+2012-09-21 22:39:32,663 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:1 REF:0 MAX:0 SEQ:0
+2012-09-21 22:39:32,663 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+2012-09-21 22:39:32,665 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 64 [TP-MTI: (SMS-DELIVER), TP-MMS: (Has more messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+User Data Header (pdu) : 050003480501
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480501][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 1]
+
+Non UDH Data (pdu)    : 301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+Non UDH Data (decoded): [【那些年我们一起考过的试】
+1.老师说：快要考试了，早恋的就不要吵架了，以免影响心情；没早恋的就不要表白了，以免被拒绝影响心情……]
+=================================================
+
+2012-09-21 22:39:32,665 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:2 REF:72 MAX:5 SEQ:1
+2012-09-21 22:39:32,666 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+2012-09-21 22:39:32,667 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 60 [TP-MTI: (SMS-DELIVER), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+User Data Header (pdu) : 050003480502
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480502][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 2]
+
+Non UDH Data (pdu)    : 000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+Non UDH Data (decoded): [
+2.一个很严肃的学术性问题，是谁把60分定为及格的？
+3.语文考完了，我哭了。数学考完了，我发现我哭早了。
+4.这次考试考得很不]
+=================================================
+
+2012-09-21 22:39:32,667 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:3 REF:72 MAX:5 SEQ:2
+2012-09-21 22:39:32,667 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+2012-09-21 22:39:32,668 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 60 [TP-MTI: (SMS-DELIVER), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+User Data Header (pdu) : 050003480503
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480503][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 3]
+
+Non UDH Data (pdu)    : 9519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+Non UDH Data (decoded): [错啊，只挂了两科，文科和理科。
+5.多希望一张试卷只有5个填空题，学校____科目____班级____姓名____学号____。每空]
+=================================================
+
+2012-09-21 22:39:32,670 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:4 REF:72 MAX:5 SEQ:3
+2012-09-21 22:39:32,670 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+2012-09-21 22:39:32,671 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 60 [TP-MTI: (SMS-DELIVER), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+User Data Header (pdu) : 050003480504
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480504][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 4]
+
+Non UDH Data (pdu)    : 0032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+Non UDH Data (decoded): [20分。
+6.考试就像得了病一样，考前是忧郁症，考时是健忘症，考后病情开始好转，看到分数心脏病就发作。
+又到考试季，祝辛苦备考的学]
+=================================================
+
+2012-09-21 22:39:32,686 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:5 REF:72 MAX:5 SEQ:4
+2012-09-21 22:39:32,687 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+2012-09-21 22:39:32,687 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 64 [TP-MTI: (SMS-DELIVER), TP-MMS: (Has more messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 38 (26) octets
+User Data (pdu) : 0500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+User Data Header (pdu) : 050003480505
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480505][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 5]
+
+Non UDH Data (pdu)    : 5B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+Non UDH Data (decoded): [子们保持心情愉快，轻松战胜考试！]
+=================================================
+
+2012-09-21 22:39:32,688 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:6 REF:72 MAX:5 SEQ:5
+2012-09-21 22:39:32,688 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="ME"(cr)
+2012-09-21 22:39:32,751 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 0,99,6,40,6,40OK
+2012-09-21 22:39:32,751 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 0,99,6,40,6,40(cr)OK(cr)
+2012-09-21 22:39:32,752 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:39:32,783 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:32,783 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:32,783 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="BM"(cr)
+2012-09-21 22:39:32,851 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 0,20,6,40,6,40OK
+2012-09-21 22:39:32,851 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 0,20,6,40,6,40(cr)OK(cr)
+2012-09-21 22:39:32,851 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:39:32,879 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:32,879 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:32,880 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="SR"(cr)
+2012-09-21 22:39:32,943 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 0,40,6,40,6,40OK
+2012-09-21 22:39:32,943 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 0,40,6,40,6,40(cr)OK(cr)
+2012-09-21 22:39:32,943 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:39:32,975 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:39:32,975 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:39:32,976 DEBUG [smslib] - GTW: modem.com1: CheckMpMsgList(): MAINLIST: 1
+2012-09-21 22:39:32,976 DEBUG [smslib] - GTW: modem.com1: CheckMpMsgList(): SUBLIST[0]: 5
+2012-09-21 22:39:32,979 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-21 22:39:33,080 DEBUG [smslib] - Running...
+2012-09-21 22:39:33,081 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:39:33,081 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-21 22:39:33,181 DEBUG [smslib] - Running...
+2012-09-21 22:39:33,181 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:39:37,361 DEBUG [smslib] - Running...
+2012-09-21 22:39:42,361 DEBUG [smslib] - Running...
+2012-09-21 22:39:45,088 DEBUG [smslib] - Running...
+2012-09-21 22:39:47,362 DEBUG [smslib] - Running...
+2012-09-21 22:39:52,363 DEBUG [smslib] - Running...
+2012-09-21 22:39:57,363 DEBUG [smslib] - Running...
+2012-09-21 22:40:00,089 DEBUG [smslib] - Running...
+2012-09-21 22:40:00,451 DEBUG [smslib] - Running...
+2012-09-21 22:40:00,452 DEBUG [smslib] - GTW: modem.com1: SEND :AT(cr)
+2012-09-21 22:40:00,479 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:40:00,479 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:40:02,363 DEBUG [smslib] - Running...
+2012-09-21 22:40:02,980 DEBUG [smslib] - Running...
+2012-09-21 22:40:02,980 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="SM"(cr)
+2012-09-21 22:40:03,040 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 6,40,6,40,6,40OK
+2012-09-21 22:40:03,041 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 6,40,6,40,6,40(cr)OK(cr)
+2012-09-21 22:40:03,041 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:40:05,136 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CMGL: 1,1,,1270891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011+CMGL: 2,1,,1570891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D+CMGL: 3,1,,1570891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D+CMGL: 4,1,,1570891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A+CMGL: 5,1,,1570891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66+CMGL: 6,1,,550891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01OK
+2012-09-21 22:40:05,138 DEBUG [smslib] - GTW: modem.com1: RECV :+CMGL: 1,1,,127(cr)0891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011(cr)+CMGL: 2,1,,157(cr)0891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D(cr)+CMGL: 3,1,,157(cr)0891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D(cr)+CMGL: 4,1,,157(cr)0891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A(cr)+CMGL: 5,1,,157(cr)0891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66(cr)+CMGL: 6,1,,55(cr)0891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01(cr)OK(cr)
+2012-09-21 22:40:05,138 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011
+2012-09-21 22:40:05,140 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F3240CA10156570040340008216042121063236C5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240553]
+First Octet: 24 [TP-MTI: (SMS-DELIVER), TP-MMS: (Has more messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (no UDH)]
+Originator Address: [Length: 12 (0C), Type: 81 (10000001), Address: 106575000443]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期日 24-六月-2012 21:01:36 GMT+08:00
+
+User Data Length: 108 (6C) octets
+User Data (pdu) : 5C0A656C768475286237FF0C60A876845E1053F76FC06D3B78014E3AFF1A003500310035003530028BF7586B51658BE56FC06D3B78015B8C62106FC06D3B3002672C6FC06D3B78015C065728672C6B214F7F7528540E81EA52A8593165483002301053BB54EA513F7F513011
+User Data (decoded): [尊敬的用户，您的帐号激活码为：5155。请填入该激活码完成激活。本激活码将在本次使用后自动失效。【去哪儿网】]
+=================================================
+
+2012-09-21 22:40:05,140 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:1 REF:0 MAX:0 SEQ:0
+2012-09-21 22:40:05,141 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+2012-09-21 22:40:05,145 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66408A1015668680008216052016412238C050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 64 [TP-MTI: (SMS-DELIVER), TP-MMS: (Has more messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 050003480501301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+User Data Header (pdu) : 050003480501
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480501][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 1]
+
+Non UDH Data (pdu)    : 301090A34E9B5E7462114EEC4E008D7780038FC776848BD53011000D000A0031002E80015E088BF4FF1A5FEB898180038BD54E86FF0C65E9604B76845C314E0D8981543567B64E86FF0C4EE5514D5F7154CD5FC360C5FF1B6CA165E9604B76845C314E0D89818868767D4E86FF0C4EE5514D88AB62D27EDD5F7154CD5FC360C520262026000D
+Non UDH Data (decoded): [【那些年我们一起考过的试】
+1.老师说：快要考试了，早恋的就不要吵架了，以免影响心情；没早恋的就不要表白了，以免被拒绝影响心情……]
+=================================================
+
+2012-09-21 22:40:05,145 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:2 REF:72 MAX:5 SEQ:1
+2012-09-21 22:40:05,146 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+2012-09-21 22:40:05,147 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66008A1015668680008216052016412238C050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 60 [TP-MTI: (SMS-DELIVER), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 050003480502000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+User Data Header (pdu) : 050003480502
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480502][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 2]
+
+Non UDH Data (pdu)    : 000A0032002E4E004E2A5F884E25808376845B66672F602795EE9898FF0C662F8C01628A0036003052065B9A4E3A53CA683C7684FF1F000D000A0033002E8BED658780035B8C4E86FF0C621154ED4E86300265705B6680035B8C4E86FF0C621153D173B0621154ED65E94E863002000D000A0034002E8FD96B2180038BD580035F975F884E0D
+Non UDH Data (decoded): [
+2.一个很严肃的学术性问题，是谁把60分定为及格的？
+3.语文考完了，我哭了。数学考完了，我发现我哭早了。
+4.这次考试考得很不]
+=================================================
+
+2012-09-21 22:40:05,147 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:3 REF:72 MAX:5 SEQ:2
+2012-09-21 22:40:05,147 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+2012-09-21 22:40:05,148 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66008A1015668680008216052016412238C0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 60 [TP-MTI: (SMS-DELIVER), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 0500034805039519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+User Data Header (pdu) : 050003480503
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480503][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 3]
+
+Non UDH Data (pdu)    : 9519554AFF0C53EA63024E864E2479D1FF0C658779D1548C740679D13002000D000A0035002E591A5E0C671B4E005F208BD5537753EA670900354E2A586B7A7A9898FF0C5B666821005F005F005F005F79D176EE005F005F005F005F73ED7EA7005F005F005F005F59D3540D005F005F005F005F5B6653F7005F005F005F005F30026BCF7A7A
+Non UDH Data (decoded): [错啊，只挂了两科，文科和理科。
+5.多希望一张试卷只有5个填空题，学校____科目____班级____姓名____学号____。每空]
+=================================================
+
+2012-09-21 22:40:05,150 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:4 REF:72 MAX:5 SEQ:3
+2012-09-21 22:40:05,150 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+2012-09-21 22:40:05,151 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66008A1015668680008216052016412238C0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 60 [TP-MTI: (SMS-DELIVER), TP-MMS: (has no messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 140 (8C) octets
+User Data (pdu) : 0500034805040032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+User Data Header (pdu) : 050003480504
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480504][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 4]
+
+Non UDH Data (pdu)    : 0032003052063002000D000A0036002E80038BD55C3150CF5F974E8675C54E006837FF0C8003524D662F5FE790C175C7FF0C800365F6662F50655FD875C7FF0C8003540E75C560C55F0059CB597D8F6CFF0C770B5230520665705FC3810F75C55C3153D14F5C3002000D000A53C8523080038BD55B63FF0C795D8F9B82E65907800376845B66
+Non UDH Data (decoded): [20分。
+6.考试就像得了病一样，考前是忧郁症，考时是健忘症，考后病情开始好转，看到分数心脏病就发作。
+又到考试季，祝辛苦备考的学]
+=================================================
+
+2012-09-21 22:40:05,152 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:5 REF:72 MAX:5 SEQ:4
+2012-09-21 22:40:05,152 DEBUG [smslib] - GTW: modem.com1: READ PDU: 0891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+2012-09-21 22:40:05,153 DEBUG [smslib] - GTW: modem.com1: =================================================
+<< SmsDeliveryPdu >>
+Raw Pdu: 0891683108200455F66408A101566868000821605201641223260500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+
+SMSC Address: [Length: 8 (08) octets, Type: 91 (10010001), Address: 8613800240556]
+First Octet: 64 [TP-MTI: (SMS-DELIVER), TP-MMS: (Has more messages), TP-RD: (allow duplicates), TP-SRI: (Requests Status Report), TP-SRR: (No Status Report), TP-UDHI: (has UDH)]
+Originator Address: [Length: 8 (08), Type: 81 (10000001), Address: 10658686]
+TP-PID: 00 (00000000)
+TP-DCS: 08 (UCS2 encoding) (00001000)
+TP-SCTS: 星期一 25-六月-2012 10:46:21 GMT+08:00
+
+User Data Length: 38 (26) octets
+User Data (pdu) : 0500034805055B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+User Data Header (pdu) : 050003480505
+User Data Header Length: 5 (05) octets
+
+UDH Information Elements:
+ConcatInformationElement[00, 03, 480505][MpRefNo: 72, MpMaxNo: 5, MpSeqNo: 5]
+
+Non UDH Data (pdu)    : 5B504EEC4FDD63015FC360C561095FEBFF0C8F7B677E621880DC80038BD5FF01
+Non UDH Data (decoded): [子们保持心情愉快，轻松战胜考试！]
+=================================================
+
+2012-09-21 22:40:05,153 DEBUG [smslib] - GTW: modem.com1: IN-DTLS: MI:6 REF:72 MAX:5 SEQ:5
+2012-09-21 22:40:05,153 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="ME"(cr)
+2012-09-21 22:40:05,216 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 0,99,6,40,6,40OK
+2012-09-21 22:40:05,216 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 0,99,6,40,6,40(cr)OK(cr)
+2012-09-21 22:40:05,217 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:40:05,248 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:40:05,248 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:40:05,249 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="BM"(cr)
+2012-09-21 22:40:05,312 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 0,20,6,40,6,40OK
+2012-09-21 22:40:05,312 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 0,20,6,40,6,40(cr)OK(cr)
+2012-09-21 22:40:05,312 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:40:05,344 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:40:05,344 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:40:05,345 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPMS="SR"(cr)
+2012-09-21 22:40:05,427 DEBUG [smslib] - GTW: modem.com1: BUFFER: +CPMS: 0,40,6,40,6,40OK
+2012-09-21 22:40:05,428 DEBUG [smslib] - GTW: modem.com1: RECV :+CPMS: 0,40,6,40,6,40(cr)OK(cr)
+2012-09-21 22:40:05,428 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CMGL=4(cr)
+2012-09-21 22:40:05,456 DEBUG [smslib] - GTW: modem.com1: BUFFER: OK
+2012-09-21 22:40:05,456 DEBUG [smslib] - GTW: modem.com1: RECV :OK(cr)
+2012-09-21 22:40:05,457 DEBUG [smslib] - GTW: modem.com1: CheckMpMsgList(): MAINLIST: 1
+2012-09-21 22:40:05,457 DEBUG [smslib] - GTW: modem.com1: CheckMpMsgList(): SUBLIST[0]: 5
+2012-09-21 22:40:05,458 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-21 22:40:05,558 DEBUG [smslib] - Running...
+2012-09-21 22:40:05,558 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:40:05,558 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-21 22:40:05,660 DEBUG [smslib] - Running...
+2012-09-21 22:40:05,660 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-21 22:40:07,364 DEBUG [smslib] - Running...
+2012-09-21 22:40:12,364 DEBUG [smslib] - Running...
+2012-09-21 22:40:15,091 DEBUG [smslib] - Running...
+2012-09-21 22:40:17,364 DEBUG [smslib] - Running...
+2012-09-21 22:40:22,365 DEBUG [smslib] - Running...
+2012-09-22 14:43:43,131 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 14:43:43,146 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:43:43,146 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 14:43:43,162 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:43:43,162 INFO [smslib] - Version: 3.5.0
+2012-09-22 14:43:43,162 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 14:43:43,162 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 14:43:43,162 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 14:43:43,193 DEBUG [smslib] - Initialized.
+2012-09-22 14:43:43,193 DEBUG [smslib] - Running...
+2012-09-22 14:43:43,193 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:43:43,193 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 14:43:43,193 DEBUG [smslib] - Initialized.
+2012-09-22 14:43:43,193 DEBUG [smslib] - Initialized.
+2012-09-22 14:43:43,193 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:43:43,193 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:43:43,209 DEBUG [smslib] - Running...
+2012-09-22 14:43:43,209 DEBUG [smslib] - Running...
+2012-09-22 14:43:43,209 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 14:43:43,740 DEBUG [smslib] - Initialized.
+2012-09-22 14:43:43,740 DEBUG [smslib] - Running...
+2012-09-22 14:43:43,740 DEBUG [smslib] - Initialized.
+2012-09-22 14:43:43,756 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:43:43,756 DEBUG [smslib] - ** disabled **
+2012-09-22 14:43:43,756 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:43:43,756 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:43:43,756 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:43:44,770 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:43:44,974 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:43:45,176 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:43:45,379 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:43:46,393 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:43:46,597 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:43:46,800 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:43:47,814 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:43:58,220 DEBUG [smslib] - Running...
+2012-09-22 14:44:13,228 DEBUG [smslib] - Running...
+2012-09-22 14:44:13,760 DEBUG [smslib] - ** disabled **
+2012-09-22 14:44:28,234 DEBUG [smslib] - Running...
+2012-09-22 14:44:32,845 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 14:44:32,845 DEBUG [smslib] - Stopped.
+2012-09-22 14:44:32,845 DEBUG [smslib] - Stopped.
+2012-09-22 14:44:32,845 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 14:44:32,845 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 14:44:32,845 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 14:44:33,018 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:44:33,833 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-22 14:44:33,833 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:44:33,911 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: *
+ Message Id: 0
+ Message UUID: 40e98dab-6125-4189-beb0-2b0283844c40
+ Encoding: UCS2 (Unicode)
+ Date: Sat Sep 22 14:44:33 CST 2012
+ SMSC Ref No: 
+ Recipient: 15042402486
+ Dispatch Date: null
+ Message Status: FAILED
+ Failure Cause: NO_ROUTE
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-22 14:44:33,911 INFO [com.htong.sms.SmsControler] - 短信发送完毕
+2012-09-22 14:44:33,942 DEBUG [smslib] - Running...
+2012-09-22 14:44:33,942 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:44:43,244 DEBUG [smslib] - Running...
+2012-09-22 14:44:43,244 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 14:44:43,244 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 14:44:43,244 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:44:43,244 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:44:43,244 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 14:44:43,244 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:44:43,244 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:44:43,354 DEBUG [smslib] - Running...
+2012-09-22 14:44:43,354 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:44:43,354 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:44:43,401 DEBUG [smslib] - Initialized.
+2012-09-22 14:44:43,401 DEBUG [smslib] - Initialized.
+2012-09-22 14:44:43,401 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:44:43,401 DEBUG [smslib] - Running...
+2012-09-22 14:44:43,401 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:44:43,401 DEBUG [smslib] - ** disabled **
+2012-09-22 14:44:43,401 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:44:43,401 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:44:43,464 DEBUG [smslib] - Running...
+2012-09-22 14:44:43,464 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:44:43,464 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:44:43,573 DEBUG [smslib] - Running...
+2012-09-22 14:44:43,573 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:44:44,416 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:44:44,620 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:44:44,822 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:44:45,025 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:44:46,038 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:44:46,241 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:44:46,444 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:44:47,457 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:45:13,401 DEBUG [smslib] - ** disabled **
+2012-09-22 14:45:32,480 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 14:45:32,480 DEBUG [smslib] - Stopped.
+2012-09-22 14:45:32,480 DEBUG [smslib] - Stopped.
+2012-09-22 14:45:32,480 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 14:45:32,480 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 14:45:32,480 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 14:45:32,637 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:45:32,637 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:45:32,637 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 14:45:32,746 DEBUG [smslib] - Running...
+2012-09-22 14:45:32,746 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:45:47,670 DEBUG [smslib] - Running...
+2012-09-22 14:45:47,670 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 14:45:47,670 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 14:45:47,670 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:45:47,670 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:45:47,670 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 14:45:47,670 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:45:47,670 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:45:47,780 DEBUG [smslib] - Running...
+2012-09-22 14:45:47,780 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:45:47,780 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:45:47,858 DEBUG [smslib] - Initialized.
+2012-09-22 14:45:47,858 DEBUG [smslib] - Initialized.
+2012-09-22 14:45:47,858 DEBUG [smslib] - Running...
+2012-09-22 14:45:47,858 DEBUG [smslib] - ** disabled **
+2012-09-22 14:45:47,858 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:45:47,858 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:45:47,858 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:45:47,858 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:45:47,891 DEBUG [smslib] - Running...
+2012-09-22 14:45:47,891 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:45:47,891 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:45:48,000 DEBUG [smslib] - Running...
+2012-09-22 14:45:48,000 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:45:48,873 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:45:49,077 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:45:49,280 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:45:49,483 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:45:50,497 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:45:50,701 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:45:50,903 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:45:51,917 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:46:17,861 DEBUG [smslib] - ** disabled **
+2012-09-22 14:46:36,941 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 14:46:36,941 DEBUG [smslib] - Stopped.
+2012-09-22 14:46:36,941 DEBUG [smslib] - Stopped.
+2012-09-22 14:46:36,941 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 14:46:36,941 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 14:46:36,941 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 14:46:37,098 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:46:37,098 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 14:46:37,098 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:46:37,207 DEBUG [smslib] - Running...
+2012-09-22 14:46:37,207 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:53:27,944 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 14:53:27,960 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:53:27,960 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 14:53:27,975 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:53:27,975 INFO [smslib] - Version: 3.5.0
+2012-09-22 14:53:27,975 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 14:53:27,975 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 14:53:27,975 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 14:53:27,975 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:27,975 DEBUG [smslib] - Running...
+2012-09-22 14:53:27,975 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:53:27,975 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 14:53:27,975 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:27,975 DEBUG [smslib] - Running...
+2012-09-22 14:53:27,975 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 14:53:27,975 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:27,975 DEBUG [smslib] - Running...
+2012-09-22 14:53:27,975 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:53:27,975 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:53:28,319 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:28,320 DEBUG [smslib] - Running...
+2012-09-22 14:53:28,320 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:28,320 DEBUG [smslib] - ** disabled **
+2012-09-22 14:53:28,320 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:53:28,320 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:53:28,320 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:53:28,320 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:53:29,334 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:53:29,537 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:53:29,740 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:53:29,943 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:53:30,957 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:53:31,161 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:53:31,364 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:53:32,378 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:53:43,627 DEBUG [com.htong.sms.SmsControler] - d:/config/smsConfig.properties
+2012-09-22 14:53:43,627 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 14:53:43,627 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:53:43,627 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 14:53:43,643 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:53:43,643 INFO [smslib] - Version: 3.5.0
+2012-09-22 14:53:43,643 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 14:53:43,643 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 14:53:43,643 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 14:53:43,643 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:43,643 DEBUG [smslib] - Running...
+2012-09-22 14:53:43,643 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:53:43,643 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 14:53:43,643 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:43,643 DEBUG [smslib] - Running...
+2012-09-22 14:53:43,643 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 14:53:43,643 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:43,643 DEBUG [smslib] - Running...
+2012-09-22 14:53:43,643 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:53:43,643 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:53:43,987 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:43,987 DEBUG [smslib] - Running...
+2012-09-22 14:53:43,987 DEBUG [smslib] - Initialized.
+2012-09-22 14:53:43,987 DEBUG [smslib] - ** disabled **
+2012-09-22 14:53:43,987 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:53:43,987 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:53:43,987 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:53:43,987 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:53:45,001 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:53:45,205 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:53:45,408 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:53:45,610 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:53:46,624 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:53:46,828 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:53:47,031 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:53:48,045 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:53:58,654 DEBUG [smslib] - Running...
+2012-09-22 14:54:13,662 DEBUG [smslib] - Running...
+2012-09-22 14:54:13,991 DEBUG [smslib] - ** disabled **
+2012-09-22 14:54:28,671 DEBUG [smslib] - Running...
+2012-09-22 14:54:33,071 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 14:54:33,071 DEBUG [smslib] - Stopped.
+2012-09-22 14:54:33,071 DEBUG [smslib] - Stopped.
+2012-09-22 14:54:33,071 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 14:54:33,071 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 14:54:33,071 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 14:54:33,197 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:54:33,337 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:54:33,337 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-22 14:54:33,415 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: *
+ Message Id: 0
+ Message UUID: d1eddf75-b250-42df-af3a-e79121c6f13f
+ Encoding: UCS2 (Unicode)
+ Date: Sat Sep 22 14:54:33 CST 2012
+ SMSC Ref No: 
+ Recipient: 15042402486
+ Dispatch Date: null
+ Message Status: FAILED
+ Failure Cause: NO_ROUTE
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-22 14:54:33,415 INFO [com.htong.sms.SmsControler] - 短信发送完毕
+2012-09-22 14:54:33,446 DEBUG [smslib] - Running...
+2012-09-22 14:54:33,446 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:54:43,680 DEBUG [smslib] - Running...
+2012-09-22 14:54:43,680 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 14:54:43,680 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 14:54:43,680 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:54:43,680 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:54:43,680 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 14:54:43,680 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:54:43,680 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:54:43,790 DEBUG [smslib] - Running...
+2012-09-22 14:54:43,790 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:54:43,790 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:54:43,837 DEBUG [smslib] - Initialized.
+2012-09-22 14:54:43,837 DEBUG [smslib] - Initialized.
+2012-09-22 14:54:43,837 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:54:43,837 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:54:43,837 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:54:43,837 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:54:43,837 DEBUG [smslib] - Running...
+2012-09-22 14:54:43,837 DEBUG [smslib] - ** disabled **
+2012-09-22 14:54:43,900 DEBUG [smslib] - Running...
+2012-09-22 14:54:43,900 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:54:43,900 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:54:44,009 DEBUG [smslib] - Running...
+2012-09-22 14:54:44,009 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:54:44,852 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:54:45,056 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:54:45,258 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:54:45,461 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:54:46,475 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:54:46,679 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:54:46,882 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:54:47,896 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:55:13,840 DEBUG [smslib] - ** disabled **
+2012-09-22 14:55:32,919 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 14:55:32,919 DEBUG [smslib] - Stopped.
+2012-09-22 14:55:32,919 DEBUG [smslib] - Stopped.
+2012-09-22 14:55:32,919 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 14:55:32,919 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 14:55:32,919 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 14:55:33,045 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:55:33,045 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:55:33,045 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 14:55:33,154 DEBUG [smslib] - Running...
+2012-09-22 14:55:33,154 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:55:48,052 DEBUG [smslib] - Running...
+2012-09-22 14:55:48,052 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 14:55:48,052 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 14:55:48,052 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:55:48,052 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 14:55:48,052 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 14:55:48,052 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:55:48,052 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:55:48,163 DEBUG [smslib] - Running...
+2012-09-22 14:55:48,163 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:55:48,163 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:55:48,225 DEBUG [smslib] - Initialized.
+2012-09-22 14:55:48,225 DEBUG [smslib] - Initialized.
+2012-09-22 14:55:48,225 DEBUG [smslib] - Running...
+2012-09-22 14:55:48,225 DEBUG [smslib] - ** disabled **
+2012-09-22 14:55:48,225 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:55:48,225 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:55:48,225 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:55:48,225 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:55:48,273 DEBUG [smslib] - Running...
+2012-09-22 14:55:48,273 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:55:48,273 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 14:55:48,382 DEBUG [smslib] - Running...
+2012-09-22 14:55:48,382 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:55:49,240 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:55:49,444 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:55:49,647 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:55:49,849 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:55:50,863 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:55:51,067 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:55:51,270 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:55:52,284 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:56:05,125 DEBUG [com.htong.sms.SmsControler] - d:/smsConfig.properties
+2012-09-22 14:56:05,140 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 14:56:05,140 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:56:05,140 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 14:56:05,156 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 14:56:05,156 INFO [smslib] - Version: 3.5.0
+2012-09-22 14:56:05,156 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 14:56:05,156 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 14:56:05,156 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 14:56:05,156 DEBUG [smslib] - Initialized.
+2012-09-22 14:56:05,156 DEBUG [smslib] - Running...
+2012-09-22 14:56:05,156 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 14:56:05,156 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 14:56:05,156 DEBUG [smslib] - Initialized.
+2012-09-22 14:56:05,156 DEBUG [smslib] - Running...
+2012-09-22 14:56:05,156 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 14:56:05,172 DEBUG [smslib] - Initialized.
+2012-09-22 14:56:05,172 DEBUG [smslib] - Running...
+2012-09-22 14:56:05,172 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 14:56:05,172 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 14:56:05,531 DEBUG [smslib] - Initialized.
+2012-09-22 14:56:05,531 DEBUG [smslib] - Running...
+2012-09-22 14:56:05,531 DEBUG [smslib] - Initialized.
+2012-09-22 14:56:05,531 DEBUG [smslib] - ** disabled **
+2012-09-22 14:56:05,531 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 14:56:05,531 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 14:56:05,531 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 14:56:05,531 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:56:06,545 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 14:56:06,749 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 14:56:06,952 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:56:07,155 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:56:08,169 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 14:56:08,373 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 14:56:08,575 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 14:56:09,589 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 14:56:20,183 DEBUG [smslib] - Running...
+2012-09-22 15:01:49,129 DEBUG [com.htong.sms.SmsControler] - config
+2012-09-22 15:01:49,129 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 15:01:49,144 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 15:01:49,144 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 15:01:49,160 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 15:01:49,160 INFO [smslib] - Version: 3.5.0
+2012-09-22 15:01:49,160 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 15:01:49,160 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 15:01:49,160 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 15:01:49,160 DEBUG [smslib] - Initialized.
+2012-09-22 15:01:49,160 DEBUG [smslib] - Running...
+2012-09-22 15:01:49,160 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:01:49,160 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 15:01:49,160 DEBUG [smslib] - Initialized.
+2012-09-22 15:01:49,160 DEBUG [smslib] - Running...
+2012-09-22 15:01:49,160 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 15:01:49,160 DEBUG [smslib] - Initialized.
+2012-09-22 15:01:49,160 DEBUG [smslib] - Running...
+2012-09-22 15:01:49,160 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:01:49,160 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:01:49,535 DEBUG [smslib] - Initialized.
+2012-09-22 15:01:49,535 DEBUG [smslib] - Running...
+2012-09-22 15:01:49,535 DEBUG [smslib] - Initialized.
+2012-09-22 15:01:49,535 DEBUG [smslib] - ** disabled **
+2012-09-22 15:01:49,535 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:01:49,535 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:01:49,535 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:01:49,535 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:01:50,549 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:01:50,753 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:01:50,956 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:01:51,159 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:01:52,173 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:01:52,377 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:01:52,579 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:01:53,593 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:02:04,171 DEBUG [smslib] - Running...
+2012-09-22 15:02:19,180 DEBUG [smslib] - Running...
+2012-09-22 15:02:19,539 DEBUG [smslib] - ** disabled **
+2012-09-22 15:02:34,188 DEBUG [smslib] - Running...
+2012-09-22 15:02:38,619 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:02:38,619 DEBUG [smslib] - Stopped.
+2012-09-22 15:02:38,619 DEBUG [smslib] - Stopped.
+2012-09-22 15:02:38,619 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:02:38,619 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:02:38,619 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:02:38,761 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:02:38,854 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:02:38,854 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-22 15:02:38,917 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: *
+ Message Id: 0
+ Message UUID: 8d3e5edb-8c8f-4828-8dd9-6819be157249
+ Encoding: UCS2 (Unicode)
+ Date: Sat Sep 22 15:02:38 CST 2012
+ SMSC Ref No: 
+ Recipient: 15042402486
+ Dispatch Date: null
+ Message Status: FAILED
+ Failure Cause: NO_ROUTE
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-22 15:02:38,917 INFO [com.htong.sms.SmsControler] - 短信发送完毕
+2012-09-22 15:02:38,963 DEBUG [smslib] - Running...
+2012-09-22 15:02:38,963 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:02:49,197 DEBUG [smslib] - Running...
+2012-09-22 15:02:49,197 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:02:49,197 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:02:49,197 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:02:49,197 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:02:49,197 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:02:49,197 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:02:49,197 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:02:49,307 DEBUG [smslib] - Running...
+2012-09-22 15:02:49,307 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:02:49,307 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:02:49,370 DEBUG [smslib] - Initialized.
+2012-09-22 15:02:49,370 DEBUG [smslib] - Initialized.
+2012-09-22 15:02:49,370 DEBUG [smslib] - Running...
+2012-09-22 15:02:49,370 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:02:49,370 DEBUG [smslib] - ** disabled **
+2012-09-22 15:02:49,370 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:02:49,385 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:02:49,386 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:02:49,417 DEBUG [smslib] - Running...
+2012-09-22 15:02:49,417 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:02:49,417 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:02:49,527 DEBUG [smslib] - Running...
+2012-09-22 15:02:49,527 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:02:50,400 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:02:50,604 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:02:50,807 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:02:51,010 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:02:52,024 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:02:52,227 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:02:52,430 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:02:53,444 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:03:19,372 DEBUG [smslib] - ** disabled **
+2012-09-22 15:03:38,468 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:03:38,468 DEBUG [smslib] - Stopped.
+2012-09-22 15:03:38,468 DEBUG [smslib] - Stopped.
+2012-09-22 15:03:38,468 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:03:38,468 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:03:38,468 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:03:38,609 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:03:38,609 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:03:38,609 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:03:38,718 DEBUG [smslib] - Running...
+2012-09-22 15:03:38,718 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:03:53,617 DEBUG [smslib] - Running...
+2012-09-22 15:03:53,617 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:03:53,617 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:03:53,617 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:03:53,617 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:03:53,617 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:03:53,617 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:03:53,617 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:03:53,727 DEBUG [smslib] - Running...
+2012-09-22 15:03:53,727 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:03:53,727 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:03:53,789 DEBUG [smslib] - Initialized.
+2012-09-22 15:03:53,789 DEBUG [smslib] - Initialized.
+2012-09-22 15:03:53,789 DEBUG [smslib] - Running...
+2012-09-22 15:03:53,789 DEBUG [smslib] - ** disabled **
+2012-09-22 15:03:53,789 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:03:53,789 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:03:53,789 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:03:53,789 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:03:53,837 DEBUG [smslib] - Running...
+2012-09-22 15:03:53,837 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:03:53,837 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:03:53,946 DEBUG [smslib] - Running...
+2012-09-22 15:03:53,946 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:03:54,820 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:03:55,024 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:03:55,226 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:03:55,429 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:03:56,443 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:03:56,647 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:03:56,850 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:03:57,864 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:04:23,792 DEBUG [smslib] - ** disabled **
+2012-09-22 15:04:42,887 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:04:42,887 DEBUG [smslib] - Stopped.
+2012-09-22 15:04:42,887 DEBUG [smslib] - Stopped.
+2012-09-22 15:04:42,887 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:04:42,887 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:04:42,887 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:04:43,029 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:04:43,029 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:04:43,029 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:04:43,138 DEBUG [smslib] - Running...
+2012-09-22 15:04:43,138 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:04:58,036 DEBUG [smslib] - Running...
+2012-09-22 15:04:58,036 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:04:58,036 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:04:58,036 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:04:58,036 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:04:58,036 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:04:58,036 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:04:58,036 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:04:58,146 DEBUG [smslib] - Running...
+2012-09-22 15:04:58,146 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:04:58,146 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:04:58,209 DEBUG [smslib] - Initialized.
+2012-09-22 15:04:58,209 DEBUG [smslib] - Initialized.
+2012-09-22 15:04:58,209 DEBUG [smslib] - Running...
+2012-09-22 15:04:58,209 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:04:58,209 DEBUG [smslib] - ** disabled **
+2012-09-22 15:04:58,209 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:04:58,209 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:04:58,209 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:04:58,256 DEBUG [smslib] - Running...
+2012-09-22 15:04:58,256 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:04:58,256 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:04:58,366 DEBUG [smslib] - Running...
+2012-09-22 15:04:58,366 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:04:59,224 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:04:59,427 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:04:59,630 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:04:59,833 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:05:00,847 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:05:01,051 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:05:01,254 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:05:02,268 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:05:28,211 DEBUG [smslib] - ** disabled **
+2012-09-22 15:05:47,291 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:05:47,291 DEBUG [smslib] - Stopped.
+2012-09-22 15:05:47,291 DEBUG [smslib] - Stopped.
+2012-09-22 15:05:47,291 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:05:47,291 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:05:47,291 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:05:47,448 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:05:47,448 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:05:47,448 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:05:47,558 DEBUG [smslib] - Running...
+2012-09-22 15:05:47,558 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:06:12,207 DEBUG [com.htong.sms.SmsControler] - config
+2012-09-22 15:06:12,207 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 15:06:12,222 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 15:06:12,222 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 15:06:12,238 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 15:06:12,238 INFO [smslib] - Version: 3.5.0
+2012-09-22 15:06:12,238 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 15:06:12,238 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 15:06:12,238 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 15:06:12,238 DEBUG [smslib] - Initialized.
+2012-09-22 15:06:12,238 DEBUG [smslib] - Running...
+2012-09-22 15:06:12,238 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:06:12,238 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 15:06:12,238 DEBUG [smslib] - Initialized.
+2012-09-22 15:06:12,238 DEBUG [smslib] - Running...
+2012-09-22 15:06:12,238 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 15:06:12,238 DEBUG [smslib] - Initialized.
+2012-09-22 15:06:12,238 DEBUG [smslib] - Running...
+2012-09-22 15:06:12,238 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:06:12,238 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:06:12,613 DEBUG [smslib] - Initialized.
+2012-09-22 15:06:12,613 DEBUG [smslib] - Running...
+2012-09-22 15:06:12,613 DEBUG [smslib] - Initialized.
+2012-09-22 15:06:12,613 DEBUG [smslib] - ** disabled **
+2012-09-22 15:06:12,613 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:06:12,629 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:06:12,629 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:06:12,629 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:06:13,643 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:06:13,847 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:06:14,049 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:06:14,252 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:06:15,266 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:06:15,470 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:06:15,673 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:06:16,687 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:06:27,249 DEBUG [smslib] - Running...
+2012-09-22 15:06:42,257 DEBUG [smslib] - Running...
+2012-09-22 15:06:42,617 DEBUG [smslib] - ** disabled **
+2012-09-22 15:06:57,265 DEBUG [smslib] - Running...
+2012-09-22 15:07:00,434 DEBUG [com.htong.sms.SmsControler] - config
+2012-09-22 15:07:00,434 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 15:07:00,434 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 15:07:00,434 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 15:07:00,465 INFO [smslib] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 15:07:00,465 INFO [smslib] - Version: 3.5.0
+2012-09-22 15:07:00,465 INFO [smslib] - JRE Version: 1.6.0_26
+2012-09-22 15:07:00,465 INFO [smslib] - JRE Impl Version: 20.1-b02
+2012-09-22 15:07:00,465 INFO [smslib] - O/S: Windows 7 / x86 / 6.1
+2012-09-22 15:07:00,465 DEBUG [smslib] - Initialized.
+2012-09-22 15:07:00,465 DEBUG [smslib] - Running...
+2012-09-22 15:07:00,465 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:07:00,465 INFO [smslib] - Queue directory not defined. Queued messages will not be saved to filesystem.
+2012-09-22 15:07:00,465 DEBUG [smslib] - Initialized.
+2012-09-22 15:07:00,465 DEBUG [smslib] - Running...
+2012-09-22 15:07:00,465 DEBUG [smslib] - DelayQueueManager running...
+2012-09-22 15:07:00,465 DEBUG [smslib] - Initialized.
+2012-09-22 15:07:00,465 DEBUG [smslib] - Running...
+2012-09-22 15:07:00,465 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:07:00,465 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:07:00,809 DEBUG [smslib] - Initialized.
+2012-09-22 15:07:00,809 DEBUG [smslib] - Running...
+2012-09-22 15:07:00,824 DEBUG [smslib] - Initialized.
+2012-09-22 15:07:00,824 DEBUG [smslib] - ** disabled **
+2012-09-22 15:07:00,825 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:07:00,825 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:07:00,825 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:07:00,825 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:07:01,839 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:07:02,043 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:07:02,246 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:07:02,449 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:07:03,463 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:07:03,666 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:07:03,869 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:07:04,883 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:07:15,477 DEBUG [smslib] - Running...
+2012-09-22 15:07:30,485 DEBUG [smslib] - Running...
+2012-09-22 15:07:30,829 DEBUG [smslib] - ** disabled **
+2012-09-22 15:07:45,493 DEBUG [smslib] - Running...
+2012-09-22 15:07:49,909 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:07:49,909 DEBUG [smslib] - Stopped.
+2012-09-22 15:07:49,909 DEBUG [smslib] - Stopped.
+2012-09-22 15:07:49,909 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:07:49,909 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:07:49,909 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:07:50,035 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:07:50,160 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:07:50,160 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-22 15:07:50,238 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: *
+ Message Id: 0
+ Message UUID: 2e56b98e-4f42-4c48-83fb-0804ee917171
+ Encoding: UCS2 (Unicode)
+ Date: Sat Sep 22 15:07:50 CST 2012
+ SMSC Ref No: 
+ Recipient: 15042402486
+ Dispatch Date: null
+ Message Status: FAILED
+ Failure Cause: NO_ROUTE
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-22 15:07:50,238 INFO [com.htong.sms.SmsControler] - 短信发送完毕
+2012-09-22 15:07:50,269 DEBUG [smslib] - Running...
+2012-09-22 15:07:50,269 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:08:00,502 DEBUG [smslib] - Running...
+2012-09-22 15:08:00,502 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:08:00,502 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:08:00,502 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:08:00,502 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:08:00,502 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:08:00,502 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:08:00,502 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:08:00,613 DEBUG [smslib] - Running...
+2012-09-22 15:08:00,613 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:08:00,613 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:08:00,659 DEBUG [smslib] - Initialized.
+2012-09-22 15:08:00,659 DEBUG [smslib] - Initialized.
+2012-09-22 15:08:00,659 DEBUG [smslib] - Running...
+2012-09-22 15:08:00,659 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:08:00,659 DEBUG [smslib] - ** disabled **
+2012-09-22 15:08:00,659 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:08:00,659 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:08:00,659 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:08:00,723 DEBUG [smslib] - Running...
+2012-09-22 15:08:00,723 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:08:00,723 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:08:00,832 DEBUG [smslib] - Running...
+2012-09-22 15:08:00,832 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:08:01,674 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:08:01,878 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:08:02,081 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:08:02,284 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:08:03,298 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:08:03,502 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:08:03,704 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:08:04,718 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:08:30,662 DEBUG [smslib] - ** disabled **
+2012-09-22 15:08:49,742 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:08:49,742 DEBUG [smslib] - Stopped.
+2012-09-22 15:08:49,742 DEBUG [smslib] - Stopped.
+2012-09-22 15:08:49,742 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:08:49,742 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:08:49,742 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:08:49,899 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:08:49,899 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:08:49,899 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:08:50,008 DEBUG [smslib] - Running...
+2012-09-22 15:08:50,008 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:09:04,906 DEBUG [smslib] - Running...
+2012-09-22 15:09:04,906 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:09:04,906 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:09:04,906 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:09:04,906 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:09:04,906 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:09:04,906 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:09:04,906 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:09:05,016 DEBUG [smslib] - Running...
+2012-09-22 15:09:05,016 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:09:05,016 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:09:05,079 DEBUG [smslib] - Initialized.
+2012-09-22 15:09:05,079 DEBUG [smslib] - Initialized.
+2012-09-22 15:09:05,079 DEBUG [smslib] - Running...
+2012-09-22 15:09:05,079 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:09:05,079 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:09:05,079 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:09:05,079 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:09:05,079 DEBUG [smslib] - ** disabled **
+2012-09-22 15:09:05,127 DEBUG [smslib] - Running...
+2012-09-22 15:09:05,127 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:09:05,127 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:09:05,236 DEBUG [smslib] - Running...
+2012-09-22 15:09:05,236 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:09:06,094 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:09:06,298 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:09:06,500 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:09:06,703 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:09:07,717 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:09:07,921 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:09:08,124 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:09:09,138 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:09:35,082 DEBUG [smslib] - ** disabled **
+2012-09-22 15:09:54,162 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:09:54,162 DEBUG [smslib] - Stopped.
+2012-09-22 15:09:54,162 DEBUG [smslib] - Stopped.
+2012-09-22 15:09:54,162 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:09:54,162 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:09:54,162 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:09:54,303 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:09:54,303 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:09:54,303 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:09:54,412 DEBUG [smslib] - Running...
+2012-09-22 15:09:54,412 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:10:09,310 DEBUG [smslib] - Running...
+2012-09-22 15:10:09,310 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:10:09,310 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:10:09,310 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:10:09,310 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:10:09,310 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:10:09,310 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:10:09,310 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:10:09,420 DEBUG [smslib] - Running...
+2012-09-22 15:10:09,420 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:10:09,420 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:10:09,483 DEBUG [smslib] - Initialized.
+2012-09-22 15:10:09,483 DEBUG [smslib] - Initialized.
+2012-09-22 15:10:09,483 DEBUG [smslib] - Running...
+2012-09-22 15:10:09,483 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:10:09,483 DEBUG [smslib] - ** disabled **
+2012-09-22 15:10:09,483 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:10:09,483 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:10:09,483 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:10:09,531 DEBUG [smslib] - Running...
+2012-09-22 15:10:09,531 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:10:09,531 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:10:09,640 DEBUG [smslib] - Running...
+2012-09-22 15:10:09,640 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:10:10,498 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:10:10,702 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:10:10,904 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:10:11,107 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:10:12,121 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:10:12,325 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:10:12,528 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:10:13,542 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:10:39,494 DEBUG [smslib] - ** disabled **
+2012-09-22 15:10:58,558 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:10:58,558 DEBUG [smslib] - Stopped.
+2012-09-22 15:10:58,558 DEBUG [smslib] - Stopped.
+2012-09-22 15:10:58,558 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:10:58,558 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:10:58,558 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:10:58,715 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:10:58,715 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:10:58,715 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:10:58,824 DEBUG [smslib] - Running...
+2012-09-22 15:10:58,824 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:11:13,722 DEBUG [smslib] - Running...
+2012-09-22 15:11:13,722 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:11:13,722 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:11:13,722 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:11:13,722 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:11:13,722 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:11:13,722 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:11:13,722 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:11:13,833 DEBUG [smslib] - Running...
+2012-09-22 15:11:13,833 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:11:13,833 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:11:13,895 DEBUG [smslib] - Initialized.
+2012-09-22 15:11:13,895 DEBUG [smslib] - Initialized.
+2012-09-22 15:11:13,895 DEBUG [smslib] - Running...
+2012-09-22 15:11:13,895 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:11:13,895 DEBUG [smslib] - ** disabled **
+2012-09-22 15:11:13,895 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:11:13,895 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:11:13,895 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:11:13,943 DEBUG [smslib] - Running...
+2012-09-22 15:11:13,943 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:11:13,943 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:11:14,052 DEBUG [smslib] - Running...
+2012-09-22 15:11:14,052 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:11:14,910 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:11:15,114 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:11:15,317 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:11:15,519 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:11:16,533 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:11:16,737 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:11:16,940 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:11:17,954 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:11:43,898 DEBUG [smslib] - ** disabled **
+2012-09-22 15:12:02,978 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:12:02,978 DEBUG [smslib] - Stopped.
+2012-09-22 15:12:02,978 DEBUG [smslib] - Stopped.
+2012-09-22 15:12:02,978 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:12:02,978 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:12:02,978 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:12:03,119 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:12:03,119 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:12:03,119 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:12:03,228 DEBUG [smslib] - Running...
+2012-09-22 15:12:03,228 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:12:18,126 DEBUG [smslib] - Running...
+2012-09-22 15:12:18,126 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:12:18,126 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:12:18,126 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:12:18,126 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:12:18,126 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:12:18,126 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:12:18,126 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:12:18,237 DEBUG [smslib] - Running...
+2012-09-22 15:12:18,237 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:12:18,237 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:12:18,268 DEBUG [smslib] - Initialized.
+2012-09-22 15:12:18,268 DEBUG [smslib] - Initialized.
+2012-09-22 15:12:18,268 DEBUG [smslib] - Running...
+2012-09-22 15:12:18,268 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:12:18,268 DEBUG [smslib] - ** disabled **
+2012-09-22 15:12:18,268 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:12:18,268 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:12:18,268 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:12:18,347 DEBUG [smslib] - Running...
+2012-09-22 15:12:18,347 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:12:18,347 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:12:18,456 DEBUG [smslib] - Running...
+2012-09-22 15:12:18,456 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:12:19,283 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:12:19,487 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:12:19,689 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:12:19,892 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:12:20,906 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:12:21,110 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:12:21,313 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:12:22,327 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:12:48,271 DEBUG [smslib] - ** disabled **
+2012-09-22 15:13:07,350 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:13:07,350 DEBUG [smslib] - Stopped.
+2012-09-22 15:13:07,350 DEBUG [smslib] - Stopped.
+2012-09-22 15:13:07,350 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:13:07,350 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:13:07,350 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:13:07,492 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:13:07,492 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:13:07,492 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:13:07,601 DEBUG [smslib] - Running...
+2012-09-22 15:13:07,601 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:13:22,499 DEBUG [smslib] - Running...
+2012-09-22 15:13:22,499 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:13:22,499 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:13:22,499 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:13:22,499 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:13:22,499 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:13:22,499 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:13:22,499 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:13:22,609 DEBUG [smslib] - Running...
+2012-09-22 15:13:22,609 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:13:22,609 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:13:22,672 DEBUG [smslib] - Initialized.
+2012-09-22 15:13:22,672 DEBUG [smslib] - Initialized.
+2012-09-22 15:13:22,672 DEBUG [smslib] - Running...
+2012-09-22 15:13:22,672 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:13:22,672 DEBUG [smslib] - ** disabled **
+2012-09-22 15:13:22,672 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:13:22,672 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:13:22,672 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:13:22,720 DEBUG [smslib] - Running...
+2012-09-22 15:13:22,720 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:13:22,720 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:13:22,829 DEBUG [smslib] - Running...
+2012-09-22 15:13:22,829 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:13:23,687 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:13:23,891 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:13:24,093 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:13:24,296 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:13:25,310 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:13:25,514 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:13:25,717 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:13:26,731 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:13:52,675 DEBUG [smslib] - ** disabled **
+2012-09-22 15:14:11,754 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:14:11,754 DEBUG [smslib] - Stopped.
+2012-09-22 15:14:11,754 DEBUG [smslib] - Stopped.
+2012-09-22 15:14:11,754 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:14:11,754 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:14:11,754 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:14:11,911 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:14:11,911 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:14:11,911 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:14:12,021 DEBUG [smslib] - Running...
+2012-09-22 15:14:12,021 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:14:26,919 DEBUG [smslib] - Running...
+2012-09-22 15:14:26,919 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:14:26,919 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:14:26,919 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:14:26,919 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:14:26,919 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:14:26,919 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:14:26,919 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:14:27,029 DEBUG [smslib] - Running...
+2012-09-22 15:14:27,029 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:14:27,029 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:14:27,091 DEBUG [smslib] - Initialized.
+2012-09-22 15:14:27,091 DEBUG [smslib] - Initialized.
+2012-09-22 15:14:27,091 DEBUG [smslib] - Running...
+2012-09-22 15:14:27,091 DEBUG [smslib] - ** disabled **
+2012-09-22 15:14:27,091 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:14:27,091 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:14:27,091 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:14:27,091 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:14:27,139 DEBUG [smslib] - Running...
+2012-09-22 15:14:27,139 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:14:27,139 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:14:27,248 DEBUG [smslib] - Running...
+2012-09-22 15:14:27,248 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:14:28,106 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:14:28,310 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:14:28,513 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:14:28,716 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:14:29,730 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:14:29,933 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:14:30,136 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:14:31,150 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:14:57,094 DEBUG [smslib] - ** disabled **
+2012-09-22 15:15:16,174 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:15:16,174 DEBUG [smslib] - Stopped.
+2012-09-22 15:15:16,174 DEBUG [smslib] - Stopped.
+2012-09-22 15:15:16,174 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:15:16,174 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:15:16,174 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:15:16,331 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:15:16,331 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:15:16,331 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:15:16,440 DEBUG [smslib] - Running...
+2012-09-22 15:15:16,440 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:15:31,338 DEBUG [smslib] - Running...
+2012-09-22 15:15:31,338 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:15:31,338 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:15:31,338 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:15:31,338 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:15:31,338 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:15:31,338 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:15:31,338 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:15:31,448 DEBUG [smslib] - Running...
+2012-09-22 15:15:31,448 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:15:31,448 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:15:31,495 DEBUG [smslib] - Initialized.
+2012-09-22 15:15:31,495 DEBUG [smslib] - Initialized.
+2012-09-22 15:15:31,495 DEBUG [smslib] - Running...
+2012-09-22 15:15:31,495 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:15:31,495 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:15:31,495 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:15:31,495 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:15:31,495 DEBUG [smslib] - ** disabled **
+2012-09-22 15:15:31,559 DEBUG [smslib] - Running...
+2012-09-22 15:15:31,559 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:15:31,559 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:15:31,668 DEBUG [smslib] - Running...
+2012-09-22 15:15:31,668 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:15:32,510 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:15:32,714 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:15:32,917 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:15:33,120 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:15:34,134 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:15:34,337 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:15:34,540 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:15:35,554 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:16:01,498 DEBUG [smslib] - ** disabled **
+2012-09-22 15:16:20,578 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:16:20,578 DEBUG [smslib] - Stopped.
+2012-09-22 15:16:20,578 DEBUG [smslib] - Stopped.
+2012-09-22 15:16:20,578 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:16:20,578 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:16:20,578 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:16:20,735 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:16:20,735 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:16:20,735 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:16:20,844 DEBUG [smslib] - Running...
+2012-09-22 15:16:20,844 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:16:35,742 DEBUG [smslib] - Running...
+2012-09-22 15:16:35,742 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:16:35,742 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:16:35,742 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:16:35,742 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:16:35,742 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:16:35,742 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:16:35,742 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:16:35,852 DEBUG [smslib] - Running...
+2012-09-22 15:16:35,852 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:16:35,852 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:16:35,915 DEBUG [smslib] - Initialized.
+2012-09-22 15:16:35,915 DEBUG [smslib] - Initialized.
+2012-09-22 15:16:35,915 DEBUG [smslib] - Running...
+2012-09-22 15:16:35,915 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:16:35,915 DEBUG [smslib] - ** disabled **
+2012-09-22 15:16:35,915 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:16:35,915 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:16:35,915 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:16:35,962 DEBUG [smslib] - Running...
+2012-09-22 15:16:35,962 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:16:35,962 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:16:36,072 DEBUG [smslib] - Running...
+2012-09-22 15:16:36,072 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:16:36,930 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:16:37,133 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:16:37,336 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:16:37,539 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:16:38,553 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:16:38,757 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:16:38,960 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:16:39,974 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:17:05,918 DEBUG [smslib] - ** disabled **
+2012-09-22 15:17:24,998 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:17:24,998 DEBUG [smslib] - Stopped.
+2012-09-22 15:17:24,998 DEBUG [smslib] - Stopped.
+2012-09-22 15:17:24,998 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:17:24,998 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:17:24,998 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:17:25,140 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:17:25,140 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:17:25,140 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:17:25,249 DEBUG [smslib] - Running...
+2012-09-22 15:17:25,249 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:17:40,147 DEBUG [smslib] - Running...
+2012-09-22 15:17:40,147 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:17:40,147 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:17:40,147 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:17:40,147 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:17:40,147 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:17:40,147 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:17:40,147 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:17:40,257 DEBUG [smslib] - Running...
+2012-09-22 15:17:40,257 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:17:40,257 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:17:40,304 DEBUG [smslib] - Initialized.
+2012-09-22 15:17:40,304 DEBUG [smslib] - Initialized.
+2012-09-22 15:17:40,304 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:17:40,304 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:17:40,304 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:17:40,304 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:17:40,304 DEBUG [smslib] - Running...
+2012-09-22 15:17:40,304 DEBUG [smslib] - ** disabled **
+2012-09-22 15:17:40,367 DEBUG [smslib] - Running...
+2012-09-22 15:17:40,367 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:17:40,367 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:17:40,477 DEBUG [smslib] - Running...
+2012-09-22 15:17:40,477 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:17:41,319 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:17:41,523 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:17:41,726 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:17:41,928 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:17:42,942 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:17:43,146 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:17:43,349 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:17:44,363 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:18:10,307 DEBUG [smslib] - ** disabled **
+2012-09-22 15:18:29,387 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:18:29,387 DEBUG [smslib] - Stopped.
+2012-09-22 15:18:29,387 DEBUG [smslib] - Stopped.
+2012-09-22 15:18:29,387 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:18:29,387 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:18:29,387 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:18:29,528 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:18:29,528 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:18:29,528 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:18:29,637 DEBUG [smslib] - Running...
+2012-09-22 15:18:29,637 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:18:44,535 DEBUG [smslib] - Running...
+2012-09-22 15:18:44,535 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:18:44,535 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:18:44,535 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:18:44,535 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:18:44,535 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:18:44,535 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:18:44,535 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:18:44,645 DEBUG [smslib] - Running...
+2012-09-22 15:18:44,645 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:18:44,645 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:18:44,710 DEBUG [smslib] - Initialized.
+2012-09-22 15:18:44,710 DEBUG [smslib] - Initialized.
+2012-09-22 15:18:44,710 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:18:44,710 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:18:44,710 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:18:44,710 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:18:44,710 DEBUG [smslib] - Running...
+2012-09-22 15:18:44,710 DEBUG [smslib] - ** disabled **
+2012-09-22 15:18:44,757 DEBUG [smslib] - Running...
+2012-09-22 15:18:44,757 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:18:44,757 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:18:44,859 DEBUG [smslib] - Running...
+2012-09-22 15:18:44,859 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:18:45,711 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:18:45,915 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:18:46,118 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:18:46,320 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:18:47,334 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:18:47,538 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:18:47,741 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:18:48,755 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:19:14,725 DEBUG [smslib] - ** disabled **
+2012-09-22 15:19:33,774 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:19:33,774 DEBUG [smslib] - Stopped.
+2012-09-22 15:19:33,774 DEBUG [smslib] - Stopped.
+2012-09-22 15:19:33,774 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:19:33,774 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:19:33,774 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:19:33,931 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:19:33,931 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:19:33,931 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:19:34,040 DEBUG [smslib] - Running...
+2012-09-22 15:19:34,040 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:19:48,938 DEBUG [smslib] - Running...
+2012-09-22 15:19:48,938 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:19:48,938 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:19:48,938 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:19:48,938 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:19:48,938 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:19:48,938 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:19:48,938 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:19:49,048 DEBUG [smslib] - Running...
+2012-09-22 15:19:49,048 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:19:49,048 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:19:49,095 DEBUG [smslib] - Initialized.
+2012-09-22 15:19:49,095 DEBUG [smslib] - Initialized.
+2012-09-22 15:19:49,095 DEBUG [smslib] - Running...
+2012-09-22 15:19:49,095 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:19:49,095 DEBUG [smslib] - ** disabled **
+2012-09-22 15:19:49,095 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:19:49,095 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:19:49,095 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:19:49,158 DEBUG [smslib] - Running...
+2012-09-22 15:19:49,158 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:19:49,158 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:19:49,267 DEBUG [smslib] - Running...
+2012-09-22 15:19:49,267 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:19:50,110 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:19:50,314 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:19:50,516 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:19:50,719 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:19:51,733 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:19:51,937 DEBUG [smslib] - GTW: modem.com1: SEND :ATE0(cr)
+2012-09-22 15:19:52,140 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:19:53,154 DEBUG [smslib] - GTW: modem.com1: SEND :AT+CPIN?(cr)
+2012-09-22 15:20:19,098 DEBUG [smslib] - ** disabled **
+2012-09-22 15:20:38,177 DEBUG [smslib] - GTW: modem.com1: Buffer contents on timeout: 
+2012-09-22 15:20:38,177 DEBUG [smslib] - Stopped.
+2012-09-22 15:20:38,177 DEBUG [smslib] - Stopped.
+2012-09-22 15:20:38,177 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread ended.
+2012-09-22 15:20:38,177 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread ended.
+2012-09-22 15:20:38,177 DEBUG [smslib] - GTW: modem.com1: ModemReader thread ended.
+2012-09-22 15:20:38,319 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:20:38,319 ERROR [smslib] - Error while starting Gateway: modem.com1
+org.smslib.TimeoutException: No response from device.
+	at org.smslib.modem.AModemDriver$CharQueue.get(AModemDriver.java:535)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:338)
+	at org.smslib.modem.AModemDriver.getResponse(AModemDriver.java:313)
+	at org.smslib.modem.athandler.ATHandler.getSimStatus(ATHandler.java:145)
+	at org.smslib.modem.AModemDriver.connect(AModemDriver.java:132)
+	at org.smslib.modem.ModemGateway.startGateway(ModemGateway.java:189)
+	at org.smslib.Service$WatchDog.process(Service.java:1573)
+	at org.smslib.threading.AServiceThread.run(AServiceThread.java:105)
+2012-09-22 15:20:38,319 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:20:38,428 DEBUG [smslib] - Running...
+2012-09-22 15:20:38,428 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:20:53,326 DEBUG [smslib] - Running...
+2012-09-22 15:20:53,326 WARN [smslib] - Gateway: modem.com1 restarting.
+2012-09-22 15:20:53,326 INFO [smslib] - GTW: modem.com1: Stopping gateway...
+2012-09-22 15:20:53,326 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:20:53,326 INFO [smslib] - GTW: modem.com1: Closing: COM5 @9600
+2012-09-22 15:20:53,326 INFO [smslib] - GTW: modem.com1: Gateway stopped.
+2012-09-22 15:20:53,326 INFO [smslib] - GTW: modem.com1: Starting gateway, using Huawei (Generic) AT Handler.
+2012-09-22 15:20:53,326 INFO [smslib] - GTW: modem.com1: Opening: COM5 @9600
+2012-09-22 15:20:53,436 DEBUG [smslib] - Running...
+2012-09-22 15:20:53,436 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:20:53,436 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:20:53,467 DEBUG [smslib] - Initialized.
+2012-09-22 15:20:53,467 DEBUG [smslib] - Initialized.
+2012-09-22 15:20:53,467 DEBUG [smslib] - Running...
+2012-09-22 15:20:53,467 DEBUG [smslib] - GTW: modem.com1: ModemReader thread started.
+2012-09-22 15:20:53,467 DEBUG [smslib] - ** disabled **
+2012-09-22 15:20:53,467 DEBUG [smslib] - GTW: modem.com1: AsyncNotifier thread started.
+2012-09-22 15:20:53,467 DEBUG [smslib] - GTW: modem.com1: AsyncMessageProcessor thread started.
+2012-09-22 15:20:53,467 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 15:20:53,546 DEBUG [smslib] - Running...
+2012-09-22 15:20:53,546 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:20:53,546 DEBUG [smslib] - NotifyQueueManager end...
+2012-09-22 15:20:53,656 DEBUG [smslib] - Running...
+2012-09-22 15:20:53,656 DEBUG [smslib] - NotifyQueueManager running...
+2012-09-22 15:20:54,483 DEBUG [smslib] - GTW: modem.com1: SEND :(27)
+2012-09-22 15:20:54,686 DEBUG [smslib] - GTW: modem.com1: SEND :+++
+2012-09-22 15:20:54,889 DEBUG [smslib] - GTW: modem.com1: SEND :ATZ(cr)
+2012-09-22 15:20:55,092 DEBUG [smslib] - GTW: modem.com1: clearBuffer() called.
+2012-09-22 21:32:09,415 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 21:32:09,432 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 21:32:09,433 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 21:32:17,484 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-22 21:32:38,245 ERROR [smslib] - GTW: modem.com1: CMS Error 28: Quit retrying, message lost...
+2012-09-22 21:32:38,255 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: *
+ Message Id: 0
+ Message UUID: 62d82f88-3bd6-4db2-8bf3-04c31d891277
+ Encoding: UCS2 (Unicode)
+ Date: Sat Sep 22 21:32:17 CST 2012
+ SMSC Ref No: null
+ Recipient: 15042402486
+ Dispatch Date: null
+ Message Status: FAILED
+ Failure Cause: UNKNOWN
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-22 21:32:38,256 INFO [com.htong.sms.SmsControler] - 短信发送完毕
+2012-09-22 21:35:10,166 INFO [com.htong.sms.SmsControler] - 正在初始化短信串口
+2012-09-22 21:35:10,169 INFO [com.htong.sms.SmsControler] - SMSLib: A Java API library for sending and receiving SMS via a GSM modem or other supported gateways.
+This software is distributed under the terms of the Apache v2.0 License.
+Web Site: http://smslib.org
+2012-09-22 21:35:10,169 INFO [com.htong.sms.SmsControler] - Version: 3.5.0
+2012-09-22 21:35:18,194 INFO [com.htong.sms.SmsControler] - 正在发送短信至：15042402486
+2012-09-22 21:35:23,016 INFO [com.htong.sms.SmsControler] - 		>>
+===============================================================================
+<< OutboundMessage >>
+-------------------------------------------------------------------------------
+ Gateway Id: modem.com1
+ Message Id: 0
+ Message UUID: 69298609-debf-4faf-a5d9-e31be1c0f175
+ Encoding: UCS2 (Unicode)
+ Date: Sat Sep 22 21:35:18 CST 2012
+ SMSC Ref No: 3
+ Recipient: 15042402486
+ Dispatch Date: Sat Sep 22 21:35:23 CST 2012
+ Message Status: SENT
+ Failure Cause: NO_ERROR
+ Validity Period (Hours): -1
+ Status Report: false
+ Source / Destination Ports: -1 / -1
+ Flash SMS: false
+ Text: 故障诊断报警！
+ PDU data: 6545969C8BCA65AD62A58B66FF01
+ Scheduled Delivery: null
+===============================================================================
+
+2012-09-22 21:35:23,016 INFO [com.htong.sms.SmsControler] - 短信发送完毕

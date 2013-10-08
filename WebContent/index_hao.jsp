@@ -13,10 +13,11 @@
 </head>
 
 <body>
+
 	<div region="north" id="north_region" href="layout/north.htm"
 		style="height: 50px; overflow: hidden; background-color: lightcyan;"></div>
 	<div region="west" id="west_region" href="layout/west.htm"
-		iconCls="icon-tip" split="true" title="导航菜单" style="width: 190px;"></div>
+		iconCls="icon-tip" split="true" title="功能导航" style="width: 190px;"></div>
 	<div region="center" id="center_region" title="欢迎使用本系统！">
 		<div id="index_tabs" class="easyui-tabs" fit="true">
 			<div id="home" title="首页" href="layout/home.htm"></div>

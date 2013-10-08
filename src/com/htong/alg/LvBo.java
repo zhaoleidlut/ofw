@@ -84,6 +84,7 @@ public class LvBo {
 	
 	public static float zhongzhiLB(List<Float> resultList) {
 		int deal_num = resultList.size();
+		// 冒泡法，从小到大
 		for (int i1 = 0; i1 < deal_num; i1++) {
 			for (int i2 = 0; i2 < deal_num - i1 - 1; i2++) {
 				if (resultList.get(i2 + 1) < resultList.get(i2)) {
@@ -97,6 +98,44 @@ public class LvBo {
 		int numCount = resultList.size();
 		int numStart = numCount * 1 / 3;
 		int numEnd = numCount * 2 / 3;
+		
+//		int numStart = numCount * 3 / 5;
+//		int numEnd = numCount * 4 / 5;
+		float zuihoujieguo = 0; // 产液量结果，一个小时的
+		for (int i = numStart; i < numEnd; i++) {
+			//log.warn("产液量选取点："+ resultList.get(i));
+			zuihoujieguo += resultList.get(i);
+		}
+		//log.debug(numEnd + " " + numStart + ":" + (numEnd - numStart));
+		
+		if((numEnd-numStart)<=0) {
+			zuihoujieguo = 0;
+		} else {
+			zuihoujieguo /= (numEnd - numStart);
+		}
+		
+		return zuihoujieguo;
+	}
+	
+	public static float zhongzhiLB_GGHX(List<Float> resultList) {
+		int deal_num = resultList.size();
+		// 冒泡法，从小到大
+		for (int i1 = 0; i1 < deal_num; i1++) {
+			for (int i2 = 0; i2 < deal_num - i1 - 1; i2++) {
+				if (resultList.get(i2 + 1) < resultList.get(i2)) {
+					float temp = resultList.get(i2 + 1);
+					resultList.set(i2 + 1, resultList.get(i2));
+					resultList.set(i2, temp);
+				}
+			}
+		}
+
+		int numCount = resultList.size();
+		
+//		int numStart = numCount * 3 / 5;
+//		int numEnd = numCount * 4 / 5;
+		int numStart = numCount*2 / 3;
+		int numEnd = deal_num;
 		float zuihoujieguo = 0; // 产液量结果，一个小时的
 		for (int i = numStart; i < numEnd; i++) {
 			//log.warn("产液量选取点："+ resultList.get(i));

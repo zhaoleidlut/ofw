@@ -10,7 +10,7 @@
 				'<div style="height:250px;width:350px;position: relative;left: 80px;" id='+id+'></div>')
 				.appendTo(tdLeft);
 
-		var wellNum = id.substring(0, id.length - 8);
+		var wellNum = id.substring(0, id.length - 7);
 
 		var chongcheng = '';
 		var chongci = '';
@@ -72,7 +72,7 @@
 						formatString : '%0.1f'
 					},
 				
-					ticks : ['10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
+					ticks : ['0.0','10.0','20.0','30.0','40.0','50.0','60.0','70.0','80.0','90.0','100.0']
 				}
 			},
 			highlighter : {
@@ -84,8 +84,61 @@
 			}
 		};
 		
+		var ret = [[[]]];
+		$.ajax({
+			async : false,
+			url : 'getGzzdHistoryLatest.html',
+			type : 'post',
+			cache : false,
+			dataType : 'json',
+			data : 'wellNum=' + wellNum,
+			success : function(data) {
+				if(data.hasData == 'no') {				
+					ret = [[[]]];
+				} else if(data.hasData == 'yes') {
+					if(data.zero == 'yes') {					
+						ret = [[[]]];
+					} else {
+						ret = data.data;
+
+						time=data.time;
+						chongcheng=data.chongcheng;
+						chongci=data.chongci;
+						minZaihe=data.minzaihe;
+						maxZaihe=data.maxzaihe;
+						
+						pjsz=data.PJSZ;
+						pjxz=data.PJXZ;
+						
+						yxcc=data.yxcc;
+						zhc=data.zhc;
+						llcyl=data.llcyl;
+						cyl=data.cyl;
+						
+						ax=data.AX;
+						ay=data.AY;
+						bx=data.BX;
+						by=data.BY;
+						cx=data.CX;
+						cy=data.CY;
+						dx=data.DX;
+						dy=data.DY;
+						ex=data.EX;
+						ey=data.EY;
+						fx=data.FX;
+						fy=data.FY;
+						
+						fault_code=data.gzzd;
+						fault_level=data.fault_level;
+					}
+					
+				}
+				
+			}
+		});
+		
 		//var jsonurl = 'getDayProductByHourGT.html';
-		var plot = $.jqplot(id, [[[]]], options);
+		var plot = $.jqplot(id,ret, options);
 
 		var myDiv = $('<div style="height:200px;width:800px"></div>').appendTo(
 				tab);
@@ -306,7 +359,8 @@
 									maxZaihe = data.maxzaihe;
 									time = data.time;
 
-									tab.find('td[name=_time]').text(time);
+									tab.find('td[name=_time]').text(
+											time);
 									tab.find('td[name=_chongcheng]').text(
 											chongcheng);
 									tab.find('td[name=_chongci]').text(chongci);

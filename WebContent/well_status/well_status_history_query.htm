@@ -1,0 +1,52 @@
+<div id="well_status_query"  fit="true" > 
+	<div id='well_status_query_grid'></div>
+</div>
+<script type="text/javascript">
+	$(function() {
+			var parentHeight = $('#well_status_query').parent().height()-35;
+			$('#well_status_query_grid').datagrid({
+				//title:'text',
+				//iconCls : 'icon-save',
+				autoRowHeight : true,
+				nowrap : true,
+				//striped: true,
+				collapsible : true,
+				url : 'getAllWellHistoryStatus.html',
+				//sortName : 'time',
+				remoteSort : false,
+				//toolbar : '#tb',
+				//sortName : '123',
+				//sortOrder : '456',
+				//queryParams : {wellNum:iWellNum,year:year,month:month},
+				height : parentHeight,
+
+				columns : [ [ {
+					field : 'wellNum',
+					title : '井号',
+					width : 150
+				}, {
+					field : 'start',
+					title : '上次开井时间',
+					width : 150
+				}, {
+					field : 'stop',
+					title : '上次停井时间',
+					width : 150
+				}, {	
+					field : 'detail',
+					title : '详细信息',
+					width : 100,
+					formatter: function(value,row,index){
+							var c = '<input type="button" value="详细信息" onClick="openWarnWin()"></input>';
+							return c;
+						
+					}
+				}] ],
+				rownumbers : true
+			});
+			
+	});
+	function openWarnWin(){
+		$.messager.alert("错误", "获取详细信息失败！","warning")
+	}
+</script>

@@ -4,7 +4,7 @@
 	src="js/openWindow.js"></script>
 
 <div class="easyui-accordion" fit="true">
-	
+	 
 	<div title="示功图查询" 
 		style="overflow: auto; padding: 10px;"  selected="true" iconCls="icon-i_dgt_query">
 
@@ -56,7 +56,13 @@
 			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('时间段产量查询')">时间段产量</a>
 		</p>-->
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('分离器对比')">分离器对比</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('月产量查询')">月产量查询</a>
+		</p>
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('分离器对比')">时产量对比</a>
+		</p>
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-search" onclick="addTab('电功图量油')">电功图量油</a>
 		</p>
 	</div>
 	
@@ -77,23 +83,54 @@
 			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="openWin('实时诊断状态')">实时诊断状态</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('井矿诊断')">历史手动诊断</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('故障历史记录')">故障历史记录</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('故障历史记录')">故障历史记录</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('井矿诊断')">历史手动诊断</a>
+		</p>
+	</div>
+	
+	<div title="示功图电量对比"
+		style="overflow: auto; padding: 10px;" iconCls="icon-i_sgt_dian">
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_sgt_dian" onclick="addTab('示功图电量对比')">示功图电量对比</a>
+		</p>
+	</div>
+	
+	<div title="动液面估算"
+		style="overflow: auto; padding: 10px;" iconCls="icon-i_dym">
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_dym" onclick="addTab('动液面估算')">动液面估算</a>
+		</p>
+	</div>
+	
+	<div title="油井平衡分析"
+		style="overflow: auto; padding: 10px;" iconCls="icon-i_well_balance">
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_well_balance" onclick="addTab('油井平衡分析')">油井平衡分析</a>
+		</p>
+	</div>
+	
+	<div title="开停井查询"
+		style="overflow: auto; padding: 10px;" iconCls="icon-i_start_stop">
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_start_stop" onclick="addTab('油井运行状态')">油井运行状态</a>
+		</p>
+		<p>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_start_stop" onclick="addTab('油井起停记录')">油井起停记录</a>
 		</p>
 	</div>
 	
 	<div title="电量数据查询" 
-		style="overflow: auto; padding: 10px;" iconCls="icon-i_gzzd">
+		style="overflow: auto; padding: 10px;" iconCls="icon-i_dianliang">
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('电能数据查询')">电能数据查询</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_dianliang" onclick="addTab('电能数据查询')">电能数据查询</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd" onclick="addTab('电力数据查询')">电力数据查询</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_dianliang" onclick="addTab('电力数据查询')">电力数据查询</a>
 		</p>
 		<p>
-			<a href="#" class="easyui-linkbutton" iconCls="icon-i_gzzd">电能数据统计</a>
+			<a href="#" class="easyui-linkbutton" iconCls="icon-i_dianliang">电能数据统计</a>
 		</p>
 	</div>
 	
@@ -107,7 +144,7 @@
 	
 </div>
 
-<div id="gzzd_real_status" title="实时故障诊断状态" class="easyui-window" collapsible="false" closed="true" maximizable="false" minimizable="false" style="padding:10px;width:780px;height:540px;">  
+<div id="gzzd_real_status" title="实时故障诊断状态" class="easyui-window" collapsible="false" closed="true" maximizable="false" minimizable="false" style="padding:10px;width:860px;height:540px;">  
     <div id="gzzd_real_status_grid" fit="true"></div> 
 </div> 
 <div id="gzzd_thm" title="故障诊断报警窗口" class="easyui-window" collapsible="false" closed="true" maximizable="false" minimizable="true" style="padding:10px;width:680px;height:400px;">  

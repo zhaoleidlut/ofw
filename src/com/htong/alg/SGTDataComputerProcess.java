@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 public class SGTDataComputerProcess implements SGTDataComputer {
 	private static final Logger log = Logger.getLogger(SGTDataComputerProcess.class);
 	
-	private int standardAreaNum = 25;// 面积划分数量
+	//private int standardAreaNum = 25;// 面积划分数量
 	@Override
 	public Map<String, Object> calcSGTData(float weiyi[], float zaihe[],
 			int chongci, float chongchengshijian, float bengjing,
@@ -27,7 +27,13 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 
 		int standardGuaidianF = 5; // 拐点自由度
 		
-		int num = studyF(weiyi, zaihe, standardGuaidianF);
+		int num=0;
+		try {
+			num = studyF(weiyi, zaihe, standardGuaidianF);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		int outWhile = 0;	//跳出while 防止死循环
 		while((num<12 || num>18) && outWhile <100) {
 			if(num<12) {
@@ -41,7 +47,6 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			outWhile++;
 		}
 //		log.debug("拐点数：" + num);
-//		System.out.println("拐点数为：" + num + "&&&&&&&&&&& 拐点自由度：" + standardGuaidianF);
 		if(num<6 || num>10) {
 			log.debug("故障井，拐点数为：" + num);
 			resultMap.put("gongtuxinxi", "暂时不明故障");	//添加故障信息
@@ -97,7 +102,6 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		
 		resultMap.put("minZaihe", newMinZaihe);	//添加最小载荷
 		resultMap.put("maxZaihe", newMaxZaihe);	//添加最大载荷
-		
 
 //		log.debug("上死点：" + maxFlag + "：" + weiyi[maxFlag] + "，下死点："
 //				+ minFlag + "：" + weiyi[minFlag]);
@@ -107,55 +111,55 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			weiyi[i] -= minWeiyi;
 		}
 		// 为方便计算，若最小位移点不是第0点，那么循环移动数据
-		if (minFlag != 0) {
-			float tempPositon;
-			float tempLoad;
-			for (int i = 0; i < minFlag; i++) {
-				tempPositon = weiyi[0];
-				tempLoad = zaihe[0];
-				int j = 1;
-				for (; j < n; j++) {
-					weiyi[j - 1] = weiyi[j];
-					zaihe[j - 1] = zaihe[j];
-				}
-				weiyi[j - 1] = tempPositon;
-				zaihe[j - 1] = tempLoad;
-			}
-			maxFlag = Math.abs(maxFlag - minFlag);
-			minFlag = 0;
-		}
+//		if (minFlag != 0) {
+//			float tempPositon;
+//			float tempLoad;
+//			for (int i = 0; i < minFlag; i++) {
+//				tempPositon = weiyi[0];
+//				tempLoad = zaihe[0];
+//				int j = 1;
+//				for (; j < n; j++) {
+//					weiyi[j - 1] = weiyi[j];
+//					zaihe[j - 1] = zaihe[j];
+//				}
+//				weiyi[j - 1] = tempPositon;
+//				zaihe[j - 1] = tempLoad;
+//			}
+//			maxFlag = Math.abs(maxFlag - minFlag);
+//			minFlag = 0;
+//		}
 
 //		log.debug("移位后的----上死点：" + maxFlag + "-" + weiyi[maxFlag]
 //				+ "，下死点：" + minFlag + "-" + weiyi[minFlag]);
 
 		// 将上下行程分别求出每个区间内载荷的平均值
-		float space = (weiyi[maxFlag] - weiyi[minFlag]) / standardAreaNum;
-		int j = 0;
-		float[] averloadup = new float[standardAreaNum]; // 上冲程载荷平均值
-		float[] averloaddown = new float[standardAreaNum]; // 下冲程载荷平均值
-		for (int i = 0; i < standardAreaNum; i++) {
-			int flag = 0;
-			while (weiyi[j] < (1 + i) * space && j < maxFlag) {
-				averloadup[i] += zaihe[j++];
-				flag++;
-			}
-			averloadup[i] /= flag; // 第i个面积区间的载荷平均值
-		}
-		for (int i = 0; i < standardAreaNum; i++) {
-			int flag = 0;
-			while (j < n && weiyi[j] > (standardAreaNum - i - 1) * space) {
-				averloaddown[i] += zaihe[j++];
-				flag++;
-			}
-			averloaddown[i] /= flag;
-		}
-
-		float sumarea = 0; // 示功图面积
-		for (int i = 0; i < standardAreaNum; i++) {
-			float iArea = (averloadup[i] - averloaddown[standardAreaNum - i - 1])
-					* space;
-			sumarea += iArea;
-		}
+//		float space = (weiyi[maxFlag] - weiyi[minFlag]) / standardAreaNum;
+//		int j = 0;
+//		float[] averloadup = new float[standardAreaNum]; // 上冲程载荷平均值
+//		float[] averloaddown = new float[standardAreaNum]; // 下冲程载荷平均值
+//		for (int i = 0; i < standardAreaNum; i++) {
+//			int flag = 0;
+//			while (weiyi[j] < (1 + i) * space && j < maxFlag) {
+//				averloadup[i] += zaihe[j++];
+//				flag++;
+//			}
+//			averloadup[i] /= flag; // 第i个面积区间的载荷平均值
+//		}
+//		for (int i = 0; i < standardAreaNum; i++) {
+//			int flag = 0;
+//			while (j < n && weiyi[j] > (standardAreaNum - i - 1) * space) {
+//				averloaddown[i] += zaihe[j++];
+//				flag++;
+//			}
+//			averloaddown[i] /= flag;
+//		}
+//
+//		float sumarea = 0; // 示功图面积
+//		for (int i = 0; i < standardAreaNum; i++) {
+//			float iArea = (averloadup[i] - averloaddown[standardAreaNum - i - 1])
+//					* space;
+//			sumarea += iArea;
+//		}
 
 		// 求凸包
 		List<Point> pointList = new ArrayList<Point>();
@@ -163,6 +167,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			Point p = new Point();
 			p.setX(weiyi[i]);
 			p.setY(zaihe[i]);
+			p.setIndex(i);
 			pointList.add(p);
 		}
 		Melkman melkman = new Melkman(pointList);
@@ -178,7 +183,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			if (Math.abs(newPoint[i].getX() - newPoint[i + 1].getX()) <= 0.005) {
 				newPoint[i].setY((float) ((newPoint[i].getY() + newPoint[i + 1]
 						.getY()) / 2.0));
-				for (j = i + 1; j < flagnum - 2; j++) {
+				for (int j = i + 1; j < flagnum - 2; j++) {
 					newPoint[j].setX(newPoint[j + 1].getX());
 					newPoint[j].setY(newPoint[j + 1].getY());
 				}
@@ -239,21 +244,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			pointfinal[pointNum] = flagnum - 2;
 			pointNum++;
 		}
-		System.out.println("极值点个数：" + pointNum);
-//		for(int i = 0;i<pointNum;i++) {
-//			System.out.println("极值点：" + newPoint[pointfinal[i]].getX() + "," + newPoint[pointfinal[i]].getY());
-//		}
-
-//		if (pointNum == 4) {
-//			result[1] = newPoint[pointfinal[2]].getX(); // 标准示功图左上位移
-//			result[2] = newPoint[pointfinal[0]].getX(); // 标准示功图右下位移
-//			result[3] = (newPoint[pointfinal[2]].getY() + newPoint[pointfinal[1]]
-//					.getY()) / 2; // 标准上载线位置
-//			result[4] = (newPoint[pointfinal[0]].getY() + newPoint[pointfinal[3]]
-//					.getY()) / 2; // 标准下载线位置
-//		} else {
-//			log.debug("非标准示功图");
-//		}
+		//System.out.println("极值点个数：" + pointNum);
 		
 		float minBasicZaihe = newPoint[pointfinal[0]].getY();//获取极值点最小载荷点
 		for(int i = 1;i<pointNum;i++) {
@@ -278,8 +269,9 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 				yxccd = houxuanList.get(i);
 			}
 		}
-		System.out.println("有效冲程为：" + youxiaochongcheng + "       ");
-//		System.out.println("有效冲程序号：" + yxccd);//
+		//System.out.println("有效冲程为：" + youxiaochongcheng + "       ");
+		
+		
 		float pjxz = 0;	//平均下载荷
 		for(int i = 0;i<=yxccd;i++) {
 			pjxz += newPoint[i].getY()/(yxccd+1);
@@ -308,10 +300,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		resultMap.put("pjxz", pjxz);	//平均下载
 		resultMap.put("zhc", pjsz-pjxz);	//载荷差
 		
-//		System.out.println("载荷差值：" + (pjsz-pjxz));
-		
 		resultMap.put("youxiaochongcheng", youxiaochongcheng);
-		
 		
 		//求左上拐点
 		List<Integer> zsHouxuanList = new ArrayList<Integer>();
@@ -329,12 +318,8 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			}
 		}
 		
-		resultMap.put("zs", zs);
-//		System.out.println("上载平均值: "+ pjsz);
-//		System.out.println("取点为：" + zs);
-		
-		
-		
+		resultMap.put("zs", zs);	//左上位移
+
 		//产液量
 		float liquidProduct = 0;
 		log.debug("冲程时间：" + chongchengshijian);
@@ -345,7 +330,13 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			liquidProduct = (float) (Math.pow(bengjing/2000, 2)*3.1415926*chongci*youxiaochongcheng);
 		}
 //		log.debug("未保留4位小数前的产液量：" + liquidProduct);
-		BigDecimal bd = new BigDecimal(liquidProduct);
+		BigDecimal bd;
+		try {
+			bd = new BigDecimal(liquidProduct);
+		} catch (Exception e) {
+			bd = new BigDecimal(0);
+			e.printStackTrace();
+		}
 		float newLiquidProduct = bd.setScale(4, BigDecimal.ROUND_HALF_UP)
 				.floatValue();
 		
@@ -360,19 +351,6 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 		log.debug("产液量：" + newLiquidProduct);
 		resultMap.put("liquidProduct", newLiquidProduct);
 		resultMap.put("oilProduct", newOilProduct);
-		
-		if(chongcheng - youxiaochongcheng >= 2) {
-			resultMap.put("gongtuxinxi", "供液不足");
-		} else {
-			resultMap.put("gongtuxinxi", "正常");
-		}
-		
-//		if(youxiaochongcheng < 0.75*chongcheng) {
-//			resultMap.put("gongtuxinxi", "1");//产液量不足
-//		}else {
-//			
-//		}
-		
 
 		return resultMap;
 	}
@@ -432,33 +410,33 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			minFlag = 0;
 		}
 		// 将上下行程分别求出每个区间内载荷的平均值
-		float space = (weiyi[maxFlag] - weiyi[minFlag]) / standardAreaNum;
-		int j = 0;
-		float[] averloadup = new float[standardAreaNum]; // 上冲程载荷平均值
-		float[] averloaddown = new float[standardAreaNum]; // 下冲程载荷平均值
-		for (int i = 0; i < standardAreaNum; i++) {
-			int flag = 0;
-			while (weiyi[j] < (1 + i) * space && j < maxFlag) {
-				averloadup[i] += zaihe[j++];
-				flag++;
-			}
-			averloadup[i] /= flag; // 第i个面积区间的载荷平均值
-		}
-		for (int i = 0; i < standardAreaNum; i++) {
-			int flag = 0;
-			while (j < n && weiyi[j] > (standardAreaNum - i - 1) * space) {
-				averloaddown[i] += zaihe[j++];
-				flag++;
-			}
-			averloaddown[i] /= flag;
-		}
-
-		float sumarea = 0; // 示功图面积
-		for (int i = 0; i < standardAreaNum; i++) {
-			float iArea = (averloadup[i] - averloaddown[standardAreaNum - i - 1])
-					* space;
-			sumarea += iArea;
-		}
+//		float space = (weiyi[maxFlag] - weiyi[minFlag]) / standardAreaNum;
+//		int j = 0;
+//		float[] averloadup = new float[standardAreaNum]; // 上冲程载荷平均值
+//		float[] averloaddown = new float[standardAreaNum]; // 下冲程载荷平均值
+//		for (int i = 0; i < standardAreaNum; i++) {
+//			int flag = 0;
+//			while (weiyi[j] < (1 + i) * space && j < maxFlag) {
+//				averloadup[i] += zaihe[j++];
+//				flag++;
+//			}
+//			averloadup[i] /= flag; // 第i个面积区间的载荷平均值
+//		}
+//		for (int i = 0; i < standardAreaNum; i++) {
+//			int flag = 0;
+//			while (j < n && weiyi[j] > (standardAreaNum - i - 1) * space) {
+//				averloaddown[i] += zaihe[j++];
+//				flag++;
+//			}
+//			averloaddown[i] /= flag;
+//		}
+//
+//		float sumarea = 0; // 示功图面积
+//		for (int i = 0; i < standardAreaNum; i++) {
+//			float iArea = (averloadup[i] - averloaddown[standardAreaNum - i - 1])
+//					* space;
+//			sumarea += iArea;
+//		}
 		
 		// 求凸包
 		List<Point> pointList = new ArrayList<Point>();
@@ -469,7 +447,14 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			pointList.add(p);
 		}
 		Melkman melkman = new Melkman(pointList);
-		Point[] newPoint = melkman.getTubaoPoint(); // 凸包点
+		Point[] newPoint = null;
+		try {
+			newPoint = melkman.getTubaoPoint();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return 0;
+		}
 		
 		// 将位移差小于0.015m的点合并，载荷取平均值
 		int flagnum = newPoint.length; // 合并之后的凸包点个数
@@ -477,7 +462,7 @@ public class SGTDataComputerProcess implements SGTDataComputer {
 			if (Math.abs(newPoint[i].getX() - newPoint[i + 1].getX()) <= 0.005) {
 				newPoint[i].setY((float) ((newPoint[i].getY() + newPoint[i + 1]
 						.getY()) / 2.0));
-				for (j = i + 1; j < flagnum - 2; j++) {
+				for (int j = i + 1; j < flagnum - 2; j++) {
 					newPoint[j].setX(newPoint[j + 1].getX());
 					newPoint[j].setY(newPoint[j + 1].getY());
 				}

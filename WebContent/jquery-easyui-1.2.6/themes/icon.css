@@ -85,7 +85,20 @@
 .icon-i_sgt_dgt_comparison{
 	background:url('icons/i_sgt_dgt_comparison.gif') no-repeat;
 }
-
-
+.icon-i_sgt_dian{
+	background:url('icons/i_sgt_dian.png') no-repeat;
+}
+.icon-i_dym{
+	background:url('icons/i_dym.gif') no-repeat;
+}
+.icon-i_well_balance{
+	background:url('icons/i_well_balance.gif') no-repeat;
+}
+.icon-i_start_stop{
+	background:url('icons/i_start_stop.gif') no-repeat;
+}
+.icon-i_dianliang{
+	background:url('icons/i_dianliang.gif') no-repeat;
+}
 
 

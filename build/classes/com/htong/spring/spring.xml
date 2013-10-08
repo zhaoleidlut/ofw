@@ -20,7 +20,8 @@
 	<context:component-scan base-package="com.htong.dao" />
 	<context:component-scan base-package="com.htong.service" />
 
-	<mongo:mongo host="127.0.0.1" id="mongo" />
+	 <mongo:mongo host="127.0.0.1" id="mongo" /> 
+	<!--<mongo:mongo host="10.67.111.176" id="mongo" /> -->
 	<bean id="mongoTemplate" class="org.springframework.data.document.mongodb.MongoTemplate">
 		<constructor-arg name="mongo" ref="mongo" />
 		<constructor-arg name="databaseName" value="idata" />

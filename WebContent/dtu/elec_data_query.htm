@@ -1,11 +1,10 @@
-<div id="dtu_status_query" class="easyui-layout" fit="true">
-	<div region="center" icon="icon-reload">
-		<div id="dtu_status_grid"></div>
-	</div>
+<div id="dtu_status_query" fit="true">
+		<div id="dtu_status_grid_"></div>	
 </div>
 <script type="text/javascript">
+	var parentHeight = $('#dtu_status_query').parent().height();
 	$(function() {
-		$('#dtu_status_grid').datagrid({
+		$('#dtu_status_grid_').datagrid({
 			//title : '电力数据',
 			//iconCls : 'icon-save',
 			autoRowHeight : true,
@@ -18,6 +17,12 @@
 			//sortName : '123',
 			//sortOrder : '456',
 			//queryParams : {wellNum:wellNum},
+			height:parentHeight,
+			rowStyler : function(index,row) {
+				if(row.commStatus == '离线') {
+					return 'background-color:red;color:yellow;';
+				}
+			},
 
 			columns : [ [ {
 				field : 'wellNum',
@@ -52,11 +57,11 @@
 				}
 			},
 			toolbar : [ {
-				id : 'dtu-refresh',
+				//id : 'dtu-refresh',
 				text : '刷新',
 				iconCls : 'icon-reload',
 				handler : function() {
-					$('#dtu_status_grid').datagrid('reload', {});
+					$('#dtu_status_grid_').datagrid('reload', {});
 				}
 			} ]
 		});

@@ -61,7 +61,7 @@ public class WellDataController {
 			map.put("hasData", "yes");
 		}
 		
-		if(wellData.getZaihe()[0]<0.5 && wellData.getZaihe()[1]<0.5 && wellData.getZaihe()[2]<0.5) {
+		if(wellData.getZaihe()[50]<0.5 && wellData.getZaihe()[51]<0.5 && wellData.getZaihe()[52]<0.5) {
 			map.put("zero", "yes");
 			return map;
 		} else {
@@ -144,7 +144,7 @@ public class WellDataController {
 
 		WellData wellData = wellDataService.getLatestWellDataByWellNum(wellNum);
 		
-		log.debug(wellNum);
+		//log.debug(wellNum);
 
 		JSONArray jsonArrayResult = new JSONArray(); // 最终的数组
 		JSONArray jsonArray = new JSONArray();
@@ -158,7 +158,7 @@ public class WellDataController {
 			map.put("hasData", "yes");
 		}
 		
-		if(wellData.getZaihe()[0]<0.5 && wellData.getZaihe()[1]<0.5 && wellData.getZaihe()[2]<0.5) {
+		if(wellData.getZaihe()[50]<0.5 && wellData.getZaihe()[51]<0.5 && wellData.getZaihe()[52]<0.5) {
 			map.put("zero", "yes");
 			return map;
 		} else {
@@ -226,9 +226,7 @@ public class WellDataController {
 		map.put("minzaihe", minZaiHe);
 		map.put("maxzaihe", maxZaiHe);
 		
-
-		log.debug("返回电功图数据");
-		
+		//log.debug("返回电功图数据");
 
 		return map;
 	}
@@ -253,7 +251,7 @@ public class WellDataController {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String dateString = date + " " + time + ":0:0";
 
-		log.debug(dateString);
+		//log.debug(dateString);
 
 		Date myDate = null;
 		try {
@@ -276,7 +274,7 @@ public class WellDataController {
 			map.put("hasData", "yes");
 		}
 		
-		if(wellData.getZaihe()[0]<0.5 && wellData.getZaihe()[1]<0.5 && wellData.getZaihe()[2]<0.5) {
+		if(wellData.getZaihe()[50]<0.5 && wellData.getZaihe()[51]<0.5 && wellData.getZaihe()[52]<0.5) {
 			map.put("zero", "yes");
 			return map;
 		} else {
@@ -345,9 +343,6 @@ public class WellDataController {
 		map.put("chongci", chongCi);
 		map.put("minzaihe", minZaiHe);
 		map.put("maxzaihe", maxZaiHe);
-		
-		log.debug("冲程：" + chongCheng);
-		log.debug("冲次：" + chongCi);
 
 		return map;
 	}
@@ -370,15 +365,12 @@ public class WellDataController {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String dateString = date + " " + time + ":0:0";
 
-		log.debug(dateString);
-
 		Date myDate = null;
 		try {
 			myDate = sdf.parse(dateString);
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		log.debug(sdf.format(myDate));
 
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(myDate);
@@ -393,13 +385,12 @@ public class WellDataController {
 			map.put("hasData", "yes");
 		}
 		
-		if(wellData.getZaihe()[0]<0.5 && wellData.getZaihe()[1]<0.5 && wellData.getZaihe()[2]<0.5) {
+		if(wellData.getZaihe()[50]<0.5 && wellData.getZaihe()[51]<0.5 && wellData.getZaihe()[52]<0.5) {
 			map.put("zero", "yes");
 			return map;
 		} else {
 			map.put("zero", "no");
 		}
-		
 
 		// 无电功图数据
 		if (wellData.getDgt() == null) {
@@ -413,8 +404,6 @@ public class WellDataController {
 		JSONArray jsonArray = new JSONArray();
 
 		MyLvBo.myLvBo(wellData.getWeiyi(), wellData.getDgt());
-
-		
 
 		float chongChengTime = wellData.getChong_cheng_time();
 
@@ -463,10 +452,164 @@ public class WellDataController {
 		map.put("chongci", chongCi);
 		map.put("minzaihe", minZaiHe);
 		map.put("maxzaihe", maxZaiHe);
-		
-		log.debug("冲程：" + chongCheng);
-		log.debug("冲次：" + chongCi);
 
 		return map;
 	}
+	
+
+	/**
+	 * 获得功图和电数据
+	 */
+	@RequestMapping("/getHistorySGTDianData.html")
+	@ResponseBody
+	public Map<String, Object> getHistorySGTDianData(
+			@RequestParam(value = "wellNum", required = true) String wellNum,
+			@RequestParam(value = "date", required = true) String date,
+			@RequestParam(value = "time", required = true) String time) {
+
+		Map<String, Object> map = new HashMap<String, Object>();
+
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String dateString = date + " " + time + ":0:0";
+
+		//log.debug(dateString);
+
+		Date myDate = null;
+		try {
+			myDate = sdf.parse(dateString);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		log.debug(sdf.format(myDate));
+
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(myDate);
+
+		WellData wellData = wellDataService.getHistoryWellData(wellNum,
+				calendar);
+
+		if (wellData == null) {
+			map.put("hasData", "no");
+			return map;
+		} else {
+			map.put("hasData", "yes");
+		}
+		
+		if(wellData.getZaihe()[50]<0.5 && wellData.getZaihe()[51]<0.5 && wellData.getZaihe()[52]<0.5) {
+			map.put("zero", "yes");
+			return map;
+		} else {
+			map.put("zero", "no");
+		}
+
+		JSONArray jsonArrayResult = new JSONArray(); // 示功图
+		JSONArray jsonArrayResultGL = new JSONArray(); // 功率图
+		JSONArray jsonArrayResultDL = new JSONArray(); // 电流
+		JSONArray jsonArrayResultGLYS = new JSONArray(); // 功率因数
+		
+		JSONArray jsonArray = new JSONArray();
+		JSONArray jsonArrayGL = new JSONArray();
+		JSONArray jsonArrayDL = new JSONArray();
+		JSONArray jsonArrayGLYS = new JSONArray();
+		
+
+		MyLvBo.myLvBo(wellData.getWeiyi(), wellData.getZaihe());
+
+		
+
+		float chongChengTime = wellData.getChong_cheng_time();
+
+		WellModel wellModel = wellService.getWellByNum(wellNum);
+
+		SGTDataComputerProcess sp = new SGTDataComputerProcess();
+		Map<String, Object> result = sp.calcSGTData(wellData.getWeiyi(),
+				wellData.getZaihe(), 0, chongChengTime,
+				Float.valueOf(wellModel.getBengjing()),
+				Float.valueOf(wellModel.getOilDensity()),
+				Float.valueOf(wellModel.getHanshui()));
+		
+		JSONArray weiyi = JSONArray.fromObject(wellData.getWeiyi());
+		JSONArray zaihe = JSONArray.fromObject(wellData.getZaihe());
+		JSONArray gonglv = JSONArray.fromObject(wellData.getPower());	//功率
+		JSONArray ib = JSONArray.fromObject(wellData.getIb());	//电流
+		JSONArray glys = JSONArray.fromObject(wellData.getPower_factor());	//功率因数
+
+		for (int i = 0; i < weiyi.size(); i++) {
+			JSONArray json = new JSONArray();
+			JSONArray jsonGL = new JSONArray();
+			JSONArray jsonDL = new JSONArray();
+			JSONArray jsonGLYS = new JSONArray();
+			json.add(weiyi.get(i));
+			jsonGL.add(weiyi.get(i));
+			jsonDL.add(weiyi.get(i));
+			jsonGLYS.add(weiyi.get(i));
+			
+			json.add(zaihe.get(i));
+			jsonGL.add(gonglv.get(i));
+			jsonDL.add(ib.get(i));
+			jsonGLYS.add(glys.get(i));
+
+			jsonArray.add(json);
+			jsonArrayGL.add(jsonGL);
+			jsonArrayDL.add(jsonDL);
+			jsonArrayGLYS.add(jsonGLYS);
+			
+		}
+		jsonArrayResult.add(jsonArray);
+		jsonArrayResultGL.add(jsonArrayGL);
+		jsonArrayResultDL.add(jsonArrayDL);
+		jsonArrayResultGLYS.add(jsonArrayGLYS);
+		
+		float sgl = 0;	//上冲程功率
+		float xgl = 0;	//下冲程功率
+		for(int i = 0;i<100;i++) {
+			sgl += wellData.getPower()[i];
+			xgl += wellData.getPower()[100+i];
+		}
+		
+		if(sgl<0.5) {
+			map.put("wellbalance", 0);
+		} else {
+			map.put("wellbalance", xgl/sgl);
+		}
+
+		String datetime = sdf.format(wellData.getDevice_time()); // 数据时间
+
+		BigDecimal bd = new BigDecimal(60 / chongChengTime);
+		float newChongCi = bd.setScale(2, BigDecimal.ROUND_HALF_UP)
+				.floatValue();
+		String chongCi = String.valueOf(newChongCi); // 冲次
+
+		float shijiChongCheng = (Float) result.get("chongcheng");
+		String chongCheng = String.valueOf(shijiChongCheng); // 实际冲程
+
+		float minZaihe = (Float) result.get("minZaihe");
+		String minZaiHe = String.valueOf(minZaihe); // 最小载荷
+
+		float maxZaihe = (Float) result.get("maxZaihe");
+		String maxZaiHe = String.valueOf(maxZaihe); // 最大载荷
+		
+		Float f = (Float) result.get("liquidProduct");
+		map.put("cyl", f);
+		
+		
+		
+		Float yxcc = (Float)result.get("youxiaochongcheng");
+		map.put("yxcc", yxcc);
+
+		// 位移 载荷
+		map.put("sgt", jsonArrayResult);
+		map.put("gl", jsonArrayResultGL);
+		map.put("dl", jsonArrayResultDL);
+		map.put("glys", jsonArrayResultGLYS);
+		// 时间
+		map.put("time", datetime);
+		map.put("chongcheng", chongCheng);
+		map.put("chongci", chongCi);
+		map.put("minzaihe", minZaiHe);
+		map.put("maxzaihe", maxZaiHe);
+
+		return map;
+	}
+
 }

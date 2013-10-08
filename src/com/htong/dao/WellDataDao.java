@@ -55,6 +55,7 @@ public class WellDataDao {
 	public WellData getLatedWellDataByWellNum(String wellNum) {
 		Query myQuery = new Query(Criteria.where("well_num").is(wellNum));
 		myQuery.sort().on("device_time", Order.DESCENDING);
+		myQuery.limit(100);
 
 //		boolean exist = mongoTemplate.collectionExists(CollectionConstants
 //				.getWellDataCollection(wellNum, currentCalendar));
@@ -87,6 +88,7 @@ public class WellDataDao {
 	public WellData getSecondLatedWellDataByWellNum(String wellNum) {
 		Query myQuery = new Query(Criteria.where("well_num").is(wellNum));
 		myQuery.sort().on("device_time", Order.DESCENDING);
+		myQuery.limit(100);
 
 		List<WellData> wellDataList = mongoTemplate.find(CollectionConstants
 				.getWellDataCollection(wellNum), myQuery,
@@ -117,6 +119,7 @@ public class WellDataDao {
 					.and("device_time").is(index));
 			
 			myQuery.sort().on("device_time", Order.DESCENDING);
+			myQuery.limit(1000);
 
 			List<WellData> myWellDataList = mongoTemplate.find(
 					CollectionConstants.getWellDataCollection(wellNum), myQuery, WellData.class);
@@ -137,7 +140,7 @@ public class WellDataDao {
 
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //			log.warn(sdf.format(startCalendar.getTime()));
-			System.out.println(sdf.format(startCalendar.getTime()));
+			//System.out.println(sdf.format(startCalendar.getTime()));
 //		}
 		return wellDataList;
 	}

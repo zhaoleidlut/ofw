@@ -39,15 +39,16 @@
 						&& typeof (node.attributes.iswell) != 'undefined'
 						&& node.attributes.iswell) {
 					
-					if (myTabs.tabs('getTab', node.text + '故障诊断') == null) {
+					if (myTabs.tabs('getTab', node.text + '示功图') == null) {
 						myTabs.tabs('add', {
-							title : node.text + "故障诊断",
+							//title : node.text + "动液面计算",
+							title : node.text + "示功图",
 							//id : node.text + "示功图",
 							closable : true,							
 							href : 'sys/gzzd.htm'
 						});
 					} else {
-						myTabs.tabs('select', node.text + '故障诊断');
+						myTabs.tabs('select', node.text + '示功图');
 					}
 				}
 			}
